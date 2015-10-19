@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is a website that I started as a way of chronicling the grimy, hands-on experiments of my coding education. Hence..."muddy hands," which is what I try to get through all this. (Daintier, more philosophical musings on story, design and tools can be found at [link](http://www.stephanieargy.com).
 
 ### More Information
 
