@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portland Code School Class Notes
-permalink: /about/
+permalink: /pcsnotes/
 ---
 
 On the weekend of October 16, 2015, Portland Code School abruptly went out of business.
