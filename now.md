@@ -7,3 +7,5 @@ Inspired by [Derek Sivers](https://sivers.org/nowff), [Gregory Brown](http://pra
 
 * Writing: My focus is on developing my ability to write prose, mostly fiction, some non-fiction.
 * Coding: After delving into assorted frameworks, scaffoldings, preprocessors and task runners, my current goal is to strip my technique back down to the basics and focus on HTML, CSS and JavaScript/jQuery, always with responsive design/mobile first at the forefront of what I'm doing.
+* Angel Investing: 
+* Greek/Greece: In preparation for a trip to the land of my ancestors early next year, I'm studying Greek. (I'm doing this partly on my own, and partly 
