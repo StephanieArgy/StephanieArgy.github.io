@@ -12,4 +12,6 @@ I initially started this blog as a way to:
 
 But immediately, I realized that this could be a dandy way to keep myself on track as I refine what I'm doing as a writer, and as a developer, and as whatever it is that one becomes at the crossroads of the two.
 
+So here goes.
+
 ***
