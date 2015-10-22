@@ -25,11 +25,12 @@ Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Grego
     
     * Responsive and mobile-first design.
     
-    * I'm also transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
+* I'm also transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
     
 * Angel Investing: As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.
 
 * Learning to speak Greek, learning about Greece.
 
-* A narrative and photographic experiment that looks at different cities from the intersection of physical geography, urban design and architecture.
+* A narrative and photographic experiment that looks at different cities from the intersection of physical geography, urban design and architecture (and that sorely needs a catchy, pithy name).
+
 
