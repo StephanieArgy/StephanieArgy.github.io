@@ -31,6 +31,8 @@ Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Grego
 
 * Learning to speak Greek, learning about Greece.
 
+* Reading. Here's my <a href="../books/">current list</a>.
+
 * A narrative and photographic experiment that looks at different cities from the intersection of physical geography, urban design and architecture (and that sorely needs a catchy, pithy name).
 
 
