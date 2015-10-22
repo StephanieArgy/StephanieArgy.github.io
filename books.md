@@ -18,7 +18,7 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 *Eloquent JavaScript*, Marijn Haverbeke
 
-* Microinteractions*, Dan Salter.
+*Microinteractions*, Dan Salter.
 
 *Fluent Forever*, Gabriel Wyner
 
@@ -28,5 +28,5 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 *The No. 1 Ladies' Detective Agency*, Alexander McCall Smith
 
-*Heap House The Iremonger Trilogy: Book One*, Edward Carey
+*Heap House: Book One (The Iremonger Trilogy)*, Edward Carey
 
