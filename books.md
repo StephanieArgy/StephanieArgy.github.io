@@ -8,7 +8,7 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 *Geek Sublime*, Vikram Chandra
 
-*Modern Wrter's Workshop*, Stephen Koch
+*Modern Writer's Workshop*, Stephen Koch
 
 *The Art of Fiction*, John Gardner
 
