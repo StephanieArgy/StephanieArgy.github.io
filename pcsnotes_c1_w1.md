@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Now
-permalink: /now/
+title: Primer Basic, Week One
+permalink: /pcsnotes_c1_w1/
 ---
 ##Web Foundations: Primer Basic
 ###Week 1

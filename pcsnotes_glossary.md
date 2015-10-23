@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Now
-permalink: /now/
+title: Coding Glossary
+permalink: /pcsnotes_glossary/
 ---
-##Coding Vocabulary
+##Coding Glossary
 
 attribute
 
