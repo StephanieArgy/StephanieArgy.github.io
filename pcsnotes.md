@@ -14,7 +14,7 @@ Here's the basic framework:
 
 ##Primer Basic
 
-###Week One - HTML, CSS, command-line, Git
+###<a href="../pcsnotes_c1_w1/">Week One</a> - HTML, CSS, command-line, Git
 
 ###Week Two - GitHub, CSS positioning and Flexbox
 
