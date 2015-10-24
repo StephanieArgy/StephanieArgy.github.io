@@ -26,6 +26,7 @@ The first thing we need to learn is the process of learning.  One method we will
 We need to take control of our learning process and to find what works for us, and what needs practice. 
 
 For homework:
+
 1. Read <a href=http://www.innovationexcellence.com/blog/2014/10/16/25-things-skilled-learners-do-differently/>"25 Things Skilled Learners Do Differently"</a> by Saga Briggs, then pick one (or more) of those techniques to practice.
 2. Finish the Treehouse course "How to Make a Website." (Take the quizzes first, and if you pass, skip the lessons and move on.)
 
@@ -57,13 +58,13 @@ The client browser starts by going to a URL: "Uniform Resource Locator."
 
 The URL consists of a series of parts:
 
-`https://en.wikipedia.org/wiki/Uniform_Resource_Locator#History`
-Scheme or protocol: `https://`
-Server domain name: `en.wikipedia.org
-Port: (Often not visible; HTTP usually runs on port 80)
-Path to resource: `/wiki/Uniform_Resource_Locator`
-Query string (optional): (Usually turns up as a ? after a search)
-Fragment ID (optional): `#History`
+* `https://en.wikipedia.org/wiki/Uniform_Resource_Locator#History`
+* Scheme or protocol: `https://`
+* Server domain name: `en.wikipedia.org
+* Port: (Often not visible; HTTP usually runs on port 80)
+* Path to resource: `/wiki/Uniform_Resource_Locator`
+* Query string (optional): (Usually turns up as a ? after a search)
+* Fragment ID (optional): `#History`
 
 #####What happens when a page is loaded?
 
@@ -99,7 +100,7 @@ We'll log in using our GitHub accounts:
 3. In the new page, click on the "Use Info from GitHub" button.
 4. In the GitHub Log-In page, enter your User Name and Password.
 
-Linking to Codepen from GitHub is good, because it helps make you part of the bigger coding community. On GitHub, it's easy to see how much someone has been coding, because under their Profile, there's a Contributions chart that displays green patches on every day that they do something on GitHub. (If you're hiring someone to do some coding, and they don't have green patches on their Contribuions chart, be suspicious of them.)
+Linking to Codepen from GitHub is good, because it helps make you part of the bigger coding community. On GitHub, it's easy to see how much someone has been coding, because under their Profile, there's a Contributions chart that displays green patches on every day that they do something on GitHub. (If you're hiring someone to do some coding, and they don't have green patches on their Contributions chart, be suspicious of them.)
 
  
 
