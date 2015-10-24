@@ -3,7 +3,6 @@ layout: page
 title: Coding Glossary
 permalink: /pcsnotes_glossary/
 ---
-##Coding Glossary
 
 attribute
 
