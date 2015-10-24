@@ -58,9 +58,10 @@ The client browser starts by going to a URL: "Uniform Resource Locator."
 
 The URL consists of a series of parts:
 
-* `https://en.wikipedia.org/wiki/Uniform_Resource_Locator#History`
+**`https://en.wikipedia.org/wiki/Uniform_Resource_Locator#History`**
+
 * Scheme or protocol: `https://`
-* Server domain name: `en.wikipedia.org
+* Server domain name: `en.wikipedia.org`
 * Port: (Often not visible; HTTP usually runs on port 80)
 * Path to resource: `/wiki/Uniform_Resource_Locator`
 * Query string (optional): (Usually turns up as a ? after a search)
@@ -75,11 +76,11 @@ The URL consists of a series of parts:
     * 200 means that all is well: "I got it!" The requested information is sent to the client browser.
 3. The client browser parses the information that it has received from the server.
 
-What comes back in the server is an HTML file that contains the structure and content of the page, including URLS that link to other resources (such as CSS style sheets and images).  In the old days (maybe five years ago), style was included in the main HTML document sent back by the server. Now, HTML is all about structure: "information architecture." The idea is that HTML is "semantic" -- it's all about meaning.  And that's going to become even more the case, because now, there are more robots than people looking at websites.
+What comes back in the server is an HTML file that contains the structure and content of the page, including URLs that link to other resources (such as CSS style sheets and images).  In the old days (maybe five years ago), style was included in the main HTML document sent back by the server. Now, HTML is all about structure: "information architecture." The idea is that HTML is "semantic" -- it's all about meaning.  And that's going to become even more the case, because now, there are more robots than people looking at websites.
 
 The HTML document summons other sorts of resources:
 
-1. Media - The content of the page.
+1. Media - The content of the page, including images, video, audio.
 2. CSS - Stylesheets that give the page its look (colors, fonts, layout, etc.)
 3. JavaScript - The programming that gives the page behavior and allows the user to interact with it and affect it.
 
