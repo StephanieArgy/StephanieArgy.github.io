@@ -9,6 +9,8 @@ attribute
 
 delimiters
 
+DOM (Document Object Model)
+
 element
 (div, h1, h2, p, ul, ol, etc.)
 
@@ -20,6 +22,8 @@ remotes (GIT)
 
 selector (CSS)
 
+semantic markup (HTML)
+
 separator
 
 siblings
@@ -29,5 +33,7 @@ tag (HTML)
 tag name (HTML)
 
 terminator
+
+URL (Uniform Resource Locator)
 
 value (CSS)

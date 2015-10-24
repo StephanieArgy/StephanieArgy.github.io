@@ -34,6 +34,7 @@ Plan on spending 4-5 hours of the next 48 on class work.
 Also fill out survey. (Don't look up anything for THIS quiz; on others, you can use reference materials, but this is to get a baseline of what people know.)
 
 To learn, have to work on memory. Three languages to learn, each with its own syntax. Techniques to help process:
+
 1. Make flashcards. (You have to make them yourself and keep them with you.)
 2. Take notes by hand. (Draw pictures, too. As primates, we're good at visualizing, so pictures help.)
 
@@ -46,6 +47,60 @@ Having a question you need to answer gives you a goal. If there are questions, t
 
 ***
 
-####More on Our Tools
+####A Short Overview of How a Website Works
+
+"Everything I say is just short of a lie." Meaning...there's so much information to cover with coding that if we try to take it all, we'll be paralyzed and never get anything done. And so, we'll start with as little information as we need to function. Always assume that the little island of information that we're seeing is only the tiny tip of a vast undersea mountain peak. Thee's lots more lurking under the surface. 
+
+These days "client browser" aren't just on computers. We have to realize that we're programming for desktop and laptop computers, the mobile web in phones and tablets, applications with embedded browsers (such as Facebook and Flipboard), and the Internet of things (appliances, refrigerators, cars, watches, etc.).
+
+The client browser starts by going to a URL: "Uniform Resource Locator."
+
+The URL consists of a series of parts:
+
+`https://en.wikipedia.org/wiki/Uniform_Resource_Locator#History`
+Scheme or protocol: `https://`
+Server domain name: `en.wikipedia.org
+Port: (Often not visible; HTTP usually runs on port 80)
+Path to resource: `/wiki/Uniform_Resource_Locator`
+Query string (optional): (Usually turns up as a ? after a search)
+Fragment ID (optional): `#History`
+
+#####What happens when a page is loaded?
+
+1. The browser goes out and gets the URL. (The command is literally GET.) A request is sent from the user's client browser to the server where the website is house, by following the steps along the URL.
+2. A messsage is sent back.
+    * 401 means that the resource requested can't be found.
+    * 500, 501, 502 means that the server is down, or that you broke the Internet.
+    * 200 means that all is well: "I got it!" The requested information is sent to the client browser.
+3. The client browser parses the information that it has received from the server.
+
+What comes back in the server is an HTML file that contains the structure and content of the page, including URLS that link to other resources (such as CSS style sheets and images).  In the old days (maybe five years ago), style was included in the main HTML document sent back by the server. Now, HTML is all about structure: "information architecture." The idea is that HTML is "semantic" -- it's all about meaning.  And that's going to become even more the case, because now, there are more robots than people looking at websites.
+
+The HTML document summons other sorts of resources:
+
+1. Media - The content of the page.
+2. CSS - Stylesheets that give the page its look (colors, fonts, layout, etc.)
+3. JavaScript - The programming that gives the page behavior and allows the user to interact with it and affect it.
+
+From all of these, the browser creates the **Document Object Model** or **DOM**.  We are Document Object Model engineers. The whole HTML/CSS/JavaScript combination comes together as a fast, smooth, interactive experience for the user. And it needs to be fast and smooth, because people will judge and leave a site in three seconds.
+
+Your job as a coder is to make the page load as fast as possible.  (It's all about efficiency.) Your job as a designer is to hold their attention and make it worthwhile for them to stay on the page.
+
+####Codepen: Making Our First Website
+
+We're soon going to be writing our code in a text editor, but first, we're going to start by using codepen-io, so that we can focus on the code without having to worry about all the other parts of the puzzle.
+
+Codepen is a playground for experimenting with code. You can code HTML, CSS and JavaScript all together and see the result instantly.It will be good for the early phases of learning, but it will also be useful later on, to separate out little sections of code and experiment with them in isolation from the rest of a page. 
+
+We'll log in using our GitHub accounts:
+
+1. Go to **codepen.io** and click on SIGN ME UP.
+2. On the "Select a Plan" page, scroll down to the bottom, and under "Free Plan," click on SIGN UP.
+3. In the new page, click on the "Use Info from GitHub" button.
+4. In the GitHub Log-In page, enter your User Name and Password.
+
+Linking to Codepen from GitHub is good, because it helps make you part of the bigger coding community. On GitHub, it's easy to see how much someone has been coding, because under their Profile, there's a Contributions chart that displays green patches on every day that they do something on GitHub. (If you're hiring someone to do some coding, and they don't have green patches on their Contribuions chart, be suspicious of them.)
+
+ 
 
 
