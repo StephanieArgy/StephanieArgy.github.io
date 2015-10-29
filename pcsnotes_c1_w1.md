@@ -46,7 +46,7 @@ Going to use Git. Git sucks. We will interact with it on the command line.
 
 Having a question you need to answer gives you a goal. If there are questions, try Slack (teachers and classmates), as well as Stack Overflow.
 
-Past students have also found the books <cite>HTML &amp; CSS</cite> and <cite>JavaScript &amp; jQuery</cite> by Jon Duckett to be useful. <cite>HTML &amp; CSS</cite> was written in 2010, so it doesn't have the freshest of information, but everything in it is true. As professionals, we'll learn online, because that's where the most up-to-date information can be found, but these books are a good introduction.
+Past students have also found the books *HTML &amp; CSS* and *JavaScript &amp; jQuery* by Jon Duckett to be useful. *HTML &amp; CSS* was written in 2010, so it doesn't have the freshest of information, but everything in it is true. As professionals, we'll learn online, because that's where the most up-to-date information can be found, but these books are a good introduction.
 
 In this class, we follow the practices of <a href=http://www.innovationexcellence.com/blog/2014/10/16/25-things-skilled-learners-do-differently/>"agile project management</a>, meaning that we make adjustments along the way, and will adjust the class to meet the needs of the people in it.
 
