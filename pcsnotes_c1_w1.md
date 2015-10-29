@@ -38,7 +38,6 @@ To learn, have to work on memory. Three languages to learn, each with its own sy
 
 1. Make flashcards. (You have to make them yourself and keep them with you.)
 2. Take notes by hand. (Draw pictures, too. As primates, we're good at visualizing, so pictures help.)
-3
 
 We also have to have work on some particular skills (or un-suppress abilities we may already have): 
 ATTENTION TO DETAIL: Have to be able to read for detail, see every character in the code.
@@ -46,6 +45,8 @@ ATTENTION TO DETAIL: Have to be able to read for detail, see every character in 
 Going to use Git. Git sucks. We will interact with it on the command line.
 
 Having a question you need to answer gives you a goal. If there are questions, try Slack (teachers and classmates), as well as Stack Overflow.
+
+Past students have also found the books <cite>HTML &amp; CSS</cite> and <cite>JavaScript &amp; jQuery</cite> by Jon Duckett to be useful. <cite>HTML &amp; CSS</cite> was written in 2010, so it doesn't have the freshest of information, but everything in it is true. As professionals, we'll learn online, because that's where the most up-to-date information can be found, but these books are a good introduction.
 
 In this class, we follow the practices of <a href=http://www.innovationexcellence.com/blog/2014/10/16/25-things-skilled-learners-do-differently/>"agile project management</a>, meaning that we make adjustments along the way, and will adjust the class to meet the needs of the people in it.
 
@@ -145,10 +146,10 @@ Other common tags (and their meanings) include:
 * **aside** - Holds a sidebar.
 * **header** - Holds the masthead info at the top of the page, or material at the beginning of a section.
 * **p** - Encloses a paragraph of text.
-* **ul** - Encloses an unordered (i.e. unnnumbered) list.
+* **ul** - Encloses an unordered (i.e. unnnumbered) list (like this one).
 * **ol** - Encloses an ordered (numbered) list.
 * **li** - Holds a list item that's part of a ul or ol element.
-* **footer** - Holds content at the very bottom of the page.
+* **footer** - Holds content at the very bottom of a page or section.
 
 And finally **div** is general element that can hold all sorts of content.
 
