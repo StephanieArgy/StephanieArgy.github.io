@@ -119,10 +119,13 @@ For example, **delimiters** are characters that show us the boundaries of things
 In HTML, an **element** is indicated with **tags**, which look like this: **< >**
 
 Most of the time, there's an opening tag (to show where the element starts) and a closing tag (to show where it ends). Each tag contains the **tag name**. Here's an element that shows the most important heading on a page:
-    <h1>content</h1>
+
+```
+<h1>content</h1>
+```
     
 The angle brackets at the beginning and end of the content are the tags; the "h1" inside them is the tag name. 
 
-When typing code, a good text editor should automatically close an element, but it's a good habit to always close the tag (that is, write the end tag) before you add the content.
+When you're typing code, a good text editor will automatically close an element, but it's a good habit to always close the tag (that is, make sure the end tag is in place) before you add the content.
 
-Another shortcut in text editors: typing "lorem" and then hitting the TAB key will automatically create a block of lorem ipsum (nonsense placeholder text). There are also more creative incarnations of lorem ipsum available online here: http://designshack.net/articles/inspiration/30-useful-and-hilarious-lorem-ipsum-generators/
+Another shortcut in text editors: typing "lorem" and then hitting the TAB key will automatically create a block of lorem ipsum (nonsense placeholder text). There are also more creative incarnations of lorem ipsum available online <a href=" http://designshack.net/articles/inspiration/30-useful-and-hilarious-lorem-ipsum-generators/">here</a>.
