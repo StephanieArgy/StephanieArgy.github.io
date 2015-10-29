@@ -133,11 +133,13 @@ When you're typing code, a good text editor will automatically close an element,
 Another shortcut in text editors: typing "lorem" and then hitting the TAB key will automatically create a block of lorem ipsum (nonsense placeholder text). There are also more creative incarnations of lorem ipsum available online <a href=" http://designshack.net/articles/inspiration/30-useful-and-hilarious-lorem-ipsum-generators/">here</a>.
 
 As one builds an HTML page, a hierarchical tree structure starts to grow, with elements nested inside of other elements. The structure has meaning.  For example, the tag names of the headings on a page indicates their relative importance: 
+
 * **h1** is the most important heading on the page -- often the title of the page.  (There's usually only one h1 element.)
 * **h2** is a subhead.
 * **h3** is a less important subhead, and so on, on down through h4, h5 and h6.
 
 Other common tags (and their meanings) include:
+
 * **main** - Holds all of the main content on a page.
 * **article** - Holds a self-contained story that could be shared on other sites.
 * **aside** - Holds a sidebar.
