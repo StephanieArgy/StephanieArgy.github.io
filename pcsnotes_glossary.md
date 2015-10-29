@@ -4,6 +4,8 @@ title: Coding Glossary
 permalink: /pcsnotes_glossary/
 ---
 
+agile project management
+
 attribute
 
 delimiters

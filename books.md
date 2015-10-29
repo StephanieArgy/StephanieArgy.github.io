@@ -8,8 +8,6 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 *Geek Sublime*, Vikram Chandra
 
-*Modern Writer's Workshop*, Stephen Koch
-
 *The Art of Fiction*, John Gardner
 
 *On Writing Well*, William Zinsser
@@ -25,8 +23,6 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 *Teach Yourself Greek*, Aristarhos Matsukas
 
 *The Full Catastrophe: Travels Among the New Greek Ruins*, James Angelos
-
-*The No. 1 Ladies' Detective Agency*, Alexander McCall Smith
 
 *Heap House: Book One (The Iremonger Trilogy)*, Edward Carey
 
