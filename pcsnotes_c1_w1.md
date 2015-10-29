@@ -21,7 +21,7 @@ Throughout course, keep a growing list of vocabulary terms; define them, then po
 
 This is a code school, so we are of course concerned with technology, but we are also concerned with teamwork, including **pair programming**.
 
-The first thing we need to learn is the process of learning.  One method we will use in class (and on our own) is the **pomodoro technique.**  Named after the Italian tomato-shaped kitchen timer.  Idea is to help us focus better: we make a deal to focus entirely on one task for 25 minutes (then take a break). (Very important to get up and move around; there are two major occupational hazards of programming - heart disease, from too much sitting, and carpal tunnel syndrome/repetitive stress injury.)
+The first thing we need to learn is the process of learning.  One method we will use in class (and on our own) is the **pomodoro technique.**  Named after the Italian tomato-shaped kitchen timer.  Idea is to help us focus better: we make a deal to focus entirely on one task for 25 minutes (then take a short break). And after four pomodoros, take a long break. (It's very important to get up and move around; there are two major occupational hazards of programming - heart disease, from too much sitting, and carpal tunnel syndrome/repetitive stress injury.) 
 
 We need to take control of our learning process and to find what works for us, and what needs practice. 
 
@@ -150,7 +150,8 @@ Other common tags (and their meanings) include:
 
 And finally **div** is general element that can hold all sorts of content.
 
-A complete list of HTML tags can be found here: <a href="http://www.w3schools.com/tags/">www.w3schools.com/tags/</a>
+A complete list of HTML tags can be found at <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">https://developer.mozilla.org/en-US/docs/Web/HTML/Element</a> or <a href="http://www.w3schools.com/tags/">www.w3schools.com/tags/</a>.
+(Always take w3schools info with a grain of salt: it's very basic, and while it may be less simpler than MDN, it's often reviled by experienced developers.)
 
 #####CSS
 
@@ -170,7 +171,7 @@ h1 {
 **:** The colon is a "separator," always found between the property and the value.
 **;** The semi-colon is a "line terminator," which must be at the end of every CSS rule.
 
-You can't memorize all of the CSS properties, but we'll become more familiar with them as we use them regularly. We can also find a reference list here: <a href: "http://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a>
+You can't memorize all of the CSS properties, but we'll become more familiar with them as we use them regularly. We can also find a reference list at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">https://developer.mozilla.org/en-US/docs/Web/CSS/Reference</a> or <a href="http://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a>.
 
 You can also Google "mdn" plus the name of the property, to bring up the information from the Mozilla Developers Network (an authoritative professional reference source). For example, Googling **mdn css border** will bring up this page:
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">https://developer.mozilla.org/en-US/docs/Web/CSS/border</a>
@@ -179,4 +180,3 @@ You can also Google "mdn" plus the name of the property, to bring up the informa
 CSS can quickly become overwhelming, so to help keep it comprehensible:
 1. Have one property per line.
 2. List properties in alphabetical order. (There may be some instances where order matters, and you can't -- but in general, try to keep them alphabetical).
-
