@@ -3,8 +3,6 @@ layout: post
 title: Why This Blog?
 ---
 
-#
-
 I initially started this blog as a way to:
 
 1.  Learn Jekyll and Markdown.

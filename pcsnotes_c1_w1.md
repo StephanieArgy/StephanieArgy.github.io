@@ -174,12 +174,12 @@ h1 {
 * **:** The colon is a "separator," always found between the property and the value.
 * **;** The semi-colon is a "line terminator," which must be at the end of every CSS rule.
 
-You can't memorize all of the CSS properties, but we'll become more familiar with them as we use them regularly. We can also find a reference list at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">https://developer.mozilla.org/en-US/docs/Web/CSS/Reference</a> or <a href="http://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a>.
+You can't memorize all of the CSS properties, but you'll become more familiar with them as you use them regularly. You can also find a reference list at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">https://developer.mozilla.org/en-US/docs/Web/CSS/Reference</a> or <a href="http://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a>.
 
-You can also Google "mdn" plus the name of the property, to bring up the information from MDN. For example, Googling **mdn css border** will bring up this page:
+You can Google "mdn" plus the name of a property, to bring up its information from MDN. For example, Googling **mdn css border** will bring up this page:
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">https://developer.mozilla.org/en-US/docs/Web/CSS/border</a>
 (At first, it may be easier to scroll way down the page to the code examples, and start by playing with those.)
 
-CSS can quickly become overwhelming, so to help keep it comprehensible:
+CSS can quickly become overwhelming, so to help keep yours comprehensible:
 1. Have one property per line.
 2. List properties in alphabetical order. (There may be some instances where order matters, and you can't -- but in general, try to keep them alphabetical).
