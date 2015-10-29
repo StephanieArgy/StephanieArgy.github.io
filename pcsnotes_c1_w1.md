@@ -118,7 +118,9 @@ For example, **delimiters** are characters that show us the boundaries of things
 
 In HTML, an **element** is indicated with **tags**, which look like this: **< >**
 
-Most of the time, there's an opening tag (to show where the element starts) and a closing tag (to show where it ends). Each tag contains the **tag name**. Here's an element that shows the most important heading on a page:
+Every bit of content in a page has to be inside of a tag.
+
+Most of the time, there's an opening tag (to show where the element starts) and a closing tag (to show where it ends). Each tag contains a **tag name**. Here's an element that shows the most important heading on a page:
 
 ```
 <h1>content</h1>
@@ -129,3 +131,52 @@ The angle brackets at the beginning and end of the content are the tags; the "h1
 When you're typing code, a good text editor will automatically close an element, but it's a good habit to always close the tag (that is, make sure the end tag is in place) before you add the content.
 
 Another shortcut in text editors: typing "lorem" and then hitting the TAB key will automatically create a block of lorem ipsum (nonsense placeholder text). There are also more creative incarnations of lorem ipsum available online <a href=" http://designshack.net/articles/inspiration/30-useful-and-hilarious-lorem-ipsum-generators/">here</a>.
+
+As one builds an HTML page, a hierarchical tree structure starts to grow, with elements nested inside of other elements. The structure has meaning.  For example, the tag names of the headings on a page indicates their relative importance: 
+**h1** is the most important heading on the page -- often the title of the page.  (There's usually only one h1 element.)
+**h2** is a subhead.
+**h3** is a less important subhead, and so on, on down through h4, h5 and h6.
+
+Other common tags (and their meanings) include:
+**main** - Holds all of the main content on a page.
+**article** - Holds a self-contained story that could be shared on other sites.
+**aside** - Holds a sidebar.
+**header** - Holds the masthead info at the top of the page, or material at the beginning of a section.
+**p** - Encloses a paragraph of text.
+**ul** - Encloses an unordered (i.e. unnnumbered) list.
+**ol** - Encloses an ordered (numbered) list.
+**li** - Holds a list item that's part of a ul or ol element.
+ **footer** - Holds content at the very bottom of the page.
+
+And finally **div** is general element that can hold all sorts of content.
+
+A complete list of HTML tags can be found here: <a href="http://www.w3schools.com/tags/">www.w3schools.com/tags/</a>
+
+#####CSS
+
+Like HTML, CSS has delimiters, but they look different: **{ }**
+
+A CSS rule looks like this:
+
+```
+h1 {
+    color: blue;
+    }
+```
+
+**h1** is the selector (the part of the HTML content that this rule will be applied to)
+**color** is the property that the rule is affecting.
+**blue** is the **value** to which the **color** property is being set, in this case.
+**:** The colon is a "separator," always found between the property and the value.
+**;** The semi-colon is a "line terminator," which must be at the end of every CSS rule.
+
+You can't memorize all of the CSS properties, but we'll become more familiar with them as we use them regularly. We can also find a reference list here: <a href: "http://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a>
+
+You can also Google "mdn" plus the name of the property, to bring up the information from the Mozilla Developers Network (an authoritative professional reference source). For example, Googling **mdn css border** will bring up this page:
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">https://developer.mozilla.org/en-US/docs/Web/CSS/border</a>
+(At first, it may be easier to scroll way down the page to the code examples, and start by playing with those.)
+
+CSS can quickly become overwhelming, so to help keep it comprehensible:
+1. Have one property per line.
+2. List properties in alphabetical order. (There may be some instances where order matters, and you can't -- but in general, try to keep them alphabetical).
+
