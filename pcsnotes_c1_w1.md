@@ -6,6 +6,8 @@ permalink: /pcsnotes_c1_w1/
 ##Web Foundations: Primer Basic
 ###Week 1
 
+[Command Line Basics](#command_line_basics)
+
 ####Class Tools
 
 * Slack: For class and team communcation. *(By end of first day, install Slack on computer and iPhone.)*
@@ -180,6 +182,11 @@ You can Google "mdn" plus the name of a property, to bring up its information fr
 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">https://developer.mozilla.org/en-US/docs/Web/CSS/border</a>
 (At first, it may be easier to scroll way down the page to the code examples, and start by playing with those.)
 
+Even from now, we should work like professional coders. We don't want it easy -- we want it basic.
+
 CSS can quickly become overwhelming, so to help keep yours comprehensible:
 1. Have one property per line.
 2. List properties in alphabetical order. (There may be some instances where order matters, and you can't -- but in general, try to keep them alphabetical).
+
+<a name="command_line_basics"></a>####Command Line Basics
+
