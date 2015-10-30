@@ -6,11 +6,11 @@ permalink: /pcsnotes_c1_w1/
 ##Web Foundations: Primer Basic
 ###Week 1
 
-[Learning to Learn](#learning_to_learn)
-[A Short Overview of How a Website Works](#how_website_works)
-[Making Our First Website](#making_first_website)
-[Language Basics](#language_basics)
-[Command Line Basics](#command_line_basics)
+* [Learning to Learn](#learning_to_learn)
+* [A Short Overview of How a Website Works](#how_website_works)
+* [Making Our First Website](#making_first_website)
+* [Language Basics](#language_basics)
+* [Command Line Basics](#command_line_basics)
 
 ####Class Tools
 
