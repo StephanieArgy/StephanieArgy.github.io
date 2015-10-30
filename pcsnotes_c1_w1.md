@@ -6,6 +6,10 @@ permalink: /pcsnotes_c1_w1/
 ##Web Foundations: Primer Basic
 ###Week 1
 
+[Learning to Learn](#learning_to_learn)
+[A Short Overview of How a Website Works](#how_website_works)
+[Making Our First Website](#making_first_website)
+[Language Basics](#language_basics)
 [Command Line Basics](#command_line_basics)
 
 ####Class Tools
@@ -17,13 +21,14 @@ permalink: /pcsnotes_c1_w1/
 * Atom or Sublime: Text editors for writing code. *(Later, I switched to Brackets, which I like most of all)*
 * Terminal/Gitbash: For command-line interactions.
 
+<a name="learning_to_learn"></a>
 ####Learning to Learn
 
 Throughout course, keep a growing list of vocabulary terms; define them, then post them online in a <a href="../pcsnotes_glossary/">glossary</a> we will make for ourselves.
 
 This is a code school, so we are of course concerned with technology, but we are also concerned with teamwork, including **pair programming**.
 
-The first thing we need to learn is the process of learning.  One method we will use in class (and on our own) is the **pomodoro technique.**  Named after the Italian tomato-shaped kitchen timer.  Idea is to help us focus better: we make a deal to focus entirely on one task for 25 minutes (then take a short break). And after four pomodoros, take a long break. (It's very important to get up and move around; there are two major occupational hazards of programming - heart disease, from too much sitting, and carpal tunnel syndrome/repetitive stress injury.) 
+The first thing we need to learn is the process of learning.  One method we will use in class (and on our own) is the **pomodoro technique.**  Named after the Italian tomato-shaped kitchen timer, it's a way to help us focus better: we make a deal to give our attention entirely to one task for 25 minutes (then take a short break). And after four pomodoros, take a long break. (It's very important to get up and move around; there are two major occupational hazards of programming - heart disease, from too much sitting, and carpal tunnel syndrome/repetitive stress injury.) 
 
 We need to take control of our learning process and to find what works for us, and what needs practice. 
 
@@ -54,6 +59,7 @@ In this class, we follow the practices of <a href=http://www.innovationexcellenc
 
 ***
 
+<a name="how_website_works"></a>
 ####A Short Overview of How a Website Works
 
 "Everything I say is just short of a lie." Meaning...there's so much information to cover with coding that if we try to take it all, we'll be paralyzed and never get anything done. And so, we'll start with as little information as we need to function. Always assume that the little island of information that we're seeing is only the tiny tip of a vast undersea mountain peak. Thee's lots more lurking under the surface. 
@@ -94,6 +100,7 @@ From all of these, the browser creates the **Document Object Model** or **DOM**.
 
 Your job as a coder is to make the page load as fast as possible.  (It's all about efficiency.) Your job as a designer is to hold their attention and make it worthwhile for them to stay on the page.
 
+<a name="making_first_website"></a>
 ####Codepen: Making Our First Website
 
 We're soon going to be writing our code in a text editor, but first, we're going to start by using codepen-io, so that we can focus on the code without having to worry about all the other parts of the puzzle.
@@ -111,6 +118,7 @@ Linking to Codepen from GitHub is good, because it helps make you part of the bi
 
 ***
 
+<a name="language_basics"></a>
 ####Language Basics
 
 #####HTML
