@@ -188,5 +188,30 @@ CSS can quickly become overwhelming, so to help keep yours comprehensible:
 1. Have one property per line.
 2. List properties in alphabetical order. (There may be some instances where order matters, and you can't -- but in general, try to keep them alphabetical).
 
-<a name="command_line_basics"></a>####Command Line Basics
+<a name="command_line_basics"></a>
+####Command Line Basics
 
+Good user interface (UI) gives you the opportunity to do something. In a fancier program with a good UI, the functions are discoverable and learnable. **Get over it.**
+
+In the command line, the UI is a flashing cursor. The command line is UI for consenting adults who know what they're doing. It's hard, but if you know how to use it, you can make the computer do anything. **The medium of the computer is text.**
+
+Our basic tools (from the dawn of the computer era) are:
+
+1. The command line.
+2. A text editor.
+
+(Don't download the GitHub interface.)
+
+The terminal uses a set of commands designed in 1965. The kernal of the terminal is Linux.
+
+Here is a cheat sheet for the command line: 
+[http://www.git-tower.com/blog/command-line-cheat-sheet/](http://www.git-tower.com/blog/command-line-cheat-sheet/) 
+
+Another way to get help is to use the **man** pages by typing **man** (plus a command). (For example, **man man** gives information on the command for opening the reference manual itself.) To exit the manual and return to the command-line prompt, type **Q**
+
+There's more information about **man** here: [http://www.macworld.com/article/2044790/master-the-command-line-how-to-use-man-pages.html](http://www.macworld.com/article/2044790/master-the-command-line-how-to-use-man-pages.html)
+
+Cheat sheet for Git:
+[http://www.git-tower.com/blog/git-cheat-sheet/](http://www.git-tower.com/blog/git-cheat-sheet/)
+
+However, we'll now go over the first and most essential commands that we'll need to know.
