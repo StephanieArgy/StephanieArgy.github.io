@@ -222,4 +222,17 @@ There's more information about **man** here: [http://www.macworld.com/article/20
 Cheat sheet for Git:
 [http://www.git-tower.com/blog/git-cheat-sheet/](http://www.git-tower.com/blog/git-cheat-sheet/)
 
-However, we'll now go over the first and most essential commands that we'll need to know.
+However, we'll now go over the most essential commands that we'll need to know:
+
+Finder is a program that runs on a computer to show files. **open .** makes a Finder window open and show the files inside the current directory.
+
+It's important to always have "situational awareness" and to know where you are.
+
+**pwd** - Means "print working directory," and it shows the current directory.
+
+**ls** - Shows all files in the current directory.
+**ls -1** - Shows all files in the current directory, even hidden files.
+**ls -l** - Shows all the files in the current directory in their long form (with additional info such as date, size, who created it, permissions).
+**ls -al** - Shows the long form of all files in the current directory (even hidden ones).
+
+**cd *name of directory*** - Change directories (and directory names are always case sensitive).
