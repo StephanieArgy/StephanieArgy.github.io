@@ -16,7 +16,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c1_w1/">Week One</a> - HTML, CSS, command-line, Git
 
-####Week Two - GitHub, CSS positioning and Flexbox
+####<a href="../pcsnotes_c1_w2/">Week Two</a> - GitHub, CSS positioning and Flexbox
 
 ####Week Three - Chrome Developer Tools and collaborating with Git and GitHub
 

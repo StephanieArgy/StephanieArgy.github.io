@@ -8,6 +8,8 @@ agile project management
 
 attribute
 
+code folding
+
 delimiters
 
 DOM (Document Object Model)

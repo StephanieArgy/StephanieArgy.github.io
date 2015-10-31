@@ -11,6 +11,7 @@ permalink: /pcsnotes_c1_w1/
 * [Making Our First Website](#making_first_website)
 * [Language Basics](#language_basics)
 * [Command Line Basics](#command_line_basics)
+* [Making a Webpage in a Text Editor](#page_in_text_editor)
 
 ####Class Tools
 
@@ -219,9 +220,6 @@ Another way to get help is to use the **man** pages by typing **man** (plus a co
 
 There's more information about **man** here: [http://www.macworld.com/article/2044790/master-the-command-line-how-to-use-man-pages.html](http://www.macworld.com/article/2044790/master-the-command-line-how-to-use-man-pages.html)
 
-Cheat sheet for Git:
-[http://www.git-tower.com/blog/git-cheat-sheet/](http://www.git-tower.com/blog/git-cheat-sheet/)
-
 However, we'll now go over the most essential commands that we'll need to know:
 
 Finder is a program that runs on a computer to show files. **open .** makes a Finder window open and show the files inside the current directory.
@@ -235,11 +233,78 @@ It's important to always have "situational awareness" and to know where you are.
 **ls -l** - Shows all the files in the current directory in their long form (with additional info such as date, size, who created it, permissions).
 **ls -al** - Shows the long form of all files in the current directory (even hidden ones).
 
-**cd <em>name of directory</em>** - Change directories (and directory names are always case sensitive).
+**cd <em>name_of_directory</em>** - Change directories (and directory names are always case sensitive).
 **cd** - With no directory name, takes one to the root directory.
 **cd ..** - Takes one up one level, to the parent of the current directory.
 
-**mkdir** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
+In an empty directory, there are always two files:
+**.** - The current directory
+**..** - The parent directory
+
+**mkdir <em>name_of_directory</em>** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
+
+<a name="page_in_text_editor"></a>
+####Making a Webpage in a Text Editor
 
 [focus@will](https://www.focusatwill.com/) offers music that's supposed to help you concentrate (and has a pomodoro function built in).
 
+Flow: It takes a while to become nimble with the code, then get into the right state of mind.
+
+The way we do instruction: We're always working for something (have an objective).
+
+What employers want: The creaction of products for others (Calibrate own time).
+
+Text editors:
+<a href="http://www.sublimetext.com/">Sublime</a> - Not free -- need to support the developer; most of the people in our class used Sublime.
+<a href="https://atom.io/">Atom</a> - Similar to Sublime, but free, and built using HTML, CSS and JavaScript.
+*(<a href="http://brackets.io/">Brackets</a> - A text editor that I discovered later, also free and open source, but supported by Adobe)*
+
+In command line, to open a program, type **<em>Program name</em> .**, for example, **atom .** or **brackets .**.  It may be necessary to enable the command-line shortcut from within the program. (In Brackets, for example, it's File>Install Command Line Shortcut.)
+
+To learn a new piece of software, follow hints. For a code editor, tehre are some unique items to explore:
+
+- Move lines up and down.
+- Upper/lower case
+- Folding
+- Cool ways to select (with keyboard shortcuts -- VERY IMPORTANT, because you'll get increasingly annoyed by how slow it is to reach for the mouse!)
+
+(In Atom, you can create opening/closing tags by typing the tag name, then TAB.)
+
+The default file for many websites is **index.html**, and it lives in the root directory of the site.
+
+The main elements of a website are:
+```
+<DOCTYPE HTML>
+<html>
+
+<head>
+</head>
+
+<body>
+</body>
+
+</html>
+```
+
+By convention, all are flush left, but **head** and **body** can be indented. (To indent, select lines you want to indent, then hit TAB. By default, TAB is set to two spaces, especially in JavaScript.)
+
+**SAVE OFTEN!**
+
+On Mac, to show all open apps: Command + TAB.
+
+Part of the **head** element is the page title, which is critical for robots on the web.
+
+**Siblings** are elements of the DOM that are on the same level of the hierarchy. 
+
+**header** and **footer** are tags that come from HTML5, and that have semantic meaning.
+
+While writing and editing code, it helps to have lots of white space. This can be taken out later.
+
+To keep code neater and more comprehensible, you can collapse sections that have an arrow in the the line number column. This is called "code folding."
+
+"Attributes" provide additional information. They're a name/value pair, with a quoted string as a value. (Always use lower case and put in quotes.)
+
+Safari is not a good development browser; may still want to use it for browsing, but when coding, reset the default browser.  (In this class, we're using Google Chrome.)
+
+
+You can examine and learn from anyone's code. In Chrome: View>Developer>Developer Tools (or the shortcut Command + Option + T) makes the DOM visible.
