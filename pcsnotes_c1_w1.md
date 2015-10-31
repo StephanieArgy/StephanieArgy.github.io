@@ -235,4 +235,11 @@ It's important to always have "situational awareness" and to know where you are.
 **ls -l** - Shows all the files in the current directory in their long form (with additional info such as date, size, who created it, permissions).
 **ls -al** - Shows the long form of all files in the current directory (even hidden ones).
 
-**cd *name of directory*** - Change directories (and directory names are always case sensitive).
+**cd <em>name of directory</em>** - Change directories (and directory names are always case sensitive).
+**cd** - With no directory name, takes one to the root directory.
+**cd ..** - Takes one up one level, to the parent of the current directory.
+
+**mkdir** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
+
+[focus@will](https://www.focusatwill.com/) offers music that's supposed to help you concentrate (and has a pomodoro function built in).
+
