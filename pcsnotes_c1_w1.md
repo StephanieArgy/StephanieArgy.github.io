@@ -33,6 +33,8 @@ The first thing we need to learn is the process of learning.  One method we will
 
 We need to take control of our learning process and to find what works for us, and what needs practice. 
 
+**And we need to create an environment in which it's safe to ask questions.**
+
 For homework:
 
 1. Read <a href=http://www.innovationexcellence.com/blog/2014/10/16/25-things-skilled-learners-do-differently/>"25 Things Skilled Learners Do Differently"</a> by Saga Briggs, then pick one (or more) of those techniques to practice.
@@ -55,8 +57,6 @@ Going to use Git. Git sucks. We will interact with it on the command line.
 Having a question you need to answer gives you a goal. If there are questions, try Slack (teachers and classmates), as well as Stack Overflow.
 
 Past students have also found the books *HTML &amp; CSS* and *JavaScript &amp; jQuery* by Jon Duckett to be useful. *HTML &amp; CSS* was written in 2010, so it doesn't have the freshest of information, but everything in it is true. As professionals, we'll learn online, because that's where the most up-to-date information can be found, but these books are a good introduction.
-
-In this class, we follow the practices of <a href=http://www.innovationexcellence.com/blog/2014/10/16/25-things-skilled-learners-do-differently/>"agile project management</a>, meaning that we make adjustments along the way, and will adjust the class to meet the needs of the people in it.
 
 ***
 
@@ -124,7 +124,7 @@ Linking to Codepen from GitHub is good, because it helps make you part of the bi
 
 #####HTML
 
-In learning all our programming languages, we'll look for patterns. They will be there in all the languages, but they may look different in each.
+In learning all our programming languages, we'll look for patterns. The brain connects new things to other things it already knows. We will find similar things in all our languages, but they may look different in each.
 
 For example, **delimiters** are characters that show us the boundaries of things -- in other words, they create limits.. We'll encounter them in different forms, depending on the language that we're using. 
 

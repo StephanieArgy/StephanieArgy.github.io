@@ -21,7 +21,7 @@ pair programming
 
 property (CSS)
 
-remotes (GIT)
+remotes (Git)
 
 selector (CSS)
 
@@ -30,6 +30,8 @@ semantic markup (HTML)
 separator
 
 siblings
+
+staging area (Git)
 
 tag (HTML)
 
@@ -40,3 +42,5 @@ terminator
 URL (Uniform Resource Locator)
 
 value (CSS)
+
+working directory (Git)
