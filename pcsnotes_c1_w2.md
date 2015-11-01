@@ -45,6 +45,6 @@ Always know where you are in the file structure. To see if you're in a repositor
 
 It can help to create a mental picture of what's happening when you create a git repository. This is one possible visual metaphor: 
 
-![Git Mental Model](images/GitMentalImage.jpg)
+<img alt="GitMentalImage" src="/images/GitMentalImage.jpg" width="300px">
 
 Think of folders and files as being stuck on clear piece of mylar. All active work is being done in the **working directory.**
