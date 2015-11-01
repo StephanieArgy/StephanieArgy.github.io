@@ -7,12 +7,12 @@ permalink: /pcsnotes_c1_w2/
 ###Week 2
 
 * [Agile Project Management](#agile)
-* 
+* [Git Basics](#git_basics)
 
 <a name="agile"></a>
 ####Agile Project Management
 
-In this class, we follow the practices of <a href=http://www.innovationexcellence.com/blog/2014/10/16/25-things-skilled-learners-do-differently/>"agile project management</a>, meaning that we make adjustments along the way, and will adjust the class to meet the needs of the people in it.
+In this class, we follow the practices of agile project management, meaning that we make adjustments along the way, and will adjust the class to meet the needs of the people in it.
 
 Agile projects are managed in short bursts.  Development used to be in very long cycles, but now it's in short phases -- three, four weeks. You can't get a lot of work done, but you're always able to ship something.
 
@@ -23,7 +23,7 @@ In an agile workflow, the whole t3eam gets together every morning and does a "st
 3. What are you blocks? (What's in the way of your One Thing You Most Want to Get Done?)
 
 <a name="git_basics"></a>
-####Git
+####Git Basics
 
 #####Resources:
 
@@ -43,7 +43,7 @@ Always know where you are in the file structure. To see if you're in a repositor
 
 #####What's Happening in Git
 
-It can help to create a mental picture of what's happening when you create a git repository. This is one possible visual metaphor: 
+It can help to create a mental picture of what's happening when you're using git. This is one possible visual metaphor: 
 
 <img alt="GitMentalImage" src="/images/GitMentalImage.jpg" width="300px">
 
