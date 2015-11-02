@@ -29,7 +29,9 @@ Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Grego
     
 * Angel Investing: As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.
 
-* Learning to speak Greek, learning about Greece.
+* Filmmaking for Actors: An ongoing endeavor to help make actors' experiences on set less frightening, more comprehensible and more conducive to good work. We did a six-session workshop in September, followed by exit interviews -- so what next?
+
+* Learning to speak Greek, learning about Greece. (Finding it very useful to work with the [Anki spaced repetition system](http://ankisrs.net/).)
 
 * Reading. Here's my <a href="../books/">current list</a>.
 

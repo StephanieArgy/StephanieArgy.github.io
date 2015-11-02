@@ -57,5 +57,5 @@ Git uses arcane language. The most important commands are:
 
 * **git status** - Lets you see the current state of all the files in the project, and what has or hasn't been committed.
 * **git add** - Moves the latest changes into the staging area, from where they can be committed.
-* **git commit -m"<em>Why you're making this commit</em>** - Commits the changes.
+* **git commit -m"<em>Why you're making this commit</em>** - Commits the changes and puts them into the repository.
 
