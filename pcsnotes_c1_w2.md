@@ -48,3 +48,14 @@ It can help to create a mental picture of what's happening when you're using git
 <img alt="GitMentalImage" src="/images/GitMentalImage.jpg" width="300px">
 
 Think of folders and files as being stuck on clear piece of mylar. All active work is being done in the **working directory.**
+
+When the current state of the work has reached a place where you want to save a version, then all the changes are moved into a **staging area**.
+
+Those changes can then be **committed**, or permanently recorded, into the repository for that project. 
+
+Git uses arcane language. The most important commands are:
+
+* **git status** - Lets you see the current state of all the files in the project, and what has or hasn't been committed.
+* **git add** - Moves the latest changes into the staging area, from where they can be committed.
+* **git commit -m"<em>Why you're making this commit</em>** - Commits the changes.
+
