@@ -103,10 +103,7 @@ Here's how it works if you start locally:
 8. Add all your files to the “staging area” using the command: **git add -A**
 9. Use the command **git statu**s and verify that all of your files have been moved to the staging area of git.
 10. Commit all your files to the repository using the command: git commit -m"initial commit"
-11. Use the command git status and verify that all your files are now in the repository.
-
-(The repo now exists on the local drive. The next steps create the remote version on GitHub and make a public version of it that can be viewed online.)
-
+11. Use the command git status and verify that all your files are now in the repository. **(The repo now exists on the local drive. The next steps create the remote version on GitHub and make a public version of it that can be viewed online.)**
 12. Go to github.com, log in, click the ‘+’ in the top right to create a new repository.
 13. Give this repository the same name as your local repository.
 14. Click Create repository
@@ -130,13 +127,14 @@ Here's how it works if you start on GitHub:
 7. The command **git branch** will show which branch you're working in.  The one that's active will have an asterisk next to it (and may be green, depending on your Terminal is set up). **git status** will also show the active branch.
 8. Move back into the master branch (**git checkout master**), and do all your work in the master branch until you're ready to publish on the gh-pages branch:
 
-**master - Where you do your work.**
-**gh-pages - Where you deploy your work so that it can be seen publicly.**
-**For collaborations, you may have a third branch, to do work that you will later add to the team effort.**
+* **master - Where you do your work.**
+* **gh-pages - Where you deploy your work so that it can be seen publicly.**
+* **For collaborations, you may have a third branch, to do work that you will later add to the team effort.**
 
 For this next project, we're going to use [HTML5 Boilerplate](https://html5boilerplate.com/).  It includes a lot of things that you'd find in a production website, such as an index.html file, folders for CSS and JavaScript, a robots.txt file, etc. The challenge is reading and understanding code made by someone else.
 
 Once the boilerplate files are in place:
+
 1. **git add -A** - This is a good place to use this command, because there are so many new files and directories.
 2. **git commit -m"Initial commit"
 3. Once the commit is done, the local repo will be ahead of the remote by one version. To update the one online: **git push**
