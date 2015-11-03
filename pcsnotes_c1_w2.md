@@ -119,10 +119,10 @@ Here's how it works if you start locally:
 Here's how it works if you start on GitHub:
 
 1. On GitHub, create a new repository. You may want to initialize the repo with a README.md file.
-2. Clone the repo using ssh to your local machine using the command: git clone git@github.com:<em>YourRepoName</em>. (This info will be provided as soon as you create the GitHub repo.) **DO NOT USE THE "CLONE TO DESKTOP BUTTON.**
+2. Clone the repo using ssh to your local machine using the command: git clone git@github.com:<em>YourRepoName</em>. (This info will be provided as soon as you create the GitHub repo.) **DO NOT USE THE "CLONE TO DESKTOP" BUTTON.**
 3. Go inside your new local repo (on your computer) with the command **cd <em>YourRepoName</em>
 4. BACK ON GITHUB: Make a gh-pages branch. Click on the Branch dropdown menu, and make a new branch called **gh-pages**.  (This is a special branch, because it's automatically public.)
-5. Once there's a **gh-pages** branch on GitHub, move it to the lcoal repo, by typing **git fetch origin gh-pages**.
+5. Once there's a **gh-pages** branch on GitHub, move it to the local repo, by typing **git fetch origin gh-pages**.
 6. To move between branches, use the **git checkout** command, and specify which branch you want to move to: **git checkout  master** (to move to the master branch) or **git checkout gh-pages** (to move to the gh-pages branch). Once you've created the new **gh-pages** branch, move into it to wake it up so that git will see it.
 7. The command **git branch** will show which branch you're working in.  The one that's active will have an asterisk next to it (and may be green, depending on your Terminal is set up). **git status** will also show the active branch.
 8. Move back into the master branch (**git checkout master**), and do all your work in the master branch until you're ready to publish on the gh-pages branch:
