@@ -8,8 +8,6 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 * Geek Sublime*, Vikram Chandra
 
-* The Art of Fiction*, John Gardner
-
 * On Writing Well*, William Zinsser
 
 * Mobile HTML5*, Estelle Weyl
