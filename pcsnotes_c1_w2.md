@@ -9,6 +9,9 @@ permalink: /pcsnotes_c1_w2/
 * [Agile Project Management](#agile)
 * [Git Basics](#git_basics)
 * [GitHub Basics](#github_basics)
+***
+* [Chrome Developer Tools](#chrome_dev_tools)
+* [CSS Positioning](#css_positioning)
 
 <a name="agile"></a>
 ####Agile Project Management
@@ -143,4 +146,44 @@ Once the boilerplate files are in place:
 6. Once the gh-pages branch has been updated, push it to the remote version online: **git push**
 
 When in the Terminal, you can open the the current command-line directory in the Finder by typing **open .**
+
+***
+
+Agile stand-ups: Try to do your stand-up in three sentences, one for each question. (Teaches techniques useful in elevator pitches.)
+
+<a name="chrome_dev_tools"></a>
+####Chrome Developer Tools
+
+We'll do a big exercise with Chrome Developer Tools later, but for how, here are three ways to access them:
+
+* Command + Option + I
+* View > Developer > Developer Tools
+* Drop-down menu at the top right of the browser window
+
+This will open the most complicated browser interface we will encounter. To keep things simple, there are four controls we need for now:
+
+1. The Elements pane.
+2. The Styles pane.
+3. The Dock Side buttons, which control where the Tools appear in our window.
+4. The Close button, to make it all go away.
+
+Styles shows how styles are being merged to create the look of the page. **We can use this to analyze our pages.**
+
+**View > Developer > View Source** -- Showsthe actual code for the page.
+**View > Developer > Developer Tools**s -- Shows the browser's *use of the code*.
+
+There's always a reason why something happens on the page, and the gibberish in the Developer Tools will make and more sense, the more we read it. 
+
+"User Agent Stylesheet" refers to styles that we didn't write. Browsers have built-in styles (in case the developer doesn't write something; this can be overruled as part of our styling.)
+
+<a name="css_positioning"></a>
+####CSS Positioning
+
+#####The Cascade
+
+CSS stands for "cascading style sheet," and there are three factors that effect which CSS rules affect a particular element: 
+
+1. Proximity
+2. Specificity
+3. Inheritance
 
