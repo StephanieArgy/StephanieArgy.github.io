@@ -9,7 +9,9 @@ permalink: /pcsnotes_c1_w2/
 * [Agile Project Management](#agile)
 * [Git Basics](#git_basics)
 * [GitHub Basics](#github_basics)
+
 ***
+
 * [Chrome Developer Tools](#chrome_dev_tools)
 * [CSS Positioning](#css_positioning)
 
@@ -169,8 +171,8 @@ This will open the most complicated browser interface we will encounter. To keep
 
 Styles shows how styles are being merged to create the look of the page. **We can use this to analyze our pages.**
 
-**View > Developer > View Source** -- Showsthe actual code for the page.
-**View > Developer > Developer Tools**s -- Shows the browser's *use of the code*.
+**View > Developer > View Source** -- Shows the actual code for the page.
+**View > Developer > Developer Tools** -- Shows the browser's *use of the code*.
 
 There's always a reason why something happens on the page, and the gibberish in the Developer Tools will make and more sense, the more we read it. 
 
