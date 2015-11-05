@@ -8,6 +8,8 @@ agile project management
 
 attribute
 
+block element
+
 code folding
 
 delimiters
@@ -16,6 +18,8 @@ DOM (Document Object Model)
 
 element
 (div, h1, h2, p, ul, ol, etc.)
+
+inline element
 
 pair programming
 

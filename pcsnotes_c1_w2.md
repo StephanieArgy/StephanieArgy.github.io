@@ -183,9 +183,88 @@ There's always a reason why something happens on the page, and the gibberish in 
 
 #####The Cascade
 
-CSS stands for "cascading style sheet," and there are three factors that effect which CSS rules affect a particular element: 
+CSS stands for "cascading style sheet," and there are three factors that affect which CSS rules are used for a particular element:
 
 1. Proximity
 2. Specificity
 3. Inheritance
 
+Can experiment in Codepen, to see the cascade in action and see which selectors take precedence over others:
+[Cascade Demo](http://codepen.io/StephanieArgy/pen/PPdmOd).
+
+#####CSS Positioning and Floats
+
+HTML's primary job is structure. We now all practice **semantic markup**. We can define our own tags (and often do in Angular).
+
+Developers were using many class names over and over. In HTML5, those common classes have become new semantic markup. For example, what would have been:
+
+```
+<div class="nav"></div>
+```
+
+is now:
+
+```
+<nav></nav>
+```
+
+Other new tags in HTML5 include:
+
+* header - Material at the beginning of a section or page
+* footer - Material at the end of a section or page
+* main - Main content of the page
+* article - Redistributable chunk of content, that can be seen on website, or Facebook, RSS (real simple syndication), Flipboard (a newsreader with curated content and a very intuitive interface). 
+* section - Part of a page
+* aside - Sidebars
+* nav - Menus
+
+**(Fonts: [Font Squirrel](http://www.fontsquirrel.com/). Can use own fonts, package them.)**
+
+Some basic structural setup:
+
+* Analyze work, going from the top of the page down.
+* There can be only one **body** element on a page. (May also put all the content on the page into another container INSIDE of the body; you can't apply margins, especially negative margins, to the body element.)
+* Put the **nav** element first, so that it'll be first on small devices.
+
+Ask yourself, how am I going to structure the code?
+
+* For the next developer?
+* For search engine robots?
+* For the user?
+
+The **h1** element is very important for telling Google what's most important on the page. The rule used to be only one **h1** per page, describing the main content of the page. Now, in HTML5, it's not only possible but recommended to have more than one **h1** on a page. More info on that [here](http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824).  (A div, like section and article, is a **block element**, as opposed to an **inline element**.)
+
+A basic page structure might be:
+```
+<body>
+  <html>
+    <head></head>
+    <body>
+      <main>
+        <h1></h1>
+        <nav></nav>
+        <section>
+          <article>
+            <header></header>
+            <h1></h1>
+            <h2></h2>
+            <h3></h3>
+            <p></p>
+            <footer></footer>
+          </article>
+        </section>
+      </main>
+    </body>
+  </html>
+</body>
+```
+
+At this point, we don't care about the content; we care about the **type** of content.
+
+Example of a very nice responsive site: [Cool Hunting](http://www.coolhunting.com/).
+
+**A very important resource for us is [caniuse.com](http://caniuse.com/), which keeps track of which new features are supported by browsers (and which work-arounds we might have to use).**  There are some newer things that are not supported enough to use, such as the new **picture** tag.
+
+As web developers, we're on the publishing end, always pushing out new content.
+
+You can always trust the new versions of Chrome; Dev Ops are getting much better.  iOS Safari uses the same engine that runs Chrome.

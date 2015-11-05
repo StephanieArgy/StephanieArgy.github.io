@@ -106,7 +106,7 @@ Your job as a coder is to make the page load as fast as possible.  (It's all abo
 
 We're soon going to be writing our code in a text editor, but first, we're going to start by using codepen-io, so that we can focus on the code without having to worry about all the other parts of the puzzle.
 
-Codepen is a playground for experimenting with code. You can code HTML, CSS and JavaScript all together and see the result instantly.It will be good for the early phases of learning, but it will also be useful later on, to separate out little sections of code and experiment with them in isolation from the rest of a page. 
+Codepen is a playground for experimenting with code. You can code HTML, CSS and JavaScript all together and see the result instantly.It will be good for the early phases of learning, but it will also be useful later on, to separate out little sections of code and experiment with them in isolation from the rest of a page. ** When wrestling with new code, try it out in Codepen. 
 
 We'll log in using our GitHub accounts:
 
