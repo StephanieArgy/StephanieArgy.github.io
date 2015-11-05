@@ -235,6 +235,7 @@ Ask yourself, how am I going to structure the code?
 The **h1** element is very important for telling Google what's most important on the page. The rule used to be only one **h1** per page, describing the main content of the page. Now, in HTML5, it's not only possible but recommended to have more than one **h1** on a page. More info on that [here](http://webdesign.tutsplus.com/articles/the-truth-about-multiple-h1-tags-in-the-html5-era--webdesign-16824).  (A div, like section and article, is a **block element**, as opposed to an **inline element**.)
 
 A basic page structure might be:
+
 ```
 <body>
   <html>
