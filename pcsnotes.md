@@ -18,7 +18,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c1_w2/">Week Two</a> - GitHub, CSS positioning and Flexbox
 
-####Week Three - Chrome Developer Tools and collaborating with Git and GitHub
+####<a href="../pcsnotes_c1_w3/">Week Three</a> - Chrome Developer Tools and collaborating with Git and GitHub
 
 ####Week Four - Teamwork and working with clients
 
