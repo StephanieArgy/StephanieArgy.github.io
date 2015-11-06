@@ -164,8 +164,8 @@ We'll do a big exercise with Chrome Developer Tools later, but for how, here are
 
 This will open the most complicated browser interface we will encounter. To keep things simple, there are four controls we need for now:
 
-1. The Elements pane.
-2. The Styles pane.
+1. The Elements pane -- Shows the DOM (Document Object Model, which is the browser's interpretation of the site), not the HTML.
+2. The Styles/Properties pane -- Styles shows the CSS (including which styles are being applied to a particular element); Properties shows everything about the element.
 3. The Dock Side buttons, which control where the Tools appear in our window.
 4. The Close button, to make it all go away.
 
