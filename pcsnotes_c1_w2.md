@@ -268,4 +268,27 @@ Example of a very nice responsive site: [Cool Hunting](http://www.coolhunting.co
 
 As web developers, we're on the publishing end, always pushing out new content.
 
-You can always trust the new versions of Chrome; Dev Ops are getting much better.  iOS Safari uses the same engine that runs Chrome.
+You can always trust the new versions of Chrome.  iOS Safari uses the same engine that runs Chrome.
+
+In CSS, you use **selectors** to choose which parts of the HTML you're going to apply the styles to:
+
+* Elements are just listed by name (h1, p, nav, etc.)
+* Classes are preceded by a **.**
+* ID's are preceded by a **#**
+
+#####Floats
+
+By default, block elements are stacked on top of one another. The browser reads the HTML from top to bottom, and each block element takes up the full width of the page. Whatever is next, goes below it on the page.
+
+To make them appear side by side, you can use the **float** CSS rule, as in this [Codepen Demo](http://codepen.io/StephanieArgy/pen/vEVJdm).
+
+(Though the classes in this pen are named for their appearance, don't do that in general: name them for their function or meaning: **navbar**, **quote**, etc.)
+
+**float: left** has to be there for all three boxes, to make them appear in a horizontal line.  You have to control float on all the elements take total ownership.
+
+**When you float (as in this case), float all the elements to the left.**
+
+Beware of ["cargo cult"](https://en.wikipedia.org/wiki/Cargo_cult) coding: it's easy to borrow other people's code, and in doing so, to include code that you don't understand. You're not being honest with yourself, because you're not really coding. It can be part of the learning process, though: at first you may do things that you don't understand (cargo-cult style), then you'll follow (and understand) recipes -- and that will lead to mastery.
+
+
+
