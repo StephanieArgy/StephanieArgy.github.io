@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Primer Basic, Week Two
-permalink: /pcsnotes_c1_w2/
+permalink: /pcsnotes_c1_w3/
 ---
 ##Web Foundations: Primer Basic
 ###Week 3
