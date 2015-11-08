@@ -42,7 +42,7 @@ Branches in Git are steps toward a goal. The gh-pages branch, for example, is fo
 
 In this next phase of working with Git, we will use it for a team exercise and learn how to collaborate using Git. 
 
-<img alt="GitBranches" src="images/GitBranches_small.jpg" width="300px">
+<img src="/images/GitBranches_small.jpg" alt="GitBranches" width="300px">
 
 When you start a repo on GitHub, to bring it to the local drive, you use **git clone** (for the first time only) then **git pull** (for every time after that).
 
