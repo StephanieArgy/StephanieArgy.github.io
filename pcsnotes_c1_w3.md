@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Primer Basic, Week Two
+title: Primer Basic, Week Three
 permalink: /pcsnotes_c1_w3/
 ---
 ##Web Foundations: Primer Basic
