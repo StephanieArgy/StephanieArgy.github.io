@@ -113,3 +113,14 @@ Then, share the code on the **master** branch.
 Project will be a site for a massage therapist. On Basecamp, will have a client brief, design, To-Do's, text documents, a calendar, discussion. Share the To-Do's -- these are self-managed teams, so everyone can choose their own assignments.  When we present the project, everyone will need to be able to explain every piece of code they worked on.
 
 Be careful about images and other content taken from elsewhere. We need to be able to supply a license for everything we use. (Lots of Creative Commons images out there.)
+
+***
+
+Fixed header: Find ways to compensate for space it takes, when jumping to an internal link down the page.
+
+* Could add extra margin at the top of the element, but it might ruin the design.
+* Or could make an internal div above the element that we want to link to, then link to the empty div, rather than to the element that we're actually jumping to.
+
+A way to find great public spaces in which to work: [https://workfrom.co/](https://workfrom.co/).
+
+When trapped in Vim, hit *Esc* over and over, and if that doesn't work, Type *i* for insert mode, then *:q!*.
