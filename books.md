@@ -14,7 +14,7 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 * *Eloquent JavaScript*, Marijn Haverbeke
 
-* *Microinteractions*, Dan Salter.
+* *Microinteractions*, Dan Saffer.
 
 * *Fluent Forever*, Gabriel Wyner.
 
