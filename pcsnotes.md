@@ -20,7 +20,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c1_w3/">Week Three</a> - Chrome Developer Tools and collaborating with Git and GitHub
 
-####Week Four - Teamwork and working with clients
+####<a href="../pcsnotes_c1_w4/">Week Four</a> - Forms, teamwork and working with clients
 
 ##Primer Pro
 
