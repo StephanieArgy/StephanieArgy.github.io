@@ -123,4 +123,4 @@ Fixed header: Find ways to compensate for space it takes, when jumping to an int
 
 A way to find great public spaces in which to work: [https://workfrom.co/](https://workfrom.co/).
 
-When trapped in Vim, hit *Esc* over and over, and if that doesn't work, Type *i* for insert mode, then *:q!*.
+When trapped in Vim, hit *Esc* over and over, and if that doesn't work, Type **i** for insert mode, then **:q!**.
