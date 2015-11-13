@@ -8,13 +8,14 @@ permalink: /pcsnotes_c1_w4/
 
 ####Forms
 
-Forms are so important -- why?
+Why are forms so important?
 
 They are a form of interactivity unique to the Internet. The first level of interactivity online is the hyperlink; from the beginning, users were able to interact with the content.
 
 But the form is a second level, which gives users the ability to give information back: **The User provides data.**
 
 The request is different:
+
 **GET**: Used for links, means that a request is being made for a resoruce, but no information os provided.
 **POST**: Is used for forms, and sends the information given by the user.
 
@@ -63,3 +64,21 @@ Negative margin.
 
 Start on Treehouse: *Javascript Basics*
 
+***
+
+Final Presentations - We will do TWO:
+
+1. For the client (3-5 minutes): The goal is to manage the clients' expectations (critical!) and to explain how our work will help them accomplish their goals.
+2. A Code Walkthrough (5-10 minutes) - For this, our audience is our peers, people who can understand our code and help. We willl give an overivew of the code base and structure of the project (HTML and CSS). Each person on the team should identify a chunk of code that they liked and explain how it worked and why we like it.
+
+Prefer shorter presentations.
+
+Old production model was the "waterfall." Projects were developed for a long time (18 months, 2 years); now, the approach is "agile," with lots of review.
+
+This class is approached in a similar way -- updating, evolving. Instead of a "post-mortem" (who has died?!), we'll do a retrospective every couple of weeks.  The idea is to focus as much on the paositive as on what needs to be fixed: what's working, what could be better.
+
+In the next class (Primer Pro), we'll work on:
+
+* JavaScript
+* Responsive Design (everyone is all excited about FlexBox)
+* A Big Project using the framework Bootstrap.

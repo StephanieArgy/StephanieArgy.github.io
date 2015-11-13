@@ -1,17 +1,15 @@
 ---
 layout: post
-title: My Coding Curriculum
+title: Coding Goals and Experiments
 ---
 
 My focus at the moment is on getting myself solid with the fundamental web building blocks: HTML5, CSS3, JavaScript and jQuery, as used in responsive, mobile-first sites and apps. 
 
-This is a preliminary overall curriculum that I'm devising for myself (subject to constant revision, on probably a daily basis). It's not an exhaustive list of what a person should learn to become a developer, but rather a plan to remedy gaps and shaky spots in my own knowledge:
+This is a preliminary overall plan that I'm devising for myself (subject to constant revision, on probably a daily basis). It's not an exhaustive list of what a person should learn to become a developer, but rather a plan to remedy gaps and shaky spots in my own knowledge:
 
 ##HTML
 
-###Subjects to Cover:
-
-* Semantic markup (especially all the HTML5 tags)
+* Semantic markup (especially all the HTML5 tags) - *Make an HTML sampler, using every tag I can think of (and keep that to use as the basis for future style guides)*
 * Forms
 * Audio and video
 * Canvas
@@ -19,13 +17,8 @@ This is a preliminary overall curriculum that I'm devising for myself (subject t
 * Geolocation
 * Web workers
 
-###Projects:
-
-* Make an HTML sampler, using every tag I can think of (and keep that to use as the basis for future style guides)
 
 ##CSS
-
-###Subjects to Cover:
 
 * Selectors
 * Layout quirks with floats, etc.
@@ -38,15 +31,10 @@ This is a preliminary overall curriculum that I'm devising for myself (subject t
 * Fancy fonts - Google Fonts, @fontface.
 * Sass
 
-###Projects:
-
-* Create a responsive site with border images
 
 ##JavaScript/jQuery
 
 I'm combining these, because I think I need to learn them simultaneously: JavaScript, slowly and with patience, to build up a deep understanding of the underlying principles, and jQuery, so that I can make things that work from the very beginning.
-
-###Projects
 
 * Make a lightbox
 * Make a photo gallery
@@ -54,8 +42,6 @@ I'm combining these, because I think I need to learn them simultaneously: JavaSc
 * Make a site the style and content of which changes depending on the time of day someone visits.
 
 ##Reponsive/Mobile-First Design
-
-###Subjects to Cover:
 
 * Media queries
 * Responsive images
