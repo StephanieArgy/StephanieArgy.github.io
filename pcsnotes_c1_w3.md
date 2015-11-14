@@ -3,13 +3,8 @@ layout: page
 title: Primer Basic, Week Three
 permalink: /pcsnotes_c1_w3/
 ---
-##Web Foundations: Primer Basic
-###Week 3
 
 * [Collaborating Using Git](#git_collaboration)
-
-
-
 
 Going to do teamwork tonight.  Tonight's assignments:
 

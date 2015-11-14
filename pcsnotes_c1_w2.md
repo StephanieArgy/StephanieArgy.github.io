@@ -3,8 +3,6 @@ layout: page
 title: Primer Basic, Week Two
 permalink: /pcsnotes_c1_w2/
 ---
-##Web Foundations: Primer Basic
-###Week 2
 
 * [Agile Project Management](#agile)
 * [Git Basics](#git_basics)

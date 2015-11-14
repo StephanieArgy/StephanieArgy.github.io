@@ -3,8 +3,6 @@ layout: page
 title: Primer Basic, Week Four
 permalink: /pcsnotes_c1_w4/
 ---
-##Web Foundations: Primer Basic
-###Week 4
 
 ####Forms
 

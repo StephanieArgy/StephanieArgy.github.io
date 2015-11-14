@@ -24,7 +24,7 @@ Here's the basic framework:
 
 ##Primer Pro
 
-####Week One - Mobile-first and responsive design
+####<a href="../pcsnotes_c2_w1/">Week One</a> - Mobile-first and responsive design
 
 ####Week Two - Introduction to JavaScript and jQuery
 

@@ -3,8 +3,6 @@ layout: page
 title: Primer Basic, Week One
 permalink: /pcsnotes_c1_w1/
 ---
-##Web Foundations: Primer Basic
-###Week 1
 
 * [Learning to Learn](#learning_to_learn)
 * [A Short Overview of How a Website Works](#how_website_works)
