@@ -58,8 +58,16 @@ Each individual step in a script is a **statement**. Each statment ends in a sem
 document.write("This");
 ```
 
-Coments can be inserted by typing Command + / and look like: **//comments** or **/*comments*/**
+Comments can be inserted by typing Command + /
 (Use lots of comments!)
 
 When testing for bugs, can "comment out" sections of the code, to see if that fixes the problem.
 
+###Variables
+
+Scripts often need to temporarily store bits of information to achieve thier tasks. These are stored in **variables**.
+
+Variables are defined like this:
+```
+var *name-of-new-variable*;
+```
