@@ -6,6 +6,8 @@ permalink: /pcsnotes_glossary/
 
 agile project management
 
+array (JavaScript)
+
 attribute
 
 block element
@@ -48,5 +50,7 @@ terminator
 URL (Uniform Resource Locator)
 
 value (CSS)
+
+variable (JavaScript)
 
 working directory (Git)

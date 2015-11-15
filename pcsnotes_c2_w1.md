@@ -68,6 +68,40 @@ When testing for bugs, can "comment out" sections of the code, to see if that fi
 Scripts often need to temporarily store bits of information to achieve thier tasks. These are stored in **variables**.
 
 Variables are defined like this:
+
 ```
-var *name-of-new-variable*;
+var name-of-new-variable;
 ```
+JavaScript can be contained in the HTML file between **script** tags, or in a external **.js** document.
+
+To assign a value to a variable:
+
+```
+variable-name = variable-value;
+```
+
+Or, can define the variable and assign it a value at the same time:
+
+```
+var name-of-variable = variable-value;
+```
+
+###Data Types
+
+* Numbers (don't have quotes)
+* Strings (enclosed in either single or double quotes -- but they must match for each string)
+* Booleans (true/false)
+
+Arrays are a special type of variable: they hold a list:
+
+1. Wrapped in square brackets.
+2. Separated by commas.
+3. Zero-based counting system.
+
+```
+colors = ['pink', 'yellow', 'green'];
+```
+(In this case, pink=0, yellow=1, green=2.)
+
+Arithmetic operators
+
