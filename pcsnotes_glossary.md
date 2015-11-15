@@ -37,6 +37,8 @@ siblings
 
 staging area (Git)
 
+statement (JavaScript)
+
 tag (HTML)
 
 tag name (HTML)

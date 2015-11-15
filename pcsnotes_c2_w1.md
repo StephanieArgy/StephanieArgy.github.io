@@ -4,8 +4,8 @@ title: Primer Pro, Week One
 permalink: /pcsnotes_c2_w1/
 ---
 
-[Class Overview](#classOverview)
-[JavaScript](#JavaScript)
+* [Class Overview](#classOverview)
+* [JavaScript](#JavaScript)
 
 This class: Set our own stakes. Decide how hard we want to push ourselves.
 
@@ -51,4 +51,15 @@ In learning JavaScript, look for commonalities with HTML and CSS:
 * Delimiters
 * Name/value pairs
 * Blocks - As in CSS, we'll see blocks, but they're used for different things.
+
+Each individual step in a script is a **statement**. Each statment ends in a semi-colon:
+
+```
+document.write("This");
+```
+
+Coments can be inserted by typing Command + / and look like: **//comments** or **/*comments*/**
+(Use lots of comments!)
+
+When testing for bugs, can "comment out" sections of the code, to see if that fixes the problem.
 
