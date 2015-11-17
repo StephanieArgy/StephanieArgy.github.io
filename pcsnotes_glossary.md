@@ -29,6 +29,8 @@ property (CSS)
 
 remotes (Git)
 
+responsive design
+
 selector (CSS)
 
 semantic markup (HTML)
