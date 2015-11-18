@@ -12,6 +12,8 @@ attribute
 
 block element
 
+Boolean (JavaScript)
+
 code folding
 
 delimiters
@@ -21,7 +23,11 @@ DOM (Document Object Model)
 element
 (div, h1, h2, p, ul, ol, etc.)
 
+function (JavaScript)
+
 inline element
+
+object (JavaScript)
 
 pair programming
 

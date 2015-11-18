@@ -8,6 +8,10 @@ permalink: /pcsnotes_c2_w1/
 * [JavaScript](#JavaScript)
 * [Responsive Design](#responsiveDesign)
 
+***
+
+* [JavaScript Objects](#javaScriptObjectsFunctions)
+
 This class: Set our own stakes. Decide how hard we want to push ourselves.
 
 <a name="classOverview"></a>
@@ -170,5 +174,42 @@ Have to have content that works on phones. A lot of countries have really invest
 Start with the most primitive device, make sure it works, then build up from there: **PROGRESSIVE ENHANCEMENT**.
 
 If you connect your iPhone to your computer, you cna load up your website in progress on your phone.
+
+****
+
+<a name="javaScriptObjectsFunctions"></a>
+##JavaScript Objects and Functions
+
+Variables can hold: 
+
+* Numbers
+* Strings
+* Booleans (true/false)
+* Ojbects (Collections of variables and objects and functions)
+* Functions
+* Arrays
+
+**Statements** represent each step in a program. The semi-colon is a statement separator.
+
+###Functions
+
+Functions let you group a series of statements together to perform a specific task.  Their form looks like this:
+
+```
+function name-of-function () {
+  ____________;
+  ____________;
+}
+```
+
+To declare a function, by default, you useCamelCase. **Typically, variables are noun phrases, and functions are verb phrases.**  (Also, "function" is a reserved word, so it can't be used for other purposes in JavaScript.)
+
+```
+function sayHello(){
+  document.write("Hello!");
+}
+```
+The function name is **sayHello(), where the () means "run this."  **To run the function: **sayHello();** (And don't forget the semi-colon at the end!)
+
 
 
