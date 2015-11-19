@@ -209,7 +209,46 @@ function sayHello(){
   document.write("Hello!");
 }
 ```
+
 The function name is **sayHello(), where the () means "run this."  **To run the function: **sayHello();** (And don't forget the semi-colon at the end!)
+
+Scope -- Rules on how variables are managed.
+
+```
+function getArea(width,height){
+return width * height;
+}
+```
+
+Function takes an input, processes it, returns an output.
+
+INPUT ---> PROCESS ---> OUTPUT
+
+In a fuction declaration, inputs go in the parentheses, and outputs get returned:
+
+```
+function blahblah(inputs){
+  return outputs;
+}
+```
+
+Input = Arguments
+
+Parameters (stored as variables):
+
+function bakeCake(type){}  -- **type** is the parameter. When the function is called, an argument is provided for that parameter (e.g. lemon, chocolate, etc.).
+
+Most things have both variables and functions. An **object** groups functions and variables to create a model. Inside of an object:
+**Variables are called properties.**
+**Functions are called methods.**
+
+What's shown on a web page is the **Document Object Model.** The HTML is put into a string.
+
+Everything in an object has a name.
+
+The general principle of object-oriented programming: **Don't do the work for the object; let the object do the work itself.**
+
+this. -- Refers to the property (i.e. variable) attached: **this.room** or **this.booked**
 
 
 
