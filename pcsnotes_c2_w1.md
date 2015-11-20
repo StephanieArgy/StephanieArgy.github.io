@@ -10,7 +10,7 @@ permalink: /pcsnotes_c2_w1/
 
 ***
 
-* [JavaScript Objects](#javaScriptObjectsFunctions)
+* [JavaScript Functions and Objects](#javaScriptFunctionsObjects)
 
 This class: Set our own stakes. Decide how hard we want to push ourselves.
 
@@ -177,8 +177,8 @@ If you connect your iPhone to your computer, you cna load up your website in pro
 
 ****
 
-<a name="javaScriptObjectsFunctions"></a>
-##JavaScript Objects and Functions
+<a name="javaScriptFunctionsObjects"></a>
+##JavaScript Functions and Objects
 
 Variables can hold: 
 
@@ -250,5 +250,60 @@ The general principle of object-oriented programming: **Don't do the work for th
 
 this. -- Refers to the property (i.e. variable) attached: **this.room** or **this.booked**
 
+An anonymous function is an unnamed function:
 
+NAMED FUNCTION:
+
+```
+function area()(width, height){
+  return width * height;
+};
+```
+
+ANONYMOUS FUNCTION:
+```
+var area = function(width, height){
+  return width * height;
+};
+```
+
+A named function can be called using its name (either before or after it has been created).
+
+###Objects
+
+Objects can be defined in numerous ways.
+
+LITERAL NOTATION: 
+```
+var hotel = {
+  name: 'Quay',
+  rooms: 40,
+  booked: 25,
+  checkAvailability: function(){
+  return this.rooms - this.booked;
+  }
+};
+```
+
+To access objects, you use the **dot operator** or **member operator:
+
+```
+var hotelName = hotel.name;
+```
+(**hotel** is the object, **name** is the property, the dot between is the **dot operator** or **member operator**.) 
+
+OR
+```
+var hotelName = hotel['name'];
+```
+
+Like variables, objects can be updated with a new value:
+```
+hotel.name = "Park";
+```
+
+OR
+```
+hotel["name"] = "Park";
+```
 
