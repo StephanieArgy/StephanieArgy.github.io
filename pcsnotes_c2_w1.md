@@ -261,6 +261,7 @@ function area()(width, height){
 ```
 
 ANONYMOUS FUNCTION:
+
 ```
 var area = function(width, height){
   return width * height;
@@ -274,6 +275,7 @@ A named function can be called using its name (either before or after it has bee
 Objects can be defined in numerous ways.
 
 LITERAL NOTATION: 
+
 ```
 var hotel = {
   name: 'Quay',
@@ -293,23 +295,26 @@ var hotelName = hotel.name;
 (**hotel** is the object, **name** is the property, the dot between is the **dot operator** or **member operator**.) 
 
 OR
+
 ```
 var hotelName = hotel['name'];
 ```
 
 Like variables, objects can be updated with a new value:
+
 ```
 hotel.name = "Park";
 ```
 
 OR
+
 ```
 hotel["name"] = "Park";
 ```
 
 Object Models: 
 
-* Global JavaScript Objects: Not a single model; group of individual objects that relate to different parts of JavaScript, such as data types (strings, numbers, booleans) or concepts (date, math, properties, methods). (e.g. **saying.length** (a property)) or **saying.toUpperCase() (a method).)
+* Global JavaScript Objects: Not a single model; group of individual objects that relate to different parts of JavaScript, such as data types (strings, numbers, booleans) or concepts (date, math, properties, methods). (e.g. **saying.length** (a property)) or **saying.toUpperCase()** (a method).)
 * Browser Object Model: Creates a model of the current browser window or tab. All the parts of the browser that can be accessed through JavaScript.
 * Document Object Model: Representation of the current web page.
 
@@ -322,11 +327,12 @@ The best way to write code: Figure out what you want. Chances are, someone else 
 To learn more after we finish Treehouse:
 
 * Duckett/HeadFirst books
-* codeacademy.com (harder)
-* nodeschool.io (hardest -- uses command line)
+* [codeacademy.com](https://www.codecademy.com/) (harder)
+* [nodeschool.io](http://nodeschool.io/) (hardest -- uses command line)
 
 Next, quiz:
-(Expect 100%. There are code snippets. Can put code into JavaScript console to test it.)
+
+(Expect 100%. There are code snippets. Can put code into JavaScript console to test it.)<br>
 **socrative.com**, Room acbbfac2
 
 JavaScript is **weakly typed**, meaning that the type of variable doesn't have to be declared.
@@ -335,15 +341,15 @@ JavaScript is **weakly typed**, meaning that the type of variable doesn't have t
 
 Can't write numbers to document, because it's all text. So JavaScript interpreter will convert numbers to strings before handing it off to HTML. (There are hidden things going on in all this.)
 
-As you debug, make things up an dspeculate, rather than saying, "I don't know."
+As you debug, make things up and speculate, rather than saying, "I don't know."
 
 **this.** - Probably the weirdest thing most people run into. (It means: Start where you are, go one layer out until you find that property.)
 
-*ELOQUENT JAVASCRIPT* - Very helpful book (and online, for free). It's not so much about language as about thinking about programming.
+[Eloquent JavaScript](http://eloquentjavascript.net/) - Very helpful book (and online, for free). It's not so much about language as about thinking about programming.
 
 ###Assignment
 
-http://portlandcodeschool.github.io/primer/assignments/06-introduction-to-javascript-and-jquery/
+[http://portlandcodeschool.github.io/primer/assignments/06-introduction-to-javascript-and-jquery/](http://portlandcodeschool.github.io/primer/assignments/06-introduction-to-javascript-and-jquery/)
 (Don't do assignment before Treehouse jQuery course.)
 
 Going to use a GitHub gist.
@@ -352,8 +358,9 @@ Start with code.
 
 1. Make repo (either local or on GitHub).
 
-2. Get gist: https://gist.github.com/Auraelius/5a4973be6117691789fd
+2. Get gist: [https://gist.github.com/Auraelius/5a4973be6117691789fd](https://gist.github.com/Auraelius/5a4973be6117691789fd)<br>
 **Read every line of the file.**
+
 No Doctype, have to add that. (Can put styles in another document, but CSS isn't important on this assignment.)
 
 **What is important:**
@@ -361,9 +368,11 @@ No Doctype, have to add that. (Can put styles in another document, but CSS isn't
 jQuery. Basically a JavaScript library, which people have been working on and building for years. (In this assignment, we have CSS and JavaScript in the HTML document; first and last time we'll do that.)
 
 $ = jQuery function (shortcut notation)
+
 Give it a selector and a method:
+
 ```
-**$(document).ready(function(){}**
+$(document).ready(function(){}
 ```
 
 * "document" is the selector.
