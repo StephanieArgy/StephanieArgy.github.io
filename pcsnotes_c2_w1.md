@@ -307,3 +307,79 @@ OR
 hotel["name"] = "Park";
 ```
 
+Object Models: 
+
+* Global JavaScript Objects: Not a single model; group of individual objects that relate to different parts of JavaScript, such as data types (strings, numbers, booleans) or concepts (date, math, properties, methods). (e.g. **saying.length** (a property)) or **saying.toUpperCase() (a method).)
+* Browser Object Model: Creates a model of the current browser window or tab. All the parts of the browser that can be accessed through JavaScript.
+* Document Object Model: Representation of the current web page.
+
+Look into community; makes it so much easier to learn a language.
+
+After we learn a language, most of our work will involve finding what other people have done.  Main problem is finding documentation, which is why we rely on and learn to use MDN and W3Schools.
+
+The best way to write code: Figure out what you want. Chances are, someone else has written it. **BUT** have to be careful using unknown code, because you may not recognize malware that's been inserted into it. Using Global JavaScript Objects, you know it's been vetted and is safe.
+
+To learn more after we finish Treehouse:
+
+* Duckett/HeadFirst books
+* codeacademy.com (harder)
+* nodeschool.io (hardest -- uses command line)
+
+Next, quiz:
+(Expect 100%. There are code snippets. Can put code into JavaScript console to test it.)
+**socrative.com**, Room acbbfac2
+
+JavaScript is **weakly typed**, meaning that the type of variable doesn't have to be declared.
+
+**document.write()** is a method in the Document Object Model.
+
+Can't write numbers to document, because it's all text. So JavaScript interpreter will convert numbers to strings before handing it off to HTML. (There are hidden things going on in all this.)
+
+As you debug, make things up an dspeculate, rather than saying, "I don't know."
+
+**this.** - Probably the weirdest thing most people run into. (It means: Start where you are, go one layer out until you find that property.)
+
+*ELOQUENT JAVASCRIPT* - Very helpful book (and online, for free). It's not so much about language as about thinking about programming.
+
+###Assignment
+
+http://portlandcodeschool.github.io/primer/assignments/06-introduction-to-javascript-and-jquery/
+(Don't do assignment before Treehouse jQuery course.)
+
+Going to use a GitHub gist.
+(Gist is a way to share code. Someone might say, "Make me a gist.")
+Start with code.
+
+1. Make repo (either local or on GitHub).
+
+2. Get gist: https://gist.github.com/Auraelius/5a4973be6117691789fd
+**Read every line of the file.**
+No Doctype, have to add that. (Can put styles in another document, but CSS isn't important on this assignment.)
+
+**What is important:**
+
+jQuery. Basically a JavaScript library, which people have been working on and building for years. (In this assignment, we have CSS and JavaScript in the HTML document; first and last time we'll do that.)
+
+$ = jQuery function (shortcut notation)
+Give it a selector and a method:
+```
+**$(document).ready(function(){}**
+```
+
+* "document" is the selector.
+* "ready" is the method.
+
+The whole thing means: When the document is ready, run this function.
+
+Look for patterns.
+The jQuery pattern:
+
+```
+$(selector).event (function () {
+
+})
+```
+
+To look up jQuery: jquery.com >API Documentation
+
+Start with quiz. It's a study guide, and answering the questions will explain how to do the assignment.Point of this class: A method of learning, more than an exercise in JavaScript. **Learn how to research things.**

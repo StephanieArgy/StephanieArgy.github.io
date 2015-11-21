@@ -26,7 +26,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c2_w1/">Week One</a> - Mobile-first and responsive design
 
-####Week Two - Introduction to JavaScript and jQuery
+####<a href="../pcsnotes_c2_w2/">Week Two</a> - Introduction to JavaScript and jQuery
 
 ####Week Three - Introduction to Bootstrap
 
