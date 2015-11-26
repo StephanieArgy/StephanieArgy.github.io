@@ -83,3 +83,28 @@ There are two ways to use media queries:
 '''
 
 (For small screens, will use **display:none;** a lot.)
+
+In CSS, start with the styles for the smallest size screens, then use media queries to add refinements for bigger versions:
+
+```
+(STYLES FOR MOBILE)
+
+@media....
+
+(STYLES FOR LARGER SCREENS)
+
+```
+
+How do you use breakpoints?
+
+As a designer, what's the best way to engage people?  A lot of ads have garish colors and motion to distract people from the real content.
+
+**RESPONSIVE DESIGN/MOBILE-FIRST IS THE EDGE OF DESIGN: Everyone is still arguing about how to do it, so we'll have to learn it ourselves.**
+
+Testing design on mobile devices is a pain in the neck. 
+
+Typography:
+
+Rule of thumb is that you want to have 70-80 characters per line of text (70-80 rem).  Shorter lines are easier to read, because all the characters are in one's eyespan. So, in text-heavy sites, keep the lines short. Also, full justification makes it easier to read. 
+
+Slab fonts present boldly (for headlines).  (Also, bigger line height.)  All of this is controllable in CSS. 
