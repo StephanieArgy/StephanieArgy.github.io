@@ -5,6 +5,7 @@ permalink: /pcsnotes_c2_w2/
 ---
 
 * [Responsive Design](#responsiveDesign)
+* [Responsive Images](#responsiveImages)
 
 "Minimum Viable Product" - In this case, the minimal class assignments that cover all the concepts, plus a hierarchy of optional steps.
 
@@ -108,3 +109,27 @@ Typography:
 Rule of thumb is that you want to have 70-80 characters per line of text (70-80 rem).  Shorter lines are easier to read, because all the characters are in one's eyespan. So, in text-heavy sites, keep the lines short. Also, full justification makes it easier to read. 
 
 Slab fonts present boldly (for headlines).  (Also, bigger line height.)  All of this is controllable in CSS. 
+
+<a name="responsiveImages"></a>
+##Responsive Images
+
+Images in responsive design are a big problem, still unsettled. In the future, it will be easier.
+A **picture** tag is in development, but still not supported in all browsers. 
+
+Steps for good images:
+
+1. Use the right format.
+  * JPEG - For photographs, tonal images.
+  * SVG - Solid colors - Vector art, solid color graphics. (Open source)
+  * PNG - For images with transparency, more colors, better compression. PNG-24 has good color, but doesn't compress as well as JPEG.
+  * GIF - Transparency, animation. (PNG was developed because of proprietary conflicts with Unisys; GIF transparency isn't as good as PNG, but PNG can't do animation yet.)
+2. Compress the hleoo out 9of small-screen images, and use relative sizes. 
+
+In the **image** tag, use the smallest possible version. Then to get the bigger version for bigger screens, put this in the CSS under the media query:
+
+```
+.myImageClass {
+  content: url(biggerImage.jpg);
+  width: __%;
+}
+```
