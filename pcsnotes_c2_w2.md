@@ -133,3 +133,42 @@ In the **image** tag, use the smallest possible version. Then to get the bigger 
   width: __%;
 }
 ```
+
+Another way to style:
+```
+<div class="picture">
+NO IMAGE SPECIFIED
+</div>
+```
+
+CSS
+
+* Mobile - No image
+* Medium - One image
+* Large - Different image
+
+Can also use **content** and crop to show a more specific part of the image.
+
+###SVG
+
+Vector-based images, can scale as big or small as necessary, with no degradation.
+
+Place to get SVGs: [The Noun Project](https://thenounproject.com/)
+
+SVG is based on XML, which is similar to HTML. Can be dropped right into the HTML as part of the code. 
+
+**You can also open an SVG in your text editor and change it.**
+
+It comes with default height and width, which can be changed to make the image smaller by default, then in CSS, it can be scaled up for bigger screens.
+
+Because SVGs are just text, they can also be manipulated by JavaScript.
+
+###Resources on (Responsive) Typography:
+
+Jason Santa Maria:
+
+* [<cite>On Web Typography: A List Apart Article</cite> article](http://alistapart.com/article/on-web-typography)
+* [<cite>Basic Typography: The Basics</cite>](https://ia.net/blog/responsive-typography-the-basics/)
+
+And [a list of other resposnsive typography resources.](http://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html)
+
