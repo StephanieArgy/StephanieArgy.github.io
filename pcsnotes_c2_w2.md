@@ -7,6 +7,8 @@ permalink: /pcsnotes_c2_w2/
 * [Responsive Design](#responsiveDesign)
 * [Responsive Images](#responsiveImages)
 * [Developer Tools for JavaScript](#devToolsForJS)
+* [Mobile-First Responsive Design Assignment](#responsiveAssignment)
+* [Preview of Immersion Course](#immersionPreview)
 
 "Minimum Viable Product" - In this case, the minimal class assignments that cover all the concepts, plus a hierarchy of optional steps.
 
@@ -235,6 +237,9 @@ Can also stop on events: **Event Listener Breakpoints**
 
 ***
 
+<a name="responsiveAssignment"></a>
+##Mobile-First Responsive Design Assignment
+
 ASSIGNMENT: Mobile First and Reponsive Design(http://portlandcodeschool.github.io/primer/assignments/04-mobile-first-responsive-design/) - (Due Next Wednesday.)
 
 * Single page, similar to journal.
@@ -260,6 +265,9 @@ Pair programming can be frustrating at first; people who are good at it find it'
 Some people don't like pairing; some pairings don't work. (At Epicodus, they do pair programming every day.)
 
 This time, pair with someone you haven't worked with before.
+
+<a name="immersionPreview"></a>
+##Preview of Immersion Course
 
 THE JAVASCRIPT IMMERSION CLASS:
 

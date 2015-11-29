@@ -26,7 +26,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c2_w1/">Week One</a> - JavaScript and responsive design
 
-####<a href="../pcsnotes_c2_w2/">Week Two</a> - Responsive design, reponsive images, developer tools for JavaScript
+####<a href="../pcsnotes_c2_w2/">Week Two</a> - Responsive design, reponsive images, developer tools for JavaScript, responsive design assignment, preview of JavaScript Immersion course
 
 ####<a href="../pcsnotes_c2_w3/">Week Three</a> - Introduction to Bootstrap
 
