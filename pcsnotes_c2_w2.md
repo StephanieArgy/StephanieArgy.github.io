@@ -36,11 +36,11 @@ Underlying principles - Use:
 The typical modern webpage is about 1MB. BUT most people on the planet use SMS text messaging; to reach the most people possible, start with HTML only, and tiny images.
 
 1. **HTML-Only** -- Make it work on feature phones. What's the most important content on the page? How do you do navigation with one column?
-2. HTML + CSS (for smartphones).
+2. HTML and CSS (for smartphones).
 3. Medium screens.
 4. Large screens. (For people watching on their TVs, optimize for someone sitting 10 feet away.)
 
-When designing for HTML, always ask, "Can I make this simpler?" You have to focus -- **WHAT ARE WE DOING?"** You don't get fancy animations.
+When designing for HTML-only, always ask, "Can I make this simpler?" You have to focus -- **WHAT ARE WE DOING?"** You don't get fancy animations.
 
 The mobile experience is very diverse: it may be very focused or very distracted. The user may also move between screens during their experience (especially as part of purchasing processes).
 
@@ -75,7 +75,7 @@ HOWEVER, don't make line-height or margins based on relative units.
 
 **3. Media Queries**
 
-The reason it's called a "query": it's asking, "What kind of a device are you?" (And you can also ask about its orientation.)
+The reason it's called a "query": it's asking, "What kind of a device are you?" (And you can also ask about a device's orientation.)
 
 There are two ways to use media queries:
 
@@ -86,7 +86,7 @@ There are two ways to use media queries:
 @media screen and (min-width: ___px) {}
 ```
 
-(For small screens, will use **display:none;** a lot.)
+(For small screens, will use **display: none;** a lot.)
 
 In CSS, start with the styles for the smallest size screens, then use media queries to add refinements for bigger versions:
 
@@ -138,6 +138,7 @@ In the **image** tag, use the smallest possible version. Then to get the bigger 
 ```
 
 Another way to style:
+
 ```
 <div class="picture">
 NO IMAGE SPECIFIED
@@ -171,9 +172,9 @@ Because SVGs are just text, they can also be manipulated by JavaScript.
 Jason Santa Maria:
 
 * [<cite>On Web Typography: A List Apart Article</cite> article](http://alistapart.com/article/on-web-typography)
-* [<cite>Basic Typography: The Basics</cite>](https://ia.net/blog/responsive-typography-the-basics/)
+* [<cite>Responsive Typography: The Basics</cite>](https://ia.net/blog/responsive-typography-the-basics/)
 
-And [a list of other resposnsive typography resources.](http://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html)
+And [a list of other responsive typography resources.](http://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html)
 
 <a name="devToolsForJS"></a>
 ##Developer Tools for JavaScript
