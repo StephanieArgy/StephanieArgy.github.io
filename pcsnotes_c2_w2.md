@@ -48,9 +48,9 @@ To start a responsive design:
 
 **1. Control/set the viewport:**
 
-'''
+```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-'''
+```
 
 From [w3schools](http://www.w3schools.com/css/css_rwd_viewport.asp):
 
