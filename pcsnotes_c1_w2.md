@@ -176,6 +176,8 @@ There's always a reason why something happens on the page, and the gibberish in 
 
 "User Agent Stylesheet" refers to styles that we didn't write. Browsers have built-in styles (in case the developer doesn't write something; this can be overruled as part of our styling.)
 
+More: [Great Hidden Features in the Chrome Developer Tools]([http://blog.teamtreehouse.com/5-great-hidden-features-in-the-chrome-devtools)
+
 <a name="css_positioning"></a>
 ####CSS Positioning
 

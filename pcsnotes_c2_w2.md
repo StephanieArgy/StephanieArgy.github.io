@@ -6,6 +6,7 @@ permalink: /pcsnotes_c2_w2/
 
 * [Responsive Design](#responsiveDesign)
 * [Responsive Images](#responsiveImages)
+* [Developer Tools for JavaScript](#devToolsForJS)
 
 "Minimum Viable Product" - In this case, the minimal class assignments that cover all the concepts, plus a hierarchy of optional steps.
 
@@ -171,4 +172,112 @@ Jason Santa Maria:
 * [<cite>Basic Typography: The Basics</cite>](https://ia.net/blog/responsive-typography-the-basics/)
 
 And [a list of other resposnsive typography resources.](http://www.awwwards.com/responsive-typography-a-roundup-of-the-best-articles-and-tutorials.html)
+
+<a name="devToolsForJS"></a>
+##Developer Tools for JavaScript
+
+In JavaScript files, going to declare functions a little differently:
+
+```
+INSTEAD OF:
+function loopAndDisplay() {}
+
+GOING TO USE:
+var loopAndDisplay = function () {}
+
+}
+```
+
+The way to call the function is still the same:
+
+```
+loopAndDisplay();
+```
+
+```
+WILL INCREMENT UP BEFORE FIRST LOOP RUNS:
+var count = 0;
+while (count++ < limit){}
+```
+
+NOTE: "Off by one" errors are really common.
+
+Developer Tools:
+
+Overview here: [https://developer.chrome.com/devtools/docs/javascript-debugging](https://developer.chrome.com/devtools/docs/javascript-debugging)
+
+Four main Developer Tools tools for debugging JavaScript:
+
+1. Breakpoints
+2. Single-stepping
+3. Scope variables
+4. Watch expressions.
+
+In a program, things happen in sequence. 
+
+**Breakpoint** - Point where execution stops. Can set breakpoint. In window, can resume. To save a breakpoint, just uncheck it in Breakpoints.
+
+**Single-stepping** - Can go through a program step by step.
+
+**Scope Variables** - Variables declared/in use in that section. Visible under "Scope Variables."  (Under "Global," can see built-in functions.)
+
+**Watch Expressions** -- Can put in a particular expression, see how it evaluates.
+
+Not the most reliable system; only use it when yo umust.  Can't edit in Dev Tools for JavaScript.
+
+Can also look:
+Right-click > "Break on..." > Subtree modifications.
+
+Dev Tools are a great way to debug, and also to examine unfamiliar scripts.
+
+Can also stop on events: **Event Listener Breakpoints** 
+(Shows all events a browser can tell the code.  In this calass, we will be concerned only with mouse events and window events.)
+
+***
+
+ASSIGNMENT: Mobile First and Reponsive Design(http://portlandcodeschool.github.io/primer/assignments/04-mobile-first-responsive-design/) - (Due Next Wednesday.)
+
+* Single page, similar to journal.
+* Need a logo in three different versions, for three different sizes.
+
+We will do three iterations:
+
+1. HTML Only
+2. Mobile (small)
+  * Hamburger icon will bring in hidden menu from the left of screen. Three options for this:
+    1. CSS Animation
+    2. JS UI
+    3. HTML
+3. Larger Screens (>900px). (Our first official use of media queries)
+
+**The tricky parts: HTML, scaling images, sliding div (to toggle the menu on and off screen).**
+
+(Can later do all this to our journals.)
+
+Going to do pair programming -- Two people programming together. One types, the other strategizes. When you're working by yourself, you switch between detail and strategy; this divides the process. 
+
+Pair programming can be frustrating at first; people who are good at it find it's better than two minds combined.
+Some people don't like pairing; some pairings don't work. (At Epicodus, they do pair programming every day.)
+
+This time, pair with someone you haven't worked with before.
+
+THE JAVASCRIPT IMMERSION CLASS:
+
+Class is currently at 17, could go as high as 20.
+
+It's a lot of work. You'll get out what you put in. Class time, plus 20 hours/week **minimum**. Chance to fail in a safe place. EVeryone is reduced to a helpless child; everyone learns that's okay. You rebuild your brain in a new way.
+
+The class spends the first six weeks on core JavaScript, typing everything in the console. The more examples you see, the more it sticks.
+
+After that:
+
+* jQuery
+* Backbone (scaffolding for very large organizations)
+* node.js
+
+Will end by building a capstone project, presented at an open house. Intended to be the first major project in your portfolio.
+
+Once you have a foundation, you can refine it. This is meant to give you a rock-solid foundationand build momentum.  It's hard to find a way to keep coding after school; we want to help people develop a practice that will be sustainable.  A lot of people start but never finish projects; finishing something, even something small, means a lot.
+
+**Curriculum is online, can see the challenges: [http://portlandcodeschool.github.io/jsi/](http://portlandcodeschool.github.io/jsi/).**
 

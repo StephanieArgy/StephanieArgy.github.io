@@ -14,21 +14,21 @@ Here's the basic framework:
 
 ##Primer Basic
 
-####<a href="../pcsnotes_c1_w1/">Week One</a> - HTML, CSS, command-line, Git
+####<a href="../pcsnotes_c1_w1/">Week One</a> - Learning to Learn, Short Overview of How a Website Works, Making Our First Website, Language Basics, Command Line Basics, Making a Webpage in a Text Editor
 
-####<a href="../pcsnotes_c1_w2/">Week Two</a> - GitHub, CSS positioning and Flexbox
+####<a href="../pcsnotes_c1_w2/">Week Two</a> - Agile Project Management, Git and GitHub Basics, Chrome Developer Tools, CSS Positioning
 
-####<a href="../pcsnotes_c1_w3/">Week Three</a> - Chrome Developer Tools and collaborating with Git and GitHub
+####<a href="../pcsnotes_c1_w3/">Week Three</a> - Collaborating with Git and GitHub
 
-####<a href="../pcsnotes_c1_w4/">Week Four</a> - Forms, teamwork and working with clients
+####<a href="../pcsnotes_c1_w4/">Week Four</a> - Forms, final presentations
 
 ##Primer Pro
 
-####<a href="../pcsnotes_c2_w1/">Week One</a> - Mobile-first and responsive design
+####<a href="../pcsnotes_c2_w1/">Week One</a> - JavaScript and responsive design
 
-####<a href="../pcsnotes_c2_w2/">Week Two</a> - Introduction to JavaScript and jQuery
+####<a href="../pcsnotes_c2_w2/">Week Two</a> - Responsive design, reponsive images, developer tools for JavaScript
 
-####Week Three - Introduction to Bootstrap
+####<a href="../pcsnotes_c2_w3/">Week Three</a> - Introduction to Bootstrap
 
 ####Week Four - More Bootstrap
 
