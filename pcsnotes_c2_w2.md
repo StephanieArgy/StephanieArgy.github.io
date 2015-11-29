@@ -244,10 +244,10 @@ We will do three iterations:
 
 1. HTML Only
 2. Mobile (small)
-  * Hamburger icon will bring in hidden menu from the left of screen. Three options for this:
-    * CSS Animation
-    * JS UI
-    * HTML
+    * Hamburger icon will bring in hidden menu from the left of screen. Three options for this:
+        1. CSS Animation
+        2. JS UI
+        3. HTML
 3. Larger Screens (>900px). (Our first official use of media queries)
 
 **The tricky parts: HTML, scaling images, sliding div (to toggle the menu on and off screen).**
