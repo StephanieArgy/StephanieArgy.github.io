@@ -80,9 +80,9 @@ There are two ways to use media queries:
 1. In the HTML (often used for print versions of a document)
 2. In your style sheet, using the **@media** query.
 
-'''
+```
 @media screen and (min-width: ___px) {}
-'''
+```
 
 (For small screens, will use **display:none;** a lot.)
 
@@ -245,9 +245,9 @@ We will do three iterations:
 1. HTML Only
 2. Mobile (small)
   * Hamburger icon will bring in hidden menu from the left of screen. Three options for this:
-    1. CSS Animation
-    2. JS UI
-    3. HTML
+    * CSS Animation
+    * JS UI
+    * HTML
 3. Larger Screens (>900px). (Our first official use of media queries)
 
 **The tricky parts: HTML, scaling images, sliding div (to toggle the menu on and off screen).**
