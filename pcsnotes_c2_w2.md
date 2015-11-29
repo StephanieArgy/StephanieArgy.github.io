@@ -240,7 +240,7 @@ Can also stop on events: **Event Listener Breakpoints**
 <a name="responsiveAssignment"></a>
 ##Mobile-First Responsive Design Assignment
 
-ASSIGNMENT: Mobile First and Reponsive Design(http://portlandcodeschool.github.io/primer/assignments/04-mobile-first-responsive-design/) - (Due Next Wednesday.)
+ASSIGNMENT: [Mobile First and Reponsive Design](http://portlandcodeschool.github.io/primer/assignments/04-mobile-first-responsive-design/) - (Due Next Wednesday.)
 
 * Single page, similar to journal.
 * Need a logo in three different versions, for three different sizes.
