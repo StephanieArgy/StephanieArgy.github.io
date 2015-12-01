@@ -3,7 +3,7 @@ layout: page
 title: Now
 permalink: /now/
 ---
-Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: November, 2015).
+Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: November 30, 2015).
 
 * [*A Person Known to Me*](http://www.apersonknowntome.com): An ongoing epic detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon, all put together in the form of an interactive experience.
 

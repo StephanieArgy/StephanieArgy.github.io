@@ -20,8 +20,6 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 * *The Full Catastrophe: Travels Among the New Greek Ruins*, James Angelos.
 
-* *Heap House: Book One (The Iremonger Trilogy)*, Edward Carey.
-
-* *High Five*, Janet Evanovich.
+* *The House on Paradise Street*, Sofka Zinovieff.
 
 * And even though it's no longer summer, and these aren't books, I'm working my way through [this list](http://alistapart.com/article/summer-reading-issue-2015).
