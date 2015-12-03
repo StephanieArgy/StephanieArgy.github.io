@@ -6,6 +6,7 @@ permalink: /pcsnotes_c2_w3/
 
 [HTML Only](#htmlOnly)
 [Bootstrap](#bootstrap)
+[Immersion Classes](#immersion)
 
 <a name="htmlOnly"></a>
 ##HTML Only
@@ -100,3 +101,59 @@ These are things you see in every app, like an app with a nav bar. To learn how 
 4. Bootstrap Carousel plug-in.
 
 We will have a week to do this assignment. End up with something you'd be proud to show.
+
+***
+
+Ways of moving nav divs out of the way:
+
+* z-index
+* off-canvas
+
+<a name="immersion"></a>
+##Immersion Classes
+
+(Perhaps irrelevant, since PCS has closed -- and yet there's great info here on how the classes were structured, what they covered, and the philosophy behind them.)
+
+Immersion classes -- 13 weeks long, exercise heavy. (6-8 hours each day).
+
+What should people know coming in? **COMMAND LINE.**
+
+Course builds up to capstone projects. In the past, those have included:
+
+* Photo-sharing app.
+* Runkeeper-style app ("Treksmith").
+* Map game.
+
+In programming, and especially JavaScript, people have similar problems. Frameworks (React, Angular, Backbone, etc.) solve clusters of problems quickly, but each one has a different paradigm.
+
+Had guest speakers.  Most people who finish the course end up in junior developer roles ($40,000-$50,000/year).
+
+The course is taught as if people have never programmed before.
+
+End up with:
+
+* How to build a website.
+* Databases.
+* Core JS, jQuery, Angular, Express.
+
+In the job market, will be competing with recent computer science grads who don't have soft skills. Also, computer science can be about theory over practicality.
+
+Buildings things with software is still a craft; too early to think of as engineering and coding.
+
+Hard to test mobile apps.  "Behavior driven design." Testing for mobile is a nightmare: some companies pare it down, only support a few browsers and devices.
+
+JavaScript has a vast array of possibilities; it's a very popular language.
+
+Unity is a game library programmed in JavaScript.
+
+###Disadvantages of JavaScript
+
+* Kind of a mess; no one really sat down and designed for tis first ten years.
+* Callbacks -- Unlilke any other language, so it's therefore harder to learn.
+
+The computer industry is fashion-oriented, and right now JavaScript is trendy. Don't really have a choice right how: you need to learn JavaScript. Lots of r3esources to get better -- for instance, a great node group here in Portland.  Can't think of any other language I would recommend right now.  All of the jobs/money involve JavaScript. 
+
+Python: A lot of scientists and third-graders use it.
+
+Trend of last ten years has been **dynamic programming.**
+
