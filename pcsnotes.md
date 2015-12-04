@@ -30,7 +30,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c2_w3/">Week Three</a> - Introduction to Bootstrap
 
-####Week Four - More Bootstrap
+####<a href="../pcsnotes_c2_w4/">Week Four</a> - More Bootstrap
 
 ##Advanced Front End Dev Tools
 

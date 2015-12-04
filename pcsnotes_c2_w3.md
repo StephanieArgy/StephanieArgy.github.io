@@ -7,6 +7,7 @@ permalink: /pcsnotes_c2_w3/
 [HTML Only](#htmlOnly)
 [Bootstrap](#bootstrap)
 [Immersion Classes](#immersion)
+[More Bootstrap](#moreBootstrap)
 
 <a name="htmlOnly"></a>
 ##HTML Only
@@ -149,11 +150,42 @@ Unity is a game library programmed in JavaScript.
 ###Disadvantages of JavaScript
 
 * Kind of a mess; no one really sat down and designed for tis first ten years.
-* Callbacks -- Unlilke any other language, so it's therefore harder to learn.
+* Callbacks -- Unlilke any other language, so it's therefore harder to learn. ("Callback" is restoration of elements to their original state.)
 
 The computer industry is fashion-oriented, and right now JavaScript is trendy. Don't really have a choice right how: you need to learn JavaScript. Lots of r3esources to get better -- for instance, a great node group here in Portland.  Can't think of any other language I would recommend right now.  All of the jobs/money involve JavaScript. 
+
+"JavaScript is a horrible language that you fix with more HTML."
 
 Python: A lot of scientists and third-graders use it.
 
 Trend of last ten years has been **dynamic programming.**
 
+Would be cool if JavaScript could leverage media queiries, but it can't. (Bootstrap takes care of that, though.)
+
+**if(window-width>320px))...**
+
+(Have to make sure JavaScript window and media queries are set the same.
+
+**Can only have one set of navigation.**
+
+###Final project: 
+
+Could also do another JAvaScript project.  Choices:
+
+1. JavaScript project
+2. Bootstrap project of own design. (Very well-defined.)
+
+Define self-assigned requirements for project in the GitHub readme.md.  Do some scribble wireframes. Build to that spec.
+
+<a name="moreBootstrap"></a>
+##More Bootstrap
+
+**getbootstrap.com**
+
+For this assignment, don't want to have to customize, so look for a design appropriate for this project. (This will look like eveyr other Bootstrap site.)
+
+Would love to see a sticky header, sticky footer and fixed nav.  Get familiar with Bootstrap documentation. Also, look at Bootstrap's components for inspiration (though that's really a solution chasing a problem).
+
+To use Bootstrap CDN, you need links to CSS and to JavaScript and jQuery.
+
+In Codepen, use "Latest version of JS/JQ," paste in the URL frojm Bootstrap.
