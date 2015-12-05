@@ -34,7 +34,7 @@ Here's the basic framework:
 
 ##Advanced Front End Dev Tools
 
-####Week One - Command-line review, task runners, Sass
+####<a href="../pcsnotes_c3_w1/">Week One</a> - Intro to class, command-line review, task runners, Sass
 
 ####Week Two - Scaffolding tools such as Yeoman, task automation, autoprefixers
 
