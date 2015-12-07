@@ -18,10 +18,9 @@ Here's the first installment:
 </details>
 
 <details>
-  <summary><strong>What is a "toss-pot"</strong></summary> 
+  <summary><strong>What is a "toss-pot"?</strong></summary> 
   <p>A drunkard (archaic, literary); a stupid or contemptible person (British slang).
     <ul>
-      <li><a href="https://en.wikipedia.org/wiki/Tosspot" target="_blank">Wikipedia</a></li>
       <li><a href="http://dictionary.reference.com/browse/tosspot" target="_blank">Dictionary.com</a></li>
     </ul>
   </p>
@@ -29,7 +28,7 @@ Here's the first installment:
 
 <details>
 <summary><strong>Resources on piano fingering</strong></summary> 
-  <p>Some basic ideas:
+  <p>Some basic principles:
     <ul>
       <li><a href="http://www.key-notes.com/piano-fingering.html">Seven of the most important rules for fingering</a></li>
       <li><a href="http://www.pianostreet.com/blog/articles/natural-fingering-a-topographical-approach-6306/">Natural Fingering</a></li>
@@ -41,7 +40,7 @@ Here's the first installment:
   <summary><strong>How do you spell "PU" (for something stinky) and where did that come from?</strong></summary>
   <p>
     <ul>
-      <li></li>
+      <li><a href="http://www.grammarphobia.com/blog/2010/08/on-the-scent.html">Grammarphobia</a></li>
     </ul>
   </p>
 </details>
