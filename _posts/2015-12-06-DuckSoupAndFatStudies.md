@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Things I've Looked Up Today
+title: Duck Soup and Fat Studies
 ---
 
 <details>
