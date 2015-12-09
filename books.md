@@ -22,4 +22,6 @@ Here are the books that are currently on my nightstand (and on my iPad, and on t
 
 * *The House on Paradise Street*, Sofka Zinovieff.
 
+* I'm also sampling some Pulitzer Prize winners and finalists, including *All the Light We Cannot See* (Anthony Doerr), *Let Me Be Frank With You*, (Richard Ford) and *The Goldfinch* by Donna Tartt. (More choices to explore later are [here](http://www.pulitzer.org/bycat/Fiction).)
+
 * And even though it's no longer summer, and these aren't books, I'm working my way through [this list](http://alistapart.com/article/summer-reading-issue-2015).

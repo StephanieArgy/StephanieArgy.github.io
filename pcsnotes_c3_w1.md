@@ -49,3 +49,34 @@ Topics to be covered:
 * Task automation
   * For example, Autoprefixer to automatically apply browser-specific CSS prefixes.
 
+By next class:
+
+* Review the syllabus
+* Talk to Al by Slack or email about our own personal goals for this class.
+* Start our blog.
+* SET CRITERIA FOR EACH ASSIGNMENT.
+
+Syllabus, resources, etc. can be found [here](https://github.com/portlandcodeschool/afe).
+
+On Slack, **@channel** or **@group** will send to everyone. Can also send individual messages.
+
+Vocabulary:
+
+```
+<ul>
+  ....
+</ul>
+```
+
+**ul** is the tag name.
+**\</ul>** is the tag.
+The tags and the space in between is the **container**.
+The tags and the content within are the **element**.
+
+What affects which CSS rules predominate?
+
+* Proximity -- inline **style** is closer than a **style** block at the top of the HTML page, which is more specific than a separate style sheet. The closer something is, the more dominant it is.
+* Specificity -- An **id** is more specific than a **class**, which is more specific than an element.
+
+**CODE EVERY DAY.  It's crucial for us to identify our own gaps and address them.**
+
