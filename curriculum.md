@@ -12,8 +12,6 @@ This is an evolving curriculum that I'm devising for myself to weave the followi
 
 ***
 
-<div class="assignments">
-
 ##Assignments:
 
 ###WRITING
@@ -27,8 +25,6 @@ This is an evolving curriculum that I'm devising for myself to weave the followi
 
 * Memoir about Mom
 * Short articles -- "educating myself in public"
-  
-</div>
 
 ***
 
