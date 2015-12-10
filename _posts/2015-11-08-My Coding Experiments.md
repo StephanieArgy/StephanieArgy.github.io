@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Coding Goals and Experiments
+title: Coding Goals v.1
 ---
 
-My focus at the moment is on getting myself solid with the fundamental web building blocks: HTML5, CSS3, JavaScript and jQuery, as used in responsive, mobile-first sites and apps. 
+My focus at the moment is on getting myself solid with the fundamental web building blocks: HTML5, CSS3, JavaScript and jQuery, as used in responsive, mobile-first sites and apps.
 
-This is a preliminary overall plan that I'm devising for myself (subject to constant revision, on probably a daily basis). It's not an exhaustive list of what a person should learn to become a developer, but rather a plan to remedy gaps and shaky spots in my own knowledge:
+This is a preliminary overall plan that I'm devising for myself. It's not an exhaustive list of what a person should learn to become a developer, but rather a plan to remedy gaps and shaky spots in my own knowledge:
 
 ##HTML
 
