@@ -5,6 +5,8 @@ permalink: /now/
 ---
 Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: November 30, 2015).
 
+* I'm devising a <a href="../curriculum/">curriculum</a> that combines writing, design and technology, so that I can I improve my ability to tell stories in the ways that engage me at the moment.
+
 * [*A Person Known to Me*](http://www.apersonknowntome.com): An ongoing epic detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon, all put together in the form of an interactive experience.
 
 * Developing my craft as a writer of prose, mostly fiction, some non-fiction. In addition to the prose elements of *A Person Known to Me*, my top-of-the-pile writing projects at the moment are:

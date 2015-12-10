@@ -4,17 +4,18 @@ title: Curriculum
 permalink: /curriculum/
 ---
 
-This is an 
+This is an evolving curriculum that I'm devising for myself to weave the following three crafts into one cohesive medium of storytelling:
 
-##STORY
-##DESIGN
-##TECHNOLOGY
+* **WRITING**
+* **DESIGN**
+* **TECHNOLOGY**
+
 ***
 
-<<div class="assignments">
+<div class="assignments">
 ##Assignments:
 
-###STORY
+###WRITING
 
 ####Fiction
 
@@ -26,10 +27,11 @@ This is an
 * Memoir about Mom
 * Short articles -- "educating myself in public"
 
+<!--
 ###DESIGN
 
 ###TECHNOLOGY
-
+-->
   
 </div>
 
@@ -47,12 +49,11 @@ This is an
 * Short fiction
   * Reading: Norton Anthology of Short Fiction
 * Very short/flash fiction
-***
-Plot
-Scenes
-***
+* Plot
+* Scenes
 * Grammar
 * Language
+
 ***
 
 
@@ -74,3 +75,5 @@ Scenes
   * JavaScript
   * jQuery
   * Responsive/mobile-first design
+  
+(Some of my specific experiments and plans can be found [here](../_posts/2015-11-08-My Coding Experiments.md).)
