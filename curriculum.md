@@ -13,6 +13,7 @@ This is an evolving curriculum that I'm devising for myself to weave the followi
 ***
 
 <div class="assignments">
+
 ##Assignments:
 
 ###WRITING
