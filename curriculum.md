@@ -77,4 +77,5 @@ This is an evolving curriculum that I'm devising for myself to weave the followi
   * jQuery
   * Responsive/mobile-first design
   
-(Some of my specific experiments and plans can be found [here](../_posts/2015-11-08-My Coding Experiments.md).)
+(Some of my specific experiments and plans can be found [here](../_posts/.md).)
+[here]({% post_url 2015-11-08-MyCodingExperiments %}).
