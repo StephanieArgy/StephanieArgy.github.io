@@ -18,11 +18,8 @@ Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Grego
 * Coding: After delving into assorted frameworks, scaffoldings, preprocessors and task runners, I'm now stripping my technique back down to the basics to master these four things:
 
     * HTML5
-    
     * CSS3
-    
     * JavaScript/jQuery
-    
     * Responsive and mobile-first design.
     
 * I'm also transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.

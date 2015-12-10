@@ -80,3 +80,54 @@ What affects which CSS rules predominate?
 
 **CODE EVERY DAY.  It's crucial for us to identify our own gaps and address them.**
 
+Assignments for this course: 
+
+1. Blog
+  * Make responsive.
+  * Post weekly article.
+  * Will add a To Do list. (Can start now.)
+  * Will build up up a glossary. (Can start now.)
+2. Client site
+  * For animal adoption agency.
+  
+  We'll do the animal adoption site in phrases. In the first phase:
+  
+  1. Statuc site: One page.
+  2. Carousel of animal images.
+  3. List of adoptable kittens.
+  
+  Technical requirements for this phase:
+  
+  1. Bootstrap. (No customization.)
+  2. CReate list from a JSON array of objects.
+  
+  This class is about data-driven sites. Going to generate content via JavaScript.
+  
+  **JavaScript Objects** remember things.  Animal properties might be:
+  
+  1. Species
+  2. Age
+  3. Breed
+  4. Gender
+  5. Size
+  6. Weight
+  7. Color
+  8. Description
+  9. Image URL
+  
+**Build what you need, add more later.**
+
+Going to work project up into increasing complexity. Every character, every line of code is a point of failure. The more code you have, the less reliable it is.
+
+Pair programming: Intense form of collaboration.
+
+There are different models for pair programming. Think of it is a road rally, with a driver (focusing on staying on the road) and a navigator (focusing on winning the race). The Driver has hands on the keyboard; the Navigator does the strategic work.
+
+Benefits:
+
+* Two pairs of eyes.
+* Two people learn the code at the same time.
+
+(Some shops do solo coding, followed by code walk-throughs, so that everyone becomes familiar with the code.)
+
+Cultivate a dual state: working AND observing the process.
