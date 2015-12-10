@@ -27,12 +27,6 @@ This is an evolving curriculum that I'm devising for myself to weave the followi
 
 * Memoir about Mom
 * Short articles -- "educating myself in public"
-
-<!--
-###DESIGN
-
-###TECHNOLOGY
--->
   
 </div>
 
@@ -77,5 +71,4 @@ This is an evolving curriculum that I'm devising for myself to weave the followi
   * jQuery
   * Responsive/mobile-first design
   
-(Some of my specific experiments and plans can be found [here](../_posts/.md).)
-[here]({% post_url 2015-11-08-MyCodingExperiments %}).
+(Some of my specific experiments and plans can be found [here]({% post_url 2015-11-08-MyCodingExperiments %}).
