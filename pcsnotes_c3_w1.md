@@ -143,18 +143,15 @@ jQuery is a library written in JavaScript. It is used to select elements and the
 
 From w3schools tutorial:
 
-<blockquote>
- Basic syntax is: **$(selector).action()**
-
-    * A $ sign to define/access jQuery
-    * A (selector) to "query (or find)" HTML elements
-    * A jQuery action() to be performed on the element(s)
- 
-</blockquote>
+> Basic syntax is: **$(selector).action()**
+>
+>* A $ sign to define/access jQuery
+>* A (selector) to "query (or find)" HTML elements
+>* A jQuery action() to be performed on the element(s)
 
 **$** - Shorthand for "jQuery," opens the library.
 
 jQuery can be used to get info:
 
-* **.html()** - Gets the content of the selected item, including its markup (but only from the **first** element).
+* **.html()** - Gets the content of the selected item, including its markup (but only from the first element).
 * **.text()** - Gets text ONLY (no markup, so it ignores HTML tags and spacing).
