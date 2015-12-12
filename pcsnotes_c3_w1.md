@@ -4,6 +4,8 @@ title: Advanced Web Dev Tools, Week One
 permalink: /pcsnotes_c3_w1/
 ---
 
+* [jQuery](#jQuery)
+
 ##Agenda:
 
 Introductions
@@ -131,3 +133,28 @@ Benefits:
 (Some shops do solo coding, followed by code walk-throughs, so that everyone becomes familiar with the code.)
 
 Cultivate a dual state: working AND observing the process.
+
+***
+
+<a name="jQuery"></a>
+##jQuery
+
+jQuery is a library written in JavaScript. It is used to select elements and then do things with those.
+
+From w3schools tutorial:
+
+<blockquote>
+ Basic syntax is: **$(selector).action()**
+
+    * A $ sign to define/access jQuery
+    * A (selector) to "query (or find)" HTML elements
+    * A jQuery action() to be performed on the element(s)
+ 
+</blockquote>
+
+**$** - Shorthand for "jQuery," opens the library.
+
+jQuery can be used to get info:
+
+* **.html()** - Gets the content of the selected item, including its markup (but only from the **first** element).
+* **.text()** - Gets text ONLY (no markup, so it ignores HTML tags and spacing).
