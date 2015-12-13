@@ -155,3 +155,52 @@ jQuery can be used to get info:
 
 * **.html()** - Gets the content of the selected item, including its markup (but only from the first element).
 * **.text()** - Gets text ONLY (no markup, so it ignores HTML tags and spacing).
+
+###Setting Content
+
+Can put text in brackets, to change content.
+
+Pseudo-selectors
+Pseudo-elements
+
+###Chaining
+
+.method().method(); (etc.)
+
+###Prepend()/Append() vs. .before()/.after()
+
+Prepend(append) inserts content at the beginning (end) of the selected element (but inside of it).
+Before (after) insert content before (after) the matched element (and outside of it).
+Demo [here](http://jsfiddle.net/xtb51wed/)
+
+###Events
+
+Goodle "MDN events." There are LOTS!
+
+This kind of programming is called "event-driven programming." We set up functions that run when events happen.  (e.g. when user clicks on something, something happens.)
+
+###Traversing the DOM
+
+Can use .next() or .prev()
+
+```
+console.log($('white').prev().html());
+```
+
+Here, jQuery will take the element BEFORE the one that has the calass of **white**, and feed that element into the .html() method.
+
+Other methods:
+[.find()](https://api.jquery.com/find/)
+[.not()](https://api.jquery.com/not/)
+
+When you're debugging jQuery, it acts like an element, but it's not. It's a jQuery obj3ect that's a representation of an element.  You're actually manipulating a very complex model. There are a lot of similarities between jQuery objects and the DOM.
+
+```
+$(document).ready(function () {
+});
+```
+"document" = the Document Object Model (DOM)
+".ready means it's fully loaded.
+
+View Dev Tools > Network tab > Disable cache > Reload.
+
