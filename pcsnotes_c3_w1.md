@@ -5,6 +5,7 @@ permalink: /pcsnotes_c3_w1/
 ---
 
 * [jQuery](#jQuery)
+* [Glossary Assignment](#glossaryAssignment)
 
 ##Agenda:
 
@@ -203,4 +204,44 @@ $(document).ready(function () {
 ".ready means it's fully loaded.
 
 View Dev Tools > Network tab > Disable cache > Reload.
+
+***
+
+<a name="glossaryAssignment"></a>
+##Glossary assignment:
+
+Housed on this [repo](https://github.com/Auraelius/glossary), full version of jQuery available [here](https://github.com/Auraelius/glossary/commit/9f534d51d9af046a3248527393db73350555dac0).
+
+```
+ <aside>
+      <h3>Glossary</h3>
+      <p>Knowing the vocabulary terms of web development is required. Here are a few I've picked up along the way.</p>
+      <dl>
+        <dt>Foo</dt>
+        <dd>A throw-away word that people seem to use everywhere. It means whatever people need it to mean at that particular usage.</dd>
+        <dt>Bar</dt>
+        <dd>See "Foo"</dd>
+      </dl>
+  </aside>
+```
+
+dl= "dictionary list"
+dt, dd -- Not used much anymore, but good.
+
+
+```
+var d = initDictionary();
+```
+
+Iterators:
+
+You may have no idea how many items you're going to add, so you use a type of array with the form **.each(array, callback)**.  Succinct way of interating.
+
+```
+$.each(d, function (index, entry) {
+  $worldList.append("<dt>" + entry.word</dt>)
+})
+```
+
+For each "each," runs function, returns "entry," then runs the script in the brackets.
 
