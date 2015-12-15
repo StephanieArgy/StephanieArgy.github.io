@@ -6,9 +6,9 @@ permalink: /books/
 
 Here are the books that are currently on my nightstand (and on my iPad, and on the couch, and on the floor, and on the chest of drawers in the bathroom, and all over the rest of the house):
 
-* *Geek Sublime*, Vikram Chandra
-
 * *On Writing Well*, William Zinsser
+
+* *Geek Sublime*, Vikram Chandra
 
 * *Mobile HTML5*, Estelle Weyl
 
