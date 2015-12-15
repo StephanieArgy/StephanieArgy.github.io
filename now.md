@@ -19,31 +19,6 @@ My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 * Reading. Here's my <a href="../books/">current list</a>.
 
-[comment]: <> ( * PP Novel)
- 
- [comment]: <> (* Mystery novel and associated short stories)
-  
- [comment]: <> ( * Screenwriting)
- 
- [comment]: <> ( * Movies)
-  [comment]: <> (  * Brompton/Oregon)
-  [comment]: <> (  * Apollo 11 using found footage and stills)
-
- [comment]: <> (Media as birth control; positive reinforcement.)
-
- [comment]: <> (* Publishing)
- [comment]: <> (  * Cycling site)
- [comment]: <> (  * Greek/Greece site)
- [comment]: <> (  * Coding)
- [comment]: <> (  * Writing on writing and story)
-  [comment]: <> ( * Journal of film/stories/translations)
-
- [comment]: <> (* Articles)
-  [comment]: <> ( * Climate Change)
-  [comment]: <> ( * Sustainable investment)
-  [comment]: <> ( * Themes related to the mom book: mesothelioma, dying, hospice.)
-
-
     
 ##Coding
     
@@ -54,45 +29,22 @@ After delving into assorted frameworks, scaffoldings, preprocessors and task run
 * JavaScript/jQuery
 * Responsive and mobile-first design.
 
-<!---
-
-Some of my experiments [here](http://stephanieargy.github.io/experiments/).
-
---->
-
 * I'm doing coursework through [Treehouse](https://teamtreehouse.com/). (Right now, "jQuery Basics," soon to be followed by "Interactive Web Pages with JavaScript.")
 
 * I'm exploring learning paths that others have suggested, including the Resource Guide from the [Grace Hopper Academy](http://gracehopper.com/curriculum) and the [Front End Handbook](http://www.frontendhandbook.com/).
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
 
-<!---
-
-* More code school?
- 
-* Teaching coding, especially to women and other groups underrepresented in tech.
-
-* Writing about coding.
-
---->
-
 
 ##Angel Investing
     
 * As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. I've collected some of the resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
-<!---
-* Investors Circle
---->
 
 ##Other Things
 
 * Learning to speak Greek, learning about Greece. (Finding it very useful to work with the [Anki spaced repetition system](http://ankisrs.net/).)
 
-<!---
-Travel - Photography, writing
---->
-
-* Learning to be an emergency responder for the 
+* Learning to be a member of PDX NET, the neighborhood emergency response teams in the city of Portland.
 
 
