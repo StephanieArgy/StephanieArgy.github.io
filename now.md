@@ -7,7 +7,7 @@ Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Grego
 
 My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
-##Story :books:
+##Story
 
 * [*A Person Known to Me*](http://www.apersonknowntome.com): An ongoing epic detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon, all put together in the form of an interactive experience.
 
@@ -19,36 +19,33 @@ My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 * Reading. Here's my <a href="../books/">current list</a>.
 
- <!---
+[comment]: <> ( * PP Novel)
  
- * PP Novel
- 
- * Mystery novel and associated short stories
+ [comment]: <> (* Mystery novel and associated short stories)
   
- * Screenwriting
+ [comment]: <> ( * Screenwriting)
  
- * Movies
-   * Brompton/Oregon
-   * Apollo 11 using found footage and stills
+ [comment]: <> ( * Movies)
+  [comment]: <> (  * Brompton/Oregon)
+  [comment]: <> (  * Apollo 11 using found footage and stills)
 
-Media as birth control; positive reinforcement.
+ [comment]: <> (Media as birth control; positive reinforcement.)
 
-* Publishing
-  * Cycling site
-  * Greek/Greece site
-  * Coding
-  * Writing on writing and story
-  * Journal of film/stories/translations
+ [comment]: <> (* Publishing)
+ [comment]: <> (  * Cycling site)
+ [comment]: <> (  * Greek/Greece site)
+ [comment]: <> (  * Coding)
+ [comment]: <> (  * Writing on writing and story)
+  [comment]: <> ( * Journal of film/stories/translations)
 
-* Articles
-  * Climate Change
-  * Sustainable investment
-  * Themes related to the mom book: mesothelioma, dying, hospice.
+ [comment]: <> (* Articles)
+  [comment]: <> ( * Climate Change)
+  [comment]: <> ( * Sustainable investment)
+  [comment]: <> ( * Themes related to the mom book: mesothelioma, dying, hospice.)
 
---->
 
     
-##Coding :computer:
+##Coding
     
 After delving into assorted frameworks, scaffoldings, preprocessors and task runners, I'm now stripping my technique back down to the basics to master these four things:
 
@@ -80,7 +77,7 @@ Some of my experiments [here](http://stephanieargy.github.io/experiments/).
 --->
 
 
-##Angel Investing :angel::moneybag:
+##Angel Investing
     
 * As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. I've collected some of the resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
