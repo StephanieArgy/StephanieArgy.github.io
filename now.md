@@ -13,7 +13,7 @@ My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 * A non-fiction account of the final eleven days of my mother's life.
 
-* "Urban Bird" - A short story about the inventer of the pigeon.
+* "Urban Bird" - A short story about pigeons.
 
 * *The Mesopotamia* - A series of short fiction pieces set in a 1920s Chicago movie palace, to be presented online in the form of an interactive website.
 
