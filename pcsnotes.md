@@ -34,9 +34,9 @@ Here's the basic framework:
 
 ##Advanced Front End Dev Tools
 
-####<a href="../pcsnotes_c3_w1/">Week One</a> - Intro to class, command-line review, task runners, Sass
+####<a href="../pcsnotes_c3_w1/">Week One</a> - Class agenda, jQuery, Chrome Dev Tools, Glossary Assignment, 
 
-####Week Two - Scaffolding tools such as Yeoman, task automation, autoprefixers
+####<a href="../pcsnotes_c3_w2">Week Two</a> - Scaffolding tools such as Yeoman, task automation, autoprefixers
 
 ####Week Three - User stories, style guides
 

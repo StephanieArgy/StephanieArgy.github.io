@@ -4,9 +4,12 @@ title: Advanced Web Dev Tools, Week One
 permalink: /pcsnotes_c3_w1/
 ---
 
-* [jQuery](#jQuery)
+* [Class Agenda](#classAgenda)
 * [Glossary Assignment](#glossaryAssignment)
+* [jQuery](#jQuery)
+* [Chrome Developer Tools](#chromeDevTools)
 
+<a name="classAgenda"></a>
 ##Agenda:
 
 Introductions
@@ -207,6 +210,33 @@ View Dev Tools > Network tab > Disable cache > Reload.
 
 ***
 
+<a name="chromeDevTools"></a>
+##Chrome Developer Tools
+
+Can set a **break point**. Pauses the execution of the script so that you can examine what's happening at that point. Two types: 
+
+* Manual - Pause script execution at a specific line of code.
+* Conditional - Pause script execution when a specified condition is met.
+
+Google info on breakpoints [here](https://developers.google.com/web/tools/chrome-devtools/debug/breakpoints/add-breakpoints?hl=en).
+
+**Scope** - Variables inside a function don't exist outside that variable; **global** variables can exist anywhere.
+When defined inside a function:
+
+```
+var name [Makes a local functin that will only exist inside that function.]
+name [Makes a global function]
+```
+
+Also, learn to use **stepping**:
+[https://developers.google.com/web/tools/chrome-devtools/debug/breakpoints/step-code?hl=en](https://developers.google.com/web/tools/chrome-devtools/debug/breakpoints/step-code?hl=en)
+
+Can watch an expression, e.g. **$wordList**.
+
+If you look inside jQuery objects, you can see what's going on. 
+
+If you're interested in working your way down the [**call stacks**](https://developer.chrome.com/devtools/docs/javascript-debugging).
+
 <a name="glossaryAssignment"></a>
 ##Glossary assignment:
 
@@ -245,3 +275,38 @@ $.each(d, function (index, entry) {
 
 For each "each," runs function, returns "entry," then runs the script in the brackets.
 
+***
+
+How to add a glossary:
+
+In personal blog, start buliding a glossary of terms. Will store in the DOM (which will forget it), then in the browser (which will remember it till the cache is flushed), then a database (later).
+
+**kittons.json**
+Kitten database: name, age, imageURL, description.
+Process: Pulling database of information.
+
+*Treehouse: Interactive Websites* gives a lot of jQuery in context.
+
+Soon...**yeoman.io** - Web app generator.
+
+Going to go deeper into development tools later on.
+
+Bootstrap is a quick way to throw something together.
+
+Different techniques for pair programming remotely, including Skype. (Person who's driving can share their screen remotely.)
+
+In early 2000, had outsourced a lot of work to India, but after 9/11, couldn't fly. Got good at rworking remotely. Good to start in person, then go remote.
+
+Next iteration, will have different partners.
+
+Online tutoral: Setting up tools environments:
+[http://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777](http://webdesign.tutsplus.com/series/the-command-line-for-web-design--cms-777)
+
+Tools that know how you work, so they reduce errors.
+
+* Grunt -- Biggest for JavaScript (so there's a lot of documentation)
+* Gulp -- Newer, with a different syntax. (Very JavaScriptish).
+
+As developer, will constantly upgrade one's tools.
+
+Monday: Will start with overview and show-and-tell of project so far, then more work. This iteration of the project will be due next Wednesday.
