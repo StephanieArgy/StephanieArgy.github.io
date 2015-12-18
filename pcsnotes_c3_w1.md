@@ -5,9 +5,9 @@ permalink: /pcsnotes_c3_w1/
 ---
 
 * [Class Agenda](#classAgenda)
-* [Glossary Assignment](#glossaryAssignment)
 * [jQuery](#jQuery)
 * [Chrome Developer Tools](#chromeDevTools)
+* [Glossary Assignment](#glossaryAssignment)
 
 <a name="classAgenda"></a>
 ##Agenda:

@@ -31,7 +31,7 @@ After delving into assorted frameworks, scaffoldings, preprocessors and task run
 
 * I'm doing coursework through [Treehouse](https://teamtreehouse.com/). (Right now, "jQuery Basics," soon to be followed by "Interactive Web Pages with JavaScript.")
 
-* I'm exploring learning paths that others have suggested, including the Resource Guide from the [Grace Hopper Academy](http://gracehopper.com/curriculum) and the [Front End Handbook](http://www.frontendhandbook.com/).
+* I'm exploring learning paths that others have recommended, including the Resource Guide from the [Grace Hopper Academy](http://gracehopper.com/curriculum) and the [Front End Handbook](http://www.frontendhandbook.com/).
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
 
@@ -45,6 +45,6 @@ After delving into assorted frameworks, scaffoldings, preprocessors and task run
 
 * Learning to speak Greek, learning about Greece. (Finding it very useful to work with the [Anki spaced repetition system](http://ankisrs.net/).)
 
-* Learning to be a member of PDX NET, the neighborhood emergency response teams in the city of Portland.
+* Learning to be part of the [Portland Neightborhood Emergency Team program](https://www.portlandoregon.gov/pbem/31667?).
 
 
