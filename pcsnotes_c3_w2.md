@@ -5,7 +5,7 @@ permalink: /pcsnotes_c3_w2/
 ---
 
 [JSON](#json)
-[Command Line Tools](#https://vitamintalent.com/learning/)
+[Command Line Tools](#commandLineTools)
 
 Three major themes in this course:
 
@@ -121,4 +121,4 @@ Vitamin T -- Division of Acquent, a national sourcing company: **https://vitamin
 They give an entry test and have a free learning environment; if you pass the final, they'll offer you an interview.
 
 <a name="commandLineTools"></a>
-Command Line Tools
+##Command Line Tools
