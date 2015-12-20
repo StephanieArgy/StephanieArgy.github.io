@@ -4,7 +4,8 @@ title: Advanced Web Dev Tools, Week Two
 permalink: /pcsnotes_c3_w2/
 ---
 
-[JSON](#json")
+[JSON](#json)
+[Command Line Tools](#https://vitamintalent.com/learning/)
 
 Three major themes in this course:
 
@@ -70,8 +71,54 @@ Going to store **key** and **value**.
 2. Stringify it ----  Parse
 3. Store it     ---- Return
 
-Form is a set of name/value pairs.
+Form is a set of name/value pairs. Have to create a form (above the word list):
 
+```
+<form action="url">
+  
+</form>
+```
 
+To make a classical form do things, you need a Submit button. (JavaScript can respond in other ways, but we'll still  use a button.)
 
+How to get data from form:
 
+1. Have to create an event listener.
+2. Retrieve values for the word and definition.
+3. Have to save, then get dictionary.
+
+Want to have a clean interface between the program and data structure, and only communicate via these two medthods -- setting up our own little API.
+
+How to pull:
+**localStorage.getItem('theDictionary')**
+
+Can only store strings; have to return an object so use **JSON.parse** with JSON in lower functions, never need to change again.
+
+**displayDictionary**
+
+Look at Developer Tools>Resources
+
+Can see resources in use, such as session storage and local storage. Can even edit in the debugger.
+
+It allows you to see what is being stored.
+
+Inefficient!
+
+1. Recreates every time...
+2. ...even words it already knows.
+
+Store each word, not enetire dictionary; but need unique IDs.  Also, can store multipole definitions.
+
+To work on later (on our own):
+
+1. Store word-by-word (not entire dictionary).
+2. Local caches -- Only write to server when something changes.
+
+MORE POSSIBLE TRAINING:
+
+Vitamin T -- Division of Acquent, a national sourcing company: **https://vitamintalent.com/learning/**
+
+They give an entry test and have a free learning environment; if you pass the final, they'll offer you an interview.
+
+<a name="commandLineTools"></a>
+Command Line Tools
