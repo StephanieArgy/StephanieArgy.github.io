@@ -4,8 +4,8 @@ title: Advanced Web Dev Tools, Week Two
 permalink: /pcsnotes_c3_w2/
 ---
 
-[JSON](#json)
-[Command Line Tools](#commandLineTools)
+* [JSON](#json)
+* [Command Line Tools for Developers](#commandLineTools)
 
 Three major themes in this course:
 
@@ -121,4 +121,46 @@ Vitamin T -- Division of Acquent, a national sourcing company: **https://vitamin
 They give an entry test and have a free learning environment; if you pass the final, they'll offer you an interview.
 
 <a name="commandLineTools"></a>
-##Command Line Tools
+##Command Line Tools for Developers
+
+The command line interface (CLI) is more powerful than a GUI.
+
+1. Software is always changing.
+2. Every character is a potential point of failure, an opportunity for mistakes to creep in.
+
+You used to have to fill out a form to make any changes to software, and to "check out" drives.
+
+###Goals/Benefits of Command Line Tools
+
+They keep tools:
+
+* Updated
+* Organized 
+* Configuration Management
+  * Define/control versions (e.g. jQuery)
+  * Manage change
+  * Avoid surprises
+  * Reduce errors
+* Steamline repetitive tasks (e.g. with Yeoman)
+* Automate
+  * Preprocessing
+  * Project scaffolding
+  * Deployment preparation
+  * Major/minor tasks
+
+Some developers believe, "If I have to do it twice, I should script it."
+  
+Typically, in production you constrain change as the project progresses.
+  
+Semantic versioning - Assigning unique and meaningful version names or numbers: **x.y.z**  The "x" is a major version, and a change to that may mean that things that used to work will now break.
+
+Some JavaScript tools for front-end development:
+
+* Scaffolding: Yo
+* Project management: Bower, npm
+* Build system: Gulp, Grunt
+
+Ruby -- Package manager called **gem**.
+
+**sudo** (SuperUser Do) - Try to avoid, in general. Bypasses all permissions; better to try and attempt as yourself.
+
