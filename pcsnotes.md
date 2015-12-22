@@ -36,7 +36,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c3_w1/">Week One</a> - Class agenda, jQuery, Chrome Dev Tools, glossary assignment 
 
-####<a href="../pcsnotes_c3_w2">Week Two</a> - JSON, glossary assignment, command line tools
+####<a href="../pcsnotes_c3_w2">Week Two</a> - JSON, glossary assignment, command line tools, package managers
 
 ####Week Three - User stories, style guides
 

@@ -160,7 +160,17 @@ Some JavaScript tools for front-end development:
 * Project management: Bower, npm
 * Build system: Gulp, Grunt
 
-Ruby -- Package manager called **gem**.
-
 **sudo** (SuperUser Do) - Try to avoid, in general. Bypasses all permissions; better to try and attempt as yourself.
+
+###Package Managers
+
+Package managers oversee files/paths, dependencies (other packages), manifests; they install scripts and run procedures. There are many different kinds, including:
+
+* Ruby -- Package manager called **gem**.
+* Homebrew is a package manager for Mac.
+
+Two package managers are particularly important for web developers:
+
+* [npm](https://www.npmjs.com/) (which does NOT stand for node package manager, even though many people think it does)
+* [bower](http://bower.io/) - Front-end package manager for components.
 
