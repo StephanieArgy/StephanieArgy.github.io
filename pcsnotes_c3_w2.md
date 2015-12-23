@@ -171,6 +171,26 @@ Package managers oversee files/paths, dependencies (other packages), manifests; 
 
 Two package managers are particularly important for web developers:
 
-* [npm](https://www.npmjs.com/) (which does NOT stand for node package manager, even though many people think it does)
+* [npm](https://www.npmjs.com/) (which does NOT stand for node package manager, even though many people think it does). npm is a big deal. Probably already installed on our machines.
 * [bower](http://bower.io/) - Front-end package manager for components.
 
+node.js -- JavaScript engine (i.e. a virtual machine that interprets and execute JavaScript code) and modules (small parts that combine to make one big program). Has Chrome v.8 JavaScript engine, libraries, APIs.
+
+Tightly controlled by one company, even if it is open source. In 2014, a version was forked and became **io.js**. Made copmany behind node.js move faster, get better. In September, 2015, node.us and io.js reunited:
+http://thenewstack.io/io-js-and-node-js-have-united-and-thats-a-good-thing/
+
+For our purposes, lots of tools to install. Can use node.js or Homebrew (but not both).
+
+**Bower** was written for node.js, but for front-end projects. Works with manifest file to install correct components. 
+
+Homework for Wednesday:
+
+1. Install node.js
+2. Do [Command Line for Web Design](), (Parts 1-3, or more)
+
+**Developing our tool chain.**
+
+Next iteration:
+
+* Better blog.
+* Animal adoption agency site: Ability to add a new kitten, with storage.
