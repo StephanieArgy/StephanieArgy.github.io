@@ -6,6 +6,7 @@ permalink: /pcsnotes_c3_w2/
 
 * [JSON](#json)
 * [Command Line Tools for Developers](#commandLineTools)
+* [Sass Basics](#sassBasics)
 
 Three major themes in this course:
 
@@ -194,3 +195,61 @@ Next iteration:
 
 * Better blog.
 * Animal adoption agency site: Ability to add a new kitten, with storage.
+
+____
+
+**To give dimension to an empty div, put in &nbsp;.**
+
+Alias is a name for a program that lives elsewhere. To make an alias using the command line: Type **ln -s** followed by the link location, then the link name.
+
+```
+ln -s foo.txt bar
+(Makes a soft link called "bar" that points to foo.txt)
+```
+
+(To learn more about making links from the command line, type **man ln** to open that page in the command-line manual.)
+
+<a name="sassBasics"></a>
+##Sass Basics
+
+Some of the features that Sass allows:
+
+1. Nesting
+2. Variables (**@name: value;**)
+3. Mix-ins - (**@mixin mixinName{*Contents of mixin*}**), then to call the mixin: **@include mixinName;**
+4. Partials: Separate files for colors, varabiles, sizes globals, mixins, reset, etc. Start with an underscore: **_colors**. To bring in another style sheet: **@import ____"**
+5. Sass libraries: Compass, Bourbon
+6. Operators (mathematical, color, etc.)
+7. Control directives and expressions (@if, @each, etc.) (@if condition { *Then this code happens* })
+
+Lots more. Documentation [here](http://sass-lang.com/guide).
+Also, tutorials at [The Sass Way](http://thesassway.com/).
+
+###Command Line Tools > Package Managers > Preprocessors
+
+We start with HTML and CSS, because that's how browsers speak. 
+
+As we've seen with JavaScript, it's nice to have variables. We can't add those to HTML or CSS (because they have to maintain backward compatibility), so we have to make a new language that lets us work with variables, then converts those to something that any browser can unedertsand. That's what a preprocessor does.
+
+JAVASCRIPT PREPROCESSORS
+TypeScript -- JavaScript preprocessor that's more strongly typed.
+CoffeeScript -- Simpler JavaScript
+
+CSS PREPROCESSORS
+Stylus -- Some people think it's even better than Sass, but it's not as popular, well-document or desireable for potential employees. 
+Sass -- The canonical version of Sass was originally built in Ruby; we use a version built in node (ported from the Ruby version).
+
+HTML PREPROCESSORS
+Jade -- In the tutorial that we'll use.
+Haml -- Very popular
+
+Online, there are converters:
+HTML > Haml: http://htmltohaml.com/
+CSS > Sass: http://sebastianpontow.de/css2compass/
+
+Source Maps are a way of debugging preprocessors: http://webdesign.tutsplus.com/tutorials/how-to-use-source-maps-for-better-preprocessor-debugging--cms-22735
+
+###Prefixers
+
+Many newer CSS features require vendor prefixes to work on different browsers. The prefixes eventually become superfluous as features become more widely accepted. Tools can handle the prefixes for you. **The tool knows more than you do.**
+
