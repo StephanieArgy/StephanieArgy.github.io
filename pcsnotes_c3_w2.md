@@ -372,7 +372,7 @@ Can use mathematical operators on colors, to make them lighter or darker, or can
 
 Another place where operators are useful is in calculating width.
 
----
+***
 
 On Monday:
 
@@ -383,9 +383,9 @@ On Monday:
 
 **LOOK AT THE TUTORIALS ON http://thesassway.com**
 
-----
+***
 
-###Lessons I learned from s3etting up node-sass watch:
+###Lessons I learned from setting up node-sass watch:
 
 1. SCSS and CSS files have to have identical names.
 2. SCSS and CSS files have to be in different folders.
@@ -398,9 +398,10 @@ node-sass --watch scss/* --output css
 
 When the command is run, it won't appear to do anything until the SCSS file is change, then it will either create the CSS file (on the first Save) or update it (on subsequent Saves).
 
--- 
-**Swift** is a New iOS language.
-**Ruby** -- Would really like, very Japanese, made to make programmers happy.
+***
+
+* **Swift** is a New iOS language.
+* **Ruby** -- Would really like, very Japanese, made to make programmers happy.
 
 node-sass v. 3.1.0 (Wrapper) [JavaScript]
 libsass v. 3.2.4 (Sass compiler)
