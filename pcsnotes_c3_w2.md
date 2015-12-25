@@ -209,22 +209,6 @@ ln -s foo.txt bar
 
 (To learn more about making links from the command line, type **man ln** to open that page in the command-line manual.)
 
-<a name="sassBasics"></a>
-##Sass Basics
-
-Some of the features that Sass allows:
-
-1. Nesting
-2. Variables (**@name: value;**)
-3. Mix-ins - (**@mixin mixinName{*Contents of mixin*}**), then to call the mixin: **@include mixinName;**
-4. Partials: Separate files for colors, varabiles, sizes globals, mixins, reset, etc. Start with an underscore: **_colors**. To bring in another style sheet: **@import ____"**
-5. Sass libraries: Compass, Bourbon
-6. Operators (mathematical, color, etc.)
-7. Control directives and expressions (@if, @each, etc.) (@if condition { *Then this code happens* })
-
-Lots more. Documentation [here](http://sass-lang.com/guide).
-Also, tutorials at [The Sass Way](http://thesassway.com/).
-
 ###Command Line Tools > Package Managers > Preprocessors
 
 We start with HTML and CSS, because that's how browsers speak. 
@@ -253,3 +237,170 @@ Source Maps are a way of debugging preprocessors: http://webdesign.tutsplus.com/
 
 Many newer CSS features require vendor prefixes to work on different browsers. The prefixes eventually become superfluous as features become more widely accepted. Tools can handle the prefixes for you. **The tool knows more than you do.**
 
+###Compressors and Minifiers
+
+Our attention spans are small, so pagees have to load as quickly as possible, plus most phones are underpowered. These minimize the number of bytes that the server spits out (why we're learning Ajax). BUT we still want code that's easy for humans to read; these tools let us work that way, then afterward make it friendlier for machines.
+
+Processing files used to slower than networks, so we didn't compress. Now it's fast and easy to compress.
+
+###Uglifiers
+
+Make software hard to read.  **Obfuscate.**
+
+The two most valuable assets of a company:
+
+1. Its people
+2. Its code
+
+With compiled code, it was easy to hide; now every thing is available to view. So things were uglified; however, people then made deuglifiers, so it's no longer done as much.
+
+Programs are still called "uglifiers," but now they:
+
+1. Concatenate all the files into one (JavaScript + CSS + Bootstrap, etc.)
+2. Reduce the amount of data sent (i.e. the number of http requests)
+
+CSS compressors also find empty classes, duplicate classes, and clean those out.
+
+End up with the bare minimum of the smallest possible files.
+
+<a name="sassBasics"></a>
+##Sass Basics
+
+Sass = "Syntactically Awesome Style Sheets" (but it's not "SASS" (an acronym) but "Sass")
+
+Documentation [here](http://sass-lang.com/guide).
+Tutorials at [The Sass Way](http://thesassway.com/).
+
+Some of the features that Sass allows:
+
+1. Nesting
+2. Variables (**@name: value;**)
+3. Mix-ins - (**@mixin mixinName{*Contents of mixin*}**), then to call the mixin: **@include mixinName;**
+4. Partials: Separate files for colors, varabiles, sizes globals, mixins, reset, etc. Start with an underscore: **_colors**. To bring in another style sheet: **@import ____"**
+5. Extends
+6. Operators (mathematical, color, etc.)
+7. Control directives and expressions (@if, @each, etc.) (@if condition { *Then this code happens* })
+8. Sass libraries: Compass, Bourbon
+
+Sass nesting makes CSS hierarchy reflect real hierarchy (as in HTML). Reduces amount of code, reduces repetition.
+
+###Sass vs. SCSS
+
+Two different syntaxes. Sass is the original, quite a bit different from CSS, but more concise and easier to read. Sass v.3 introduced SCSS ("Sassy CSS), which extends CSS and is easier for those who know CSS to adopt.
+
+More info [here](http://thesassway.com/editorial/sass-vs-scss-which-syntax-is-better)
+
+Codepen has built-in support for preprocessors. In our Codepen experiments, we're going to choose SCSS.
+
+###Variables
+
+Have $ in front. Can use them for colors, etc. As soon as you define a variable, you can use it. (Can get color values and palettes from [Adobe Color CC](https://color.adobe.com/create/color-wheel/) (Formerly Kuler)
+
+"Abstraction" helps s get rid of "magical numbers" by giving colors specific values.
+
+Emmett (built into Codepen, also available in lots of text editors) lets you do shortcut for an unordered list with list items: **ul>li*3 (TAB)** (Will make an unordered list with three list items).
+
+###Partials
+
+Partials add modularity, so that things are in easy to handle pieces. Help on very large sites, when there are 50-60 people working on a single site. 
+
+Partials begin with an underscore, e.g. **_resets.scss**
+
+Underscore is a sign that this .scss file is a part of something bigger.
+
+###@mixin
+
+Functions: A little package that does things. Name and value pairs used passed in value over and over.  Two part process:
+
+First, the mixin is defined:
+
+```
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+```
+
+And then, you can call it to use it:
+
+```
+.box { @include border-radius(10px); }
+```
+
+###Extends
+
+Extends add new details to a previously defined class.
+
+```
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.success {
+  @extend .message;
+  border-color: green;
+}
+
+.error {
+  @extend .message;
+  border-color: red;
+}
+
+.warning {
+  @extend .message;
+  border-color: yellow;
+}
+```
+
+.message sets up a basic look for the messages, and the @extend rules give additional color refinements.
+
+In CSS, a list of classes separated by commas have the same attributes:
+
+```
+.class1, .class2, .class3, .class4, .class5 {
+  (CSS rules here)
+}
+```
+
+###Operators
+
+Can use mathematical operators on colors, to make them lighter or darker, or can add them together.
+
+Another place where operators are useful is in calculating width.
+
+---
+
+On Monday:
+
+1. Get Sass in place. (Will call from Grunt or JavaScript node-sass.) (Use node version, not Ruby).
+2. Next week, we'll explore Sass, first in blog, then in the animal shelter site. Also will learn how to convert Bootstrap site to Sass.
+3. On blog, define some attribute of article style as a mixin.
+4. Convert blog to SCSS, use variables for colors.  (Always make palette a set of variables.)
+
+**LOOK AT THE TUTORIALS ON http://thesassway.com**
+
+----
+
+###Lessons I learned from s3etting up node-sass watch:
+
+1. SCSS and CSS files have to have identical names.
+2. SCSS and CSS files have to be in different folders.
+3. Sass will make its own CSS copy while watching.
+4. The Watch command is:
+
+```
+node-sass --watch scss/* --output css
+```
+
+When the command is run, it won't appear to do anything until the SCSS file is change, then it will either create the CSS file (on the first Save) or update it (on subsequent Saves).
+
+-- 
+**Swift** is a New iOS language.
+**Ruby** -- Would really like, very Japanese, made to make programmers happy.
+
+node-sass v. 3.1.0 (Wrapper) [JavaScript]
+libsass v. 3.2.4 (Sass compiler)

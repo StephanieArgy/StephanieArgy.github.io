@@ -29,7 +29,7 @@ After delving into assorted frameworks, scaffoldings, preprocessors and task run
 * JavaScript/jQuery
 * Responsive and mobile-first design.
 
-* I'm doing coursework through [Treehouse](https://teamtreehouse.com/). (Right now, "jQuery Basics," soon to be followed by "Interactive Web Pages with JavaScript.")
+* I'm doing coursework through [Treehouse](https://teamtreehouse.com/). (Right now, "Interactive Web Pages with JavaScript.")
 
 * I'm exploring learning paths that others have recommended, including the Resource Guide from the [Grace Hopper Academy](http://gracehopper.com/curriculum) and the [Front End Handbook](http://www.frontendhandbook.com/).
     
