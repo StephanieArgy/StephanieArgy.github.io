@@ -33,3 +33,52 @@ Doesn't work on its own.  Need:
 To install yo, bower and grunt: **$ npm install -g yo bower grunt -cli**
 
 (May need to use sudo to get them to install.)
+
+Make a new directory and go into it:
+
+```
+mkdir aaa-yo
+cd aaa-yo
+```
+
+Once inside the new directory, install web-app generator:
+
+```
+$npm install -g generator-webapp
+```
+
+(The "-g" makes this global, so you shouldn't have to do this again.)
+
+To start a new web app (still inside the new directory):
+
+```
+yo webapp
+```
+
+(Choose Bootstrap, Sass, Modernizr, the libsass(y). This will download a ton of files.)
+
+To make grunt watch (and launch the scaffolding):
+
+```
+$grunt serve
+```
+
+(This will open localhost:9000 - "Allo, Allo!". On command line, will see "Running watch task...waiting...")
+
+Keep that browser window open, open Terminal and your text editor, so that you have multiple pages open:
+
+1. The terminal (for command-line work)
+2. The text editor
+3. The browser
+
+All of the relevant files are inside the **app** folder, which is the aprent director for the web application.
+
+Important commands:
+
+* yo webapp (Generate the app)
+* grunt serve (Preview the app)
+* grunt test (Run unit tests on app)
+* grunt (Guild optimized, production-ready version of your app)
+
+Bower components: JAvaScript, web dependences, installed by Bower.
+
