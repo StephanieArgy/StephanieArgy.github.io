@@ -38,7 +38,7 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c3_w2">Week Two</a> - JSON, glossary assignment, command line tools & package managers, Sass
 
-####<a href="../pcsnotes_c3_w3">Week Three</a> - Yeoman
+####<a href="../pcsnotes_c3_w3">Week Three</a> - Yeoman, Git, Selenium, User Stories, Ajax, jQuery
 
 ####Week Four - Forms, testing with Selenium
 

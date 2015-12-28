@@ -71,14 +71,44 @@ Keep that browser window open, open Terminal and your text editor, so that you h
 2. The text editor
 3. The browser
 
-All of the relevant files are inside the **app** folder, which is the aprent director for the web application.
+All of the relevant files are inside the **app** folder, which is the parent directory for the web application.
 
 Important commands:
 
-* yo webapp (Generate the app)
-* grunt serve (Preview the app)
-* grunt test (Run unit tests on app)
-* grunt (Guild optimized, production-ready version of your app)
+* **yo webapp** (Generate the app)
+* **grunt serve** (Preview the app)
+* **grunt test** (Run unit tests on app)
+* **grunt** (Build optimized, production-ready version of your app)
 
-Bower components: JAvaScript, web dependences, installed by Bower.
+Bower components: JavaScript, web dependences, installed by Bower.
+
+gruntfile.js, package.json -- Back-end related dependencies.
+
+gruntfile.js -- Where the watch function comes in.
+
+In our kitten site, we could create branch, use the merge tool. In professional environment, would do this on branches, not in a new repository. (With a project with a lot of history, a new repo would lose all that.)
+
+On Wednesday, we'll be playing wiht Selenium. Do the Treehouse course on Ajax.
+
+Goals for both the glossary and kitten sites: 
+
+* Build list from data.
+* Add to list from form.
+* Initialize list from defaults.
+* Save list to local storage.
+* Save list to server (Have to do this next week. Uses Ajax; will learn Ajax and Apigee (server) a week from Wednesday.)
+
+Form > Update > List (Store > Server > Retrieve) > Display > Screen.
+
+**Regression error** -- "Regression" means to go backward, so a regression error is when something that used to work breaks.  (In other words, when making changes, make sure that eveyrthing that used to work still does.)
+
+Test structure: Put data into forom, make sure it works with new features. Get ready to do this in teh context of the glossary, then try it in the kitten app. 
+
+1. Tool chain.
+2. Sass
+3. Internal system.
+
+Going to build a toy.
+
+"Feature creep" -- Impulse to build possible extra features that may or may not be necessary in the future.
 
