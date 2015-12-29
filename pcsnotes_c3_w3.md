@@ -4,6 +4,11 @@ title: Advanced Web Dev Tools, Week Three
 permalink: /pcsnotes_c3_w3/
 ---
 
+* [Yeoman](#yeoman)
+* [Testing](#testing)
+* [User Stories](#userStories)
+* [Selenium](#selenium)
+
 This week (Week Three), things will start going faster. Going to transfer kitten site.
 
 On Wednesday:
@@ -14,6 +19,7 @@ On Wednesday:
 
 Nex week, we have Monday off, but we'll have class on Wednesday and Friday.
 
+<a name="yeoman"></a>
 ##Scaffolding with Yeoman (and friends)(by Jaime Panaia)
 
 Going to build a web app using the Yeoman scaffolding. What we'll do:
@@ -111,4 +117,82 @@ Test structure: Put data into forom, make sure it works with new features. Get r
 Going to build a toy.
 
 "Feature creep" -- Impulse to build possible extra features that may or may not be necessary in the future.
+
+***
+
+Important to use Git, so that you can preserve as much data as possible. You're creating intellectual capital.  **Everyone line of code you create is someone else's property: Your client, or your company, or your future self.**
+
+<a name="testing"></a>
+##Testing
+
+* Testing in general: why, how, types.
+* Selenium as a tool
+* Glossary as a test.  (Will set up a testing environment for the blog and for the kitten site.)
+
+Preconditions for system under test:
+
+1. Stimulus
+2. Expected results
+3. Actual results
+
+Have to clearly define the stimulus and expected results.
+
+* Verification: Making sure the system does what it's supposed to. (Really hard)
+* Validation: Making sure you're building what the client wants. (Almost impossible)
+
+"The market is a conversation."  If people don't buy your product, it isn't working.
+
+Every language uas unit testing frameworks.
+
+Types of tests:
+
+1. Acceptance -- What does the customer want? 
+2. Load - Acceptance test run in widespread way
+3. Platform - Acceptance test on multiple devices
+4. Integration
+5. Unit
+6. Regression
+
+We're going to focus on accptance testing.
+
+In a well-tested system, it can take days to run one of these tests. Testing is a big deal. There are companies that do platform testing.
+
+<a name="userStories"></a>
+##User Stories
+
+What is the system supposed to do?
+
+* Wireframes and mockups
+* User stories -- Behavior of site (functionality)
+* Scenarios
+* Requirements
+  * Performance -- How fast, how many users
+  * Reliability -- How frequently can it fail? How does it recover?
+  * Profitability -- How much does it cost to run?
+  * Operability -- Who runs it?
+
+User stories: How the system provides **relevant value to specific user populations.**
+
+###Kinetics User Story Format:
+
+* **In order to (goal)**
+* **As a (role)**
+* **I want to (system feature)**
+
+Customers don't give a rat's ass about your website; they care about their goal.
+
+Different users have different roles (And therefore different goals) for the site. So which user/role are we talking about?  If you have a lot of user stories, you're not focused enough.
+
+Each story has one more more scenarios (steps user takes to obtain value):
+
+1. Precondition (e.g. be logged in)
+2. Steps
+3. Observable result
+
+Feature (description) - In order to get value, explicit system action: "I want to gain some outcome that furthers the goal."
+
+Scenarios written in [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin), a language that can be interprested by testing frameworks like [Cucumber](https://cucumber.io/), [Behat](http://docs.behat.org/en/v2.5/), etc.
+
+<a name="selenium"></a>
+##Selenium
 
