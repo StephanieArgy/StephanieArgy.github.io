@@ -173,7 +173,7 @@ What is the system supposed to do?
 
 User stories: How the system provides **relevant value to specific user populations.**
 
-###Kinetics User Story Format:
+###User Story Format:
 
 * **In order to (goal)**
 * **As a (role)**
@@ -193,6 +193,73 @@ Feature (description) - In order to get value, explicit system action: "I want t
 
 Scenarios written in [Gherkin](https://github.com/cucumber/cucumber/wiki/Gherkin), a language that can be interprested by testing frameworks like [Cucumber](https://cucumber.io/), [Behat](http://docs.behat.org/en/v2.5/), etc.
 
+Steps must be thought of in terms of web development. Customer > > > DOM
+
+Buest user experience comes from connecting with customer goals. Hard! Boog to automate...therefore,  Selenium...
+
 <a name="selenium"></a>
 ##Selenium
+[http://www.seleniumhq.org/](http://www.seleniumhq.org/)
 
+Selenium tools -- all open source:
+
+1. Automates a real web browser via JavaScript to test full stack. But really slow.
+2. [WebDriver API](http://www.seleniumhq.org/projects/webdriver/), can write code to translate to selenium to drive browser.
+3. [Selenium IDE](http://www.seleniumhq.org/download/) - Works only in Firebox and records actions. (Will play with this tonight.)
+4. [Selenium Server](http://www.seleniumhq.org/download/) - Can do parallel tests and load testing.
+
+[Sauce Labs](https://saucelabs.com/) - Will let you run free tests and hook it to GitHub, so that it tests site every time you commit.
+
+Going to use version of tlosarry tool:
+
+1. Find target system: [http://auraelius.github.io/glossary/](http://auraelius.github.io/glossary/)
+2. Write simple user story.
+3. Write a scenario for storing a word.
+
+User story: 
+
+* **In order to (look up a word)**
+* **As a (student)**
+* **I want to (add a word)**
+
+Preconditions: Have to be on the webpage.
+
+When I: 
+
+1. Focus on the new word box...
+2. Type a word...
+3. Focus on the definition box...
+4. Type a definition...
+5. Click on "Add word to dictionary" button...
+
+Result: 
+
+1. I see new word.
+2. I see definition.
+
+In Selenium IDE: 
+
+1. Add **base** URL to top.
+2. Toolbar underneath: Most important button is big red record button; activate that to record all the actions.
+3. Name the test, replay as necessary.
+
+To run test, in Command: **verifyText**.
+
+Use this to test own glossary, then kitten site.
+
+Selenium results stored a table in an HTML document. All text. Store tests in repo: Make a **tests/selenium** folder.
+
+###Grow your tests
+
+For every scenario, have: 
+
+1. Happy path
+2. Error paths.
+
+Bugs:
+
+1. Reproduce bug in Selenium IDE to expose the bug.
+2. Write/verify steps of way it should go.
+3. Code until it passes. (The can use test in regression tests.)
+
+For help with Selenium IDE, go [here](http://www.seleniumhq.org/docs/02_selenium_ide.jsp).
