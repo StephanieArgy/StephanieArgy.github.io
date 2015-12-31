@@ -8,6 +8,7 @@ permalink: /pcsnotes_c3_w3/
 * [Testing](#testing)
 * [User Stories](#userStories)
 * [Selenium](#selenium)
+* [Ajax](#ajax)
 
 This week (Week Three), things will start going faster. Going to transfer kitten site.
 
@@ -263,3 +264,74 @@ Bugs:
 3. Code until it passes. (The can use test in regression tests.)
 
 For help with Selenium IDE, go [here](http://www.seleniumhq.org/docs/02_selenium_ide.jsp).
+
+<a name="ajax"></a>
+##Ajax
+
+(Refer to Duckett, Chapter 8)
+
+http has some simple verbs: GET and POST.
+
+Usually when you do a GET, the browser replaces the entire page. It takes a long time to get info and re-render page. 
+
+Create an object:
+
+xhr
+
+* HTTP verb, URL, query string.
+* Attach function (){process data from server, manipulate data, modify DOM}
+
+The process:
+
+1. Make object.
+2. Define request.
+3. Define response.
+4. Make request....wait for response...
+5. Function runs.
+
+**Ajax lets you add data without refreshing the page. You use jQuery to do this.**
+
+Main problem -- Don't know when it's going to come back. Have to give poeple something so that they don't get bored while waiting for the information/modification.
+
+API is **XMLHttpRequest**
+
+```
+//Start by creating and sending the request
+var xhr = new XMLHttpRequest;
+xhr.open('GET', 'data/test.json', true);
+xhr.send;
+
+//When the response arrives from the server, the function will run.
+xhr.onload = function (){
+  if(xhr.status === 200) {
+    //Process response
+  }
+}
+
+```
+
+(Good idea to check if the data is okay.)
+
+Simplest approach is to have a div for the resopnse text. The DOM will know to re-render only that part of the page.
+
+XML looks like HTML, but tags contain different words.  XML is less error-pr9one than JSON, but JSON is easier to work with. Ned to write JavaSCript or use libraries to translate responses.
+
+###JSON-P (or JSONP) ("JSON with Padding")
+
+For security reasons, browsers don't load Ajax responses from other domains ("cross-domain requests") -- Google, Weather, etc.)  One work-around is to JSONP. Involves adding a script element to the page, because there are no restuctions on the source of a script in a script element.
+
+jQuery does things to make this all easy.
+
+Works on selector: .load()
+
+```
+$('#text').onload('ajax.html #test');
+```
+
+Methods also have alternatives for failures.
+
+* **url** - Where data comes from
+* **data** - Info that comes from the server
+* **callback** - Function that is called when the data is returned
+* **type** - Type of data to expect
+

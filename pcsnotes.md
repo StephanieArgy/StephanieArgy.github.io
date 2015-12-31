@@ -38,8 +38,8 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c3_w2">Week Two</a> - JSON, glossary assignment, command line tools & package managers, Sass
 
-####<a href="../pcsnotes_c3_w3">Week Three</a> - Yeoman, Selenium, User Stories, Ajax, jQuery
+####<a href="../pcsnotes_c3_w3">Week Three</a> - Yeoman, testing, user stories, Selenium, Ajax, jQuery
 
-####Week Four - Forms, testing with Selenium
+####<a href="../pcsnotes_c3_w4">Week Four</a> - Command line, Backend as a Service, style guides
 
 In addition, I made myself a page of assorted links and resources that helped me with the curriculum. That page can be found here:   http://stephanieargy.github.io/journal/
