@@ -64,7 +64,7 @@ PS1 = "${TITLE}" (Can change to put in other details, such as date, user, machin
 * Simple verification of functionality
 * Refactor glossary and kitten site
 
-
+Old mode was "star topology." Now, it's a mesh, like Bit Torrent.
 
 <a name="styleGuides"></a>
 ##Style Guides
