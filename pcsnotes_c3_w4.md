@@ -64,7 +64,55 @@ PS1 = "${TITLE}" (Can change to put in other details, such as date, user, machin
 * Simple verification of functionality
 * Refactor glossary and kitten site
 
-Old mode was "star topology." Now, it's a mesh, like Bit Torrent.
+Old mode was "star topology." Now, it's a mesh topology, like Bit Torrent.
+
+  <figure><img src="../images/Star_Topology.png" class="starTopology">
+    <figcaption>Star Topology</figcaption>
+  </figure>
+  
+  <figure><img src="../images/454px-True_Mesh_Diagram.svg.png" class="meshTopology">
+    <figcaption>Mesh Topology</figcaption>
+  </figure>
+  
+[**Onion Router**](http://www.onion-router.net/) - If a machine has forbidden info in "star," everyone knows th3e path. Onion sends you through a randonm series of machines.
+  
+Can get involved in effort to mask peoples traffic. Now, the FBI and NSA will investitage ayone running of of these.  Use for **anonymization and encryption**.
+
+###Why do servers exist?
+
+* Provide services: Too much for a phone or a laptop.
+* To shar amoung many people -- information, calculation, authentication, persistance (storage), printing, fabrication (at edge of 3D printing revolution)
+
+User of servers to track identity, likle FBI, etc.: [OAuth](http://oauth.net/).
+
+###DIY vs. BUY
+
+* DIY - Flexible, requires development time and backend talent; lower cost.
+* BUY - Predesigned but customizable, requires learning time, subscription fees. (Works for what most people need).
+
+If you're running your business correctly, every time data flows, you're getting paid.
+
+###BaaS
+
+A lot of companies are competing to provide server needs.
+
+* [parse.com](http://parse.com/) is very popular.
+* [Apigee](http://apigee.com/about/)
+* And for others, look up "mobile backend as a service on Wikipedia.
+
+Example of companies going after things that people want/need. Own server can fail under too much traffic. If you have a hit app, and its use spikes in the first 30 minutes of its first day, you have to be ready, with everything working. 
+
+Process:
+
+1. Sign up for service.
+2. Install SDK.
+3. Integrate SDK into app.
+
+How to use APIs: [Code Academy](https://www.codecademy.com/) has mini-courses (though the one on Apigee is a little out of date.)
+
+REST APIs: URLLS are nouns.
+
+Only about ten years old.
 
 <a name="styleGuides"></a>
 ##Style Guides
