@@ -110,9 +110,58 @@ Process:
 
 How to use APIs: [Code Academy](https://www.codecademy.com/) has mini-courses (though the one on Apigee is a little out of date.)
 
-REST APIs: URLLS are nouns.
+REST APIs: URLS are nouns.
 
 Only about ten years old.
+
+[Entity](http://docs.apigee.com/app-services/content/creating-custom-data-entities) -- Anything that can be stored; each one gest a [**universally unique UD (UUID)**](https://en.wikipedia.org/wiki/Universally_unique_identifier). (Lots of people write their own UUIDs.)
+
+The verb comes from HHTP:
+
+* POST - Create write a new word.
+* GET - read existing
+* PUT - Update
+* DELETE
+
+Simple but the things you can do with it are complex. Lots of palaver and marketing around it.
+
+Apigee offers various language APIs. All functionality is abstracted and encapsulated in an object.
+
+```
+var options;
+var client = new Usergrid.Client(options, function(){....});
+client.createEntity(options, funciton(){...});
+client.getEntity(options, function(){....});
+```
+
+Once you have an Apiggee.com account, click the second box: Build Sandbox is open to anyone; only use it for class work, not real work.
+
+We'll use: 
+
+1. Sandbox
+2. Data
+
+(Tap right, can get all the SDKs.)
+
+Typically, storage of images and media is different than for data.
+
+Glossary:
+Create entity: use array of all glossary words.
+
+**update: Entity.save();**
+
+1. Create.
+2. Get.
+3. Entity save
+
+***
+
+1. Put Apigee JS SDK in folder
+2. Define variables. "Type" (singular) will become "collection" (plural).
+3. GET to see if anything is there.
+4. CREATE
+
+
 
 <a name="styleGuides"></a>
 ##Style Guides
