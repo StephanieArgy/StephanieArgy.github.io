@@ -6,9 +6,9 @@ permalink: /pcsnotes/
 
 On the weekend of October 16, 2015, Portland Code School abruptly went out of business.
 
-I had started at the school as a student in March, 2015, and after I finished three courses (Primer Basic, Primer Pro and Advanced Front End Dev Tools), I started working as a TA in the next three rounds of those same classes.
+I had started at the school as a student in March, 2015, and after I finished three courses (Primer Basic, Primer Pro and Advanced Front End Dev Tools), I worked as a TA in the next three rounds of those same classes.
 
-As someone trained as a journalist, I'm very good at taking notes. When I was a student, I wrote down everything that we did in class...and then as a TA, I kept adding to my notes, paying special attention to the things that had most confused me, and that seemed to be confusing to other students. (There are a lot of notes, so this will be a project that I work on over time...)
+As someone trained as a journalist, I'm good at taking notes. When I was a student at PCS, I wrote down everything that we did in class...and then as a TA, I kept adding to my notes, paying special attention to the things that had most confused me, and that seemed to be confusing to other students. ((I've posted all my notes from the classes I took while I was a student, and now I'm filling those out with extra detail from when I sat in on those same classes as a teaching assistant.)
 
 Here's the basic framework: 
 
@@ -42,4 +42,4 @@ Here's the basic framework:
 
 ####<a href="../pcsnotes_c3_w4">Week Four</a> - Command line, Backend as a Service, style guides
 
-In addition, I made myself a page of assorted links and resources that helped me with the curriculum. That page can be found here:   http://stephanieargy.github.io/journal/
+In addition, I made myself a page of assorted links and resources that helped me with the curriculum. That page can be found [here](http://stephanieargy.github.io/journal/).

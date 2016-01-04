@@ -154,15 +154,183 @@ Create entity: use array of all glossary words.
 2. Get.
 3. Entity save
 
-***
+More steps:
 
 1. Put Apigee JS SDK in folder
 2. Define variables. "Type" (singular) will become "collection" (plural).
 3. GET to see if anything is there.
 4. CREATE
 
+***
 
+We were going to extend the glossary, but we still didn't have a handle on the technique.  This is the current version -- event-driven programming:
+
+Form with BUTTON
+
+&#11015;
+
+(EVENT)
+
+&#11015;
+
+Reads form, sets dictionary variable
+
+&#11015;
+
+Var -- CALLS (**Up till now, this has been in local, synchronous behavior**)
+
+&#11015;
+
+Update DOM
+
+***
+
+What we're aiming for is for there to be a **document.ready event** that sets up the event handlers. The dictionary is displayed -- but when does it it exist?
+
+Button CLICK event > Updates the local dictionary (var) > Dictionary is stored on server > document.ready event > Display dictionary/update DOM.
+
+**THE PROBLEM: Have local var that represents the dictionary. It receives input from the form, outputs updated version to the DOM. But because the exchange processes from the server are now asynchronous, they could get out of whack.**
+
+Mutex Lock -- Can put a hold on the variable for one process. [Thread Synchronization](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSPR/Reference/Introduction_to_NSPR#NSPR_Thread_Synchronization)
+
+Two-way data-binding -- One of the things that's supposed to be so great about angular.js.
 
 <a name="styleGuides"></a>
 ##Style Guides
 
+[Slides.com Overview](http://slides.com/auraelius/style-guides-11#/)
+
+Five different kinds of style guides:
+
+1. Content/editorial
+2. Branding/identity
+3. Development style giude and coding
+4. Human interface
+5. Front end
+
+(In slide.com presentation, there are links to examples of style guides.) Google's style guide is a mix of front-end and code.
+
+Patterns are similar to style guides: http://ui-patterns.com/patterns.  "Recurring solutions that solve common design problems."
+
+Automated style reader: stylifyme.com.  (Type in a website, and it'll generate a simple, limited style guide.)
+
+Quick, easy static style guide: http://www.poormansstyleguide.com/  (Provides HTML, to which styles can then be applied. Will show all sorts of features. Inventories styles for elements, lets you see your styles applied. Black-and-white text only.  To see colors applied...)
+
+
+```
+HTML:
+<h1 id="colors">Colors</h1>
+<div class="row">
+  <div class="color-swatch one"> (Etc.)
+    (Label underneath)
+  </div>
+</div>
+
+SCSS:
+color-swatch {
+  width: 100px;
+  height: 100px;
+}
+
+.one {
+  background-color: $colorVariableOne;
+}
+```
+
+Repeat for as many swatches as necessary.
+
+This is NOT a dynamic style guide. 
+
+Do do a live style guide (untested method):
+
+1. Install Yeoman.
+2. Install **generator-styleguide** (Full directions [here](https://www.npmjs.com/package/generator-styleguide))
+
+To start a styleguide project, you will have to install Yeoman and Hologram globally.
+
+### install Yeoman
+
+```
+$ npm install -g yo
+```
+
+### Install Hologram
+
+```
+$ gem install hologram
+```
+
+(You might have to install the Hologram gem with sudo, depending on your permissions.)
+
+To install generator-styleguide from npm, run:
+
+```
+$ npm install -g generator-styleguide
+```
+
+Finally, initiate the generator:
+
+```
+$ yo styleguide
+```
+
+### To create a new component:
+
+```
+$ yo styleguide:component
+```
+
+Other options:
+
+* [Barebones](http://barebones.paulrobertlloyd.com/)
+* [Pattern Primer](http://patternprimer.adactio.com/)
+* Lots more [here](http://alistapart.com/blog/post/style-guide-generator-roundup)
+
+Another option is to make "style tiles," as described by [Samantha Toy Warren](http://samanthatoy.com/style-tiles/).
+
+Clients will resist style guides, but if you dive right into CSS, you'll make a mess.
+
+***
+
+"Literate programming" - [Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/). Write for the person reading the code; sprinkle comments throughout the code so that it makes sense.
+
+Most of the time these days, front-end code comes from the server you'er workingon.
+
+"Callback hell" -- You have no idea wher eyou are.
+
+```
+$().ready(function(){
+  initDictionary() 
+    callback() // one exists
+      getDictionary()
+        callback() //I have data
+          (Update DOM)
+});
+```
+
+When talking to a server, have to update the DOM when data is ready. Someone is leaving breakcrumbs; will go back to callback when data arrives.
+
+Process here:
+
+1. Runs init, looks for entity. If it exists, it runs and gets Dictionary.
+2. GetDictionary - Calls dictionary and objects with words.
+
+Add word: PUT.
+
+**POST is create; PUT is update.**
+
+The thing that took the most time was not knowing where the server was. The next step: relational data between new entries.
+
+Technique to pass in callback: 
+
+```
+function functionName (callback){
+  //callback code
+}
+```
+
+Can display data in two different places because of the passed-in "callback." (Front page displays three latest terms.)
+
+To conclude on Apigee: their JavaScript SDK is clunky. Hope other SDKs are easier to use.
+
+[PianoPushPlay](http://www.pianopushplay.com/55837358e4b0fdbf809290a4/): Was a PCS capstone project.

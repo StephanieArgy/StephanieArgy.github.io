@@ -3,11 +3,15 @@ layout: page
 title: Now
 permalink: /now/
 ---
-Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: December 15, 2015).
+Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: January 3, 2016).
 
 My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 ##Story
+
+* Writing classes:
+  * [Memoir Boot Camp](http://www.literary-arts.org/product/winter-2016-memoir-boot-camp/) with Jay Ponteri at Portland's Literary Arts.
+  * Creative Writing (Fiction) with Blake Hausman at Portland Community College.
 
 * [*A Person Known to Me*](http://www.apersonknowntome.com): An ongoing epic detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon, all put together in the form of an interactive experience.
 
@@ -19,26 +23,32 @@ My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 * Reading. Here's my <a href="../books/">current list</a>.
 
+And, as part of my story explorations, I'm also looking into:
+
+* Digital Narratives
+* Literary apps
+* Story design
+* Book design
+* Color
+* Typography
     
 ##Coding
     
-After delving into assorted frameworks, scaffoldings, preprocessors and task runners, I'm now stripping my technique back down to the basics to master these four things:
+Having started my web development education with Al Zimmerman at the late Portland Code School, I'm now continuing on my own, following <a href="../codingCurriculum/">this (constantly evolving) self-designed curriculum</a>.
 
-* HTML5
-* CSS3
-* JavaScript/jQuery
-* Responsive and mobile-first design.
-
-* I'm doing coursework through [Treehouse](https://teamtreehouse.com/). (Right now, "Interactive Web Pages with JavaScript.")
-
-* I'm exploring learning paths that others have recommended, including the Resource Guide from the [Grace Hopper Academy](http://gracehopper.com/curriculum) and the [Front End Handbook](http://www.frontendhandbook.com/).
+* I'm supplementing that with coursework from [Treehouse](https://teamtreehouse.com/). (Right now, Front End Web Development: HTML Video and Audio.)
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
+
+* And I'm using what I learn to build some small sites, which I'll link to soon:
+
+1. Good-for-the-world investing...
+2. Cycling (for everyone, not just for speedy guys in Spandex).
 
 
 ##Angel Investing
     
-* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. I've collected some of the resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
+* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. My first investment, made with the Portland/Seattle Pipeline cohort, is in the company [Sow](http://beta.isow.com/), which aims to transform gift-giving to young people. I've collected some of the resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
 
 ##Other Things

@@ -3,8 +3,6 @@ layout: post
 title: Literary Apps
 ---
 
-##Literary Apps
-
 [Electric Literature](http://www.electricliterature.com/).
 
 [Atavist](https://atavist.com).
