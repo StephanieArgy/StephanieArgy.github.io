@@ -73,7 +73,6 @@ HTML
 * *Mobile HTML5*, Estelle Weyl
 * *HTML5 Pocket Reference*, Jennifer Niederst Robbins
 * *HTML and CSS*, Jon Duckett
-
 * [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 * [HTML Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
@@ -125,7 +124,6 @@ HTML
 
 * [Code School: Try jQuery](http://try.jquery.com/)
 * [Code School: jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
-
 * *JavaScript and jQuery*, Jon Duckett
 
 <a name="SEO"></a>
@@ -144,6 +142,8 @@ HTML
 <a name="styleGuides"></a>
 ##Style guides
 
+
+
 <a name="webDevTools"></a>
 ##Web Dev Tools
 
@@ -155,10 +155,10 @@ HTML
 <a name="node"></a>
 ##node.js
 
-[The Node Beginner Book](http://www.nodebeginner.org/)
-[NodeSchool](http://nodeschool.io/)
-[Treehouse Node.js Basics](https://teamtreehouse.com/library/nodejs-basics)
-[Treehouse npm Basics](https://teamtreehouse.com/library/npm-basics)
+* [The Node Beginner Book](http://www.nodebeginner.org/)
+* [NodeSchool](http://nodeschool.io/)
+* [Treehouse Node.js Basics](https://teamtreehouse.com/library/nodejs-basics)
+* [Treehouse npm Basics](https://teamtreehouse.com/library/npm-basics)
 
 <a name="JSON"></a>
 ##JSON
@@ -166,14 +166,14 @@ HTML
 <a name="Ajax"></a>
 ##Ajax
 
-[Ajax Basics](https://teamtreehouse.com/library/ajax-basics)
+* [Ajax Basics](https://teamtreehouse.com/library/ajax-basics)
 
 <a name="Express"></a>
 ##Express.js
 
-[Treehouse Express Basics](https://teamtreehouse.com/library/express-basics)
-[Real-time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
-[Express.js Documentation](http://expressjs.com/)
+* [Treehouse Express Basics](https://teamtreehouse.com/library/express-basics)
+* [Real-time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
+* [Express.js Documentation](http://expressjs.com/)
 
 <a name="Mongo"></a>
 ##Mongo DB

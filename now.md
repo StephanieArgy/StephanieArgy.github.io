@@ -9,19 +9,19 @@ My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 ##Story
 
-* Writing classes:
-  * [Memoir Boot Camp](http://www.literary-arts.org/product/winter-2016-memoir-boot-camp/) with Jay Ponteri at Portland's Literary Arts.
-  * Creative Writing (Fiction) with Blake Hausman at Portland Community College.
-
 * [*A Person Known to Me*](http://www.apersonknowntome.com): An ongoing epic detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon, all put together in the form of an interactive experience.
 
-* A non-fiction account of the final eleven days of my mother's life.
+* A non-fiction account of the final eleven days of my mother's life. Alec has dubbed this project a "momoir."
 
 * "Urban Bird" - A short story about pigeons.
 
 * *The Mesopotamia* - A series of short fiction pieces set in a 1920s Chicago movie palace, to be presented online in the form of an interactive website.
 
 * Reading. Here's my <a href="../books/">current list</a>.
+
+* Writing classes:
+  * [Memoir Boot Camp](http://www.literary-arts.org/product/winter-2016-memoir-boot-camp/) with Jay Ponteri at Portland's Literary Arts.
+  * Creative Writing (Fiction) with Blake Hausman at Portland Community College.
 
 And, as part of my story explorations, I'm also looking into:
 
@@ -48,7 +48,11 @@ Having started my web development education with Al Zimmerman at the late Portla
 
 ##Angel Investing
     
-* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. My first investment, made with the Portland/Seattle Pipeline cohort, is in the company [Sow](http://beta.isow.com/), which aims to transform gift-giving to young people. I've collected some of the resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
+* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. My first investment, made with the Portland/Seattle Pipeline cohort, is in the company [Sow](http://beta.isow.com/), which aims to transform gift-giving to young people.
+
+<img src="../images/sowLogo.png">
+
+I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
 
 ##Other Things
