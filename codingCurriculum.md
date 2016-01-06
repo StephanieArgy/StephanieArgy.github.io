@@ -13,6 +13,8 @@ I've been choosing what I want/need to learn based on these two factors:
 
 Here's what I'm focusing on at the moment:
 
+
+* [Internet/Web fundamentals](#internet)
 * [Command Line](#commandLine)
 * [Git](#git)
 * [HTML](#HTML)
@@ -21,9 +23,7 @@ Here's what I'm focusing on at the moment:
 * [UI/Interaction Design](#interaction)
 * [Microinteractions](#microinteractions)
 * [Web fonts](#webFonts)
-* [JavaScript](#javaScript)
-* [Internet/Web fundamentals](#internet)
-* [DOM](#DOM)
+* [JavaScript](#javaScript)* [DOM](#DOM)
 * [jQuery](#jQuery)
 * [SEO](#SEO)
 * [Accessibility](#accessibility)
@@ -53,6 +53,14 @@ Here's what I'm focusing on at the moment:
 * [Front End Handbook](http://www.frontendhandbook.com/)
 
 ***
+
+<a name="internet"></a>
+##Internet/Web fundamentals
+
+* [Khan Academy: How the Internet Works](https://www.khanacademy.org/partner-content/code-org/internet-works)
+* [How Does the Internet Work?](http://www.w3.org/wiki/How_does_the_Internet_work)
+* [How Does the Internet Work?](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
+* [Web Hosting Beginner Guide](http://www.webhostingsecretrevealed.net/web-hosting-beginner-guide/)
 
 <a name="commandLine"></a>
 ##Command Line
@@ -108,14 +116,6 @@ HTML
 * [Treehouse Object-Oriented JavaScript](https://teamtreehouse.com/library/objectoriented-javascript)
 * [Khan Academy Computer Programning](https://www.khanacademy.org/computing/computer-programming)
 
-<a name="internet"></a>
-##Internet/Web fundamentals
-
-* [Khan Academy: How the Internet Works](https://www.khanacademy.org/partner-content/code-org/internet-works)
-* [How Does the Internet Work?](http://www.w3.org/wiki/How_does_the_Internet_work)
-* [How Does the Internet Work?](http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
-* [Web Hosting Beginner Guide](http://www.webhostingsecretrevealed.net/web-hosting-beginner-guide/)
-
 <a name="DOM"></a>
 ##DOM
 
@@ -141,8 +141,6 @@ HTML
 
 <a name="styleGuides"></a>
 ##Style guides
-
-
 
 <a name="webDevTools"></a>
 ##Web Dev Tools
