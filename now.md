@@ -48,11 +48,7 @@ Having started my web development education with Al Zimmerman at the late Portla
 
 ##Angel Investing
     
-* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women. My first investment, made with the Portland/Seattle Pipeline cohort, is in the company [Sow](http://beta.isow.com/), which aims to transform gift-giving to young people.
-
-<img src="../images/uc.png">
-
-I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
+* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.  I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
 
 ##Other Things
