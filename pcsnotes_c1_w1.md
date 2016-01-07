@@ -211,6 +211,12 @@ Our basic tools (from the dawn of the computer era) are:
 
 The terminal uses a set of commands designed in 1965. The kernal of the terminal is Linux.
 
+Every UNIX command has an input (usually from the keyboard) and an output (usually on the screen).
+
+Can make a temporary directory to play around in.
+
+The history command can be used to list log of the commands you have typed: **$ history** (Without options) shows the entire history.
+
 Here is a cheat sheet for the command line: 
 [http://www.git-tower.com/blog/command-line-cheat-sheet/](http://www.git-tower.com/blog/command-line-cheat-sheet/) 
 

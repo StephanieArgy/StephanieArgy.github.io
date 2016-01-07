@@ -43,9 +43,11 @@ In an agile workflow, the whole t3eam gets together every morning and does a "st
 2. Never go into the **.git** file.
 3. **And above all, NEVER PUT A REPO INSIDE A REPO!**
 
-Always know where you are in the file structure. To see if you're in a repository, you can use **ls -al** and make sure that there's no **.git** file, or you can use the command **git status**.  (More on that one shortly.)
+**cd** takes you to your home directory, and if it does, it's possible to accidentally make a repo. So always know where you are in the file structure. To see if you're in a repository, you can use **ls -al** and make sure that there's no **.git** file, or you can use the command **git status**.  (More on that one shortly.) You can also use the command **pwd** (print working directory) to show what directory you're in at the moment.
 
 #####What's Happening in Git
+
+It is possible to use Git witha UI, but most developers use the command line.
 
 It can help to create a mental picture of what's happening when you're using git. This is one possible visual metaphor: 
 
@@ -61,7 +63,8 @@ Git uses arcane language. The most important commands are:
 
 * **git status** - Lets you see the current state of all the files in the project, and what has or hasn't been committed.
 * **git add** - Moves the latest changes into the staging area, from where they can be committed.
-* **git commit -m"<em>Why you're making this commit</em>"** - Commits the changes and puts them into the repository.
+* **git commit -m"<em>Why you're making this commit</em>"** - Commits the changes and puts them into the repository. (If you forget the -m, you'll find yourself in the VIM editor, which is the system telling you, "You WILL leave a message! Here's my ancient word processor to help you do it." To get out of VIM, type **:q**)
+* **git help** - Shows the most common commands.
 
 The developer's cycle is:
 
@@ -146,6 +149,10 @@ Once the boilerplate files are in place:
 6. Once the gh-pages branch has been updated, push it to the remote version online: **git push**
 
 When in the Terminal, you can open the the current command-line directory in the Finder by typing **open .**
+
+
+* **git status** - Shows you what's been going on with git add and git commit.  Lets you inspect the working directory and the staging area.
+* **git log** - Displays committed snapshots. It lets you list the project history, filter it, and search for specific changes. Unlike git status, git log only operates on the *committed history*.
 
 ***
 
