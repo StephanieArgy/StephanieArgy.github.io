@@ -4,9 +4,9 @@ title: Coding Curriculum
 permalink: /codingCurriculum/
 ---
 
-This is a continually evolving page of my own self-prescribed coding curriculum. My ultimate goal with all of this is to find new, more accessible, more fun ways to tell stories -- and to find ways to share those techniques with others who have stories to tell (especially stories that we haven't heard before.)
+This is a continually evolving page of my own self-prescribed coding curriculum. My ultimate goal with all of this is to find new, more accessible, more fun ways to tell stories -- and to find ways to share those techniques with others who have stories to tell (especially stories from voices that we don't usually get to hear.)
 
-I've been choosing what I want/need to learn based on these two factors:
+I've been choosing what I want and/or need to learn based on these two factors:
 
 1. What do I love the most and want to spend more time on?
 2. What are the most troublesome gaps in my knowledge?
@@ -17,13 +17,15 @@ Here's what I'm focusing on at the moment:
 * [Internet/Web fundamentals](#internet)
 * [Command Line](#commandLine)
 * [Git](#git)
+* [Web Apps](#webApps)
 * [HTML](#HTML)
 * [CSS](#CSS)
 * [Responsive Design/Mobile First](#responsiveMobile)
 * [UI/Interaction Design](#interaction)
 * [Microinteractions](#microinteractions)
 * [Web fonts](#webFonts)
-* [JavaScript](#javaScript)* [DOM](#DOM)
+* [JavaScript](#javaScript)
+* [DOM](#DOM)
 * [jQuery](#jQuery)
 * [SEO](#SEO)
 * [Accessibility](#accessibility)
@@ -74,6 +76,13 @@ Here's what I'm focusing on at the moment:
 * [Try Git](http://www.codeschool.com/courses/try-git)
 * [Git Immersion](http://gitimmersion.com/)
 
+<a name="webApps"></a>
+**Web Apps
+
+* [A Field Guide to Web Apps](http://www.html5rocks.com/webappfieldguide/toc/index/)
+* [A Field Guide To Static Apps](https://staticapps.org/)
+* [Terrific](http://terrifically.org/)
+
 <a name="HTML"></a>
 HTML
 
@@ -90,14 +99,22 @@ HTML
 * [CSS Cross Country](https://www.codeschool.com/courses/css-cross-country)
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [WHAT THE FLEXBOX?! A simple, free 20 video course that will help you master CSS Flexbox](http://flexbox.io/#/)
+* [Guide to Flexbox (video)](https://mijingo.com/lessons/guide-to-flexbox/)
 
 <a name="responsiveMobile"></a>
 ##Responsive Design/Mobile First
 
 * [Ethan Marcotte's Call for Responsive Design(2010)](http://alistapart.com/article/responsive-web-design)
+* [Google: Make It Responsive](https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/responsive)
+* [Shay Howe: Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
+* [Treehouse: Responsive Layouts](https://teamtreehouse.com/library/responsive-layouts)
+* [This is Responsive - Resources](https://bradfrost.github.io/this-is-responsive/resources.html)
 
 <a name="interaction"></a>
 ##UI/Interaction Design
+
+* [7 Rules for Creating Gorgeous UI (Part 1)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.iqqhs0buc)
+* [7 Rules for Creating Gorgeous UI (Part 2)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96#.d5grmgfbk)
 
 <a name="microinteractions"></a>
 ##Microinteractions
@@ -105,13 +122,25 @@ HTML
 * *Microinteractions*, Dan Saffer
 
 <a name="webFonts"></a>
-##Web fonts
+##Typography and Web fonts
+
+* [Designingwithtype.com](http://designingwithtype.com/5/home.php)
+* [The Elements of Typographic Style Applied to the Web](http://webtypography.net/toc/)
+* [Professional Web Typography](https://prowebtype.com/)
+* [*Smashing Magazine*, Best Practices of Combining Typefaces](https://www.smashingmagazine.com/2010/11/best-practices-of-combining-typefaces/)
+* [A Non-Technical Introduction to Webfonts](http://aeolidia.com/non-technical-introduction-webfonts/)
+* [Quick guide to webfonts via @font-face](http://www.html5rocks.com/en/tutorials/webfonts/quick/)
+* [Beautiful Web Type: A showcase of the best typefaces from the Google web fonts directory](http://hellohappy.org/beautiful-web-type/)
+* [Typewolf: Typography Resources](https://www.typewolf.com/resources)
+* *The Elements of Typographic Style*, Robert Bringhurst
+* *Thinking With Type: A Critical Guide for Designers, Writers, Editors, & Students*
 
 <a name="javaScript"></a>
 ##JavaScript
 
 * *Eloquent JavaScript*, Marijn Haverbeke
 * *Professional JavaScript for Web Developers*, Nicholas C. Zakas
+* *JavaScript: The Good Parts*, Douglas Crockford
 * [Code Academy’s Javascript Track](https://www.codecademy.com/learn/javascript)
 * [Treehouse Object-Oriented JavaScript](https://teamtreehouse.com/library/objectoriented-javascript)
 * [Khan Academy Computer Programning](https://www.khanacademy.org/computing/computer-programming)
@@ -119,12 +148,17 @@ HTML
 <a name="DOM"></a>
 ##DOM
 
+* [The Document Object Model (from *Eloquent JavaScript*)](http://eloquentjavascript.net/13_dom.html)
+* [Douglas Crockford: An Inconvenient API - The Theory of the DOM ](https://www.youtube.com/watch?v=Y2Y0U-2qJMs&list=PL5586336C26BDB324&index=2)
+* [*DOM Enlightenment*](http://domenlightenment.com/)
+
 <a name="jQuery"></a>
 ##jQuery
 
 * [Code School: Try jQuery](http://try.jquery.com/)
 * [Code School: jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
 * *JavaScript and jQuery*, Jon Duckett
+* [*jQuery Enlightenment*](http://jqueryenlightenment.com/)
 
 <a name="SEO"></a>
 ##SEO
@@ -137,10 +171,17 @@ HTML
 <a name="accessibility"></a>
 ##Accessibility
 
+* [Introduction to Web Accessibility](https://webaccessibility.withgoogle.com/course)
 * [Treehouse Accessibility](https://teamtreehouse.com/library/accessibility)
+* [Lynda.com: Foundations of UX: Accessibility](http://www.lynda.com/Accessibility-tutorials/Foundations-UX-Accessibility/435008-2.html)
+* [W3C: Introduction to Web Accessibility](https://webaccessibility.withgoogle.com/course)
 
 <a name="styleGuides"></a>
 ##Style guides
+
+* [Creating Style Guides](http://alistapart.com/article/creating-style-guides)
+* [Front-end Style Guides](https://24ways.org/2011/front-end-style-guides/)
+* [Real life pattern libraries, code standards documents and content style guides](http://styleguides.io/examples.html)
 
 <a name="webDevTools"></a>
 ##Web Dev Tools
@@ -160,6 +201,7 @@ HTML
 
 <a name="JSON"></a>
 ##JSON
+* ["What is JSON?" video](https://mijingo.com/lessons/what-is-json/)
 
 <a name="Ajax"></a>
 ##Ajax
