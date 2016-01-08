@@ -66,6 +66,12 @@ Git uses arcane language. The most important commands are:
 * **git commit -m"<em>Why you're making this commit</em>"** - Commits the changes and puts them into the repository. (If you forget the -m, you'll find yourself in the VIM editor, which is the system telling you, "You WILL leave a message! Here's my ancient word processor to help you do it." To get out of VIM, type **:q**)
 * **git help** - Shows the most common commands.
 
+To configure settings:
+
+* **git config --global user.email *email@whatever.com* **
+* **git config --global user.name *Your Name* **
+* **git config --global -l** - To show the configuration 
+
 The developer's cycle is:
 
 1. Edit.
@@ -95,7 +101,7 @@ Your entire repo, with all its versions of your project, can be cloned and kept 
 
 Every GitHub repository has its own URL. Files can be moved between the GitHub repo and your computer via either HTTPS or SSH protocols. (There's an article on the two options [here](https://help.github.com/articles/which-remote-url-should-i-use/). GitHub recommends HTTPS over SSH.)
 
-A git repository can be intialized on a local computer, then pushed to GitHub, or it can be started on GitHub and cloned to the local computer.
+A git repository can be intialized on a local computer, then pushed to GitHub, or it can be started on GitHub and cloned to the local computer. The repo names on GitHub and on the local drive have to match.
 
 Here's how it works if you start locally:
 
@@ -112,7 +118,7 @@ Here's how it works if you start locally:
 11. Use the command git status and verify that all your files are now in the repository. **(The repo now exists on the local drive. The next steps create the remote version on GitHub and make a public version of it that can be viewed online.)**
 12. Go to github.com, log in, click the ‘+’ in the top right to create a new repository.
 13. Give this repository the same name as your local repository.
-14. Click Create repository
+14. Click Create repository. Do NOT initialize with a README file or add .gitignore or a license.
 15. Connect your local repository to your remote repository: (“Local” just means the repository on your computer and “remote” means the repository saved on GitHub.) To connect these two from local to remote, follow the directions on the web browser screen (the ones that appear after you created the repo) and type:
 **git remote add origin <em>url_from_github</em>. (This url is located in the browser next to [quick setup].)
 16. Back on your computer, use the command line to have git send the work from your local to the remote: Type git push origin master.
@@ -150,9 +156,13 @@ Once the boilerplate files are in place:
 
 When in the Terminal, you can open the the current command-line directory in the Finder by typing **open .**
 
-
 * **git status** - Shows you what's been going on with git add and git commit.  Lets you inspect the working directory and the staging area.
 * **git log** - Displays committed snapshots. It lets you list the project history, filter it, and search for specific changes. Unlike git status, git log only operates on the *committed history*.
+* **git branch -va** - Shows the state of all brances and versions.
+
+To make git ignore a file, create a **.gitignore** that lists everything that shouldn't be adding to the staging area or committed: **touch .gitignore**
+
+To remove a repo: **rm -rf .git**
 
 ***
 

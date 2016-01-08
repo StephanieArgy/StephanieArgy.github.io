@@ -77,14 +77,14 @@ Here's what I'm focusing on at the moment:
 * [Git Immersion](http://gitimmersion.com/)
 
 <a name="webApps"></a>
-**Web Apps
+##Web Apps
 
 * [A Field Guide to Web Apps](http://www.html5rocks.com/webappfieldguide/toc/index/)
 * [A Field Guide To Static Apps](https://staticapps.org/)
 * [Terrific](http://terrifically.org/)
 
 <a name="HTML"></a>
-HTML
+##HTML
 
 * *HTML5: The Missing Manual*, Matthew MacDonald
 * *Mobile HTML5*, Estelle Weyl
@@ -105,10 +105,14 @@ HTML
 ##Responsive Design/Mobile First
 
 * [Ethan Marcotte's Call for Responsive Design(2010)](http://alistapart.com/article/responsive-web-design)
+* [A Dao of Web Design](http://alistapart.com/article/dao)
+* [Creating a Mobile-First Responsive Web Design](http://www.html5rocks.com/en/mobile/responsivedesign/)
+* [Where to Start](http://trentwalton.com/2013/02/07/where-to-start/)
+* [Treehouse Blog: Beginner's Guide to Responsive Web Design](http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design)
+* 
 * [Google: Make It Responsive](https://developers.google.com/web/fundamentals/getting-started/your-first-multi-screen-site/responsive)
 * [Shay Howe: Responsive Web Design](http://learn.shayhowe.com/advanced-html-css/responsive-web-design/)
 * [Treehouse: Responsive Layouts](https://teamtreehouse.com/library/responsive-layouts)
-* [This is Responsive - Resources](https://bradfrost.github.io/this-is-responsive/resources.html)
 
 <a name="interaction"></a>
 ##UI/Interaction Design
@@ -120,6 +124,12 @@ HTML
 ##Microinteractions
 
 * *Microinteractions*, Dan Saffer
+
+<a name="webAnimation"></a>
+##Web Animation
+
+* [Web Animation at Work](http://alistapart.com/article/web-animation-at-work)
+* [Understanding Web Animation](http://motionographer.com/2015/08/17/what-is-web-animation-rachel-nabors-explains-it-all/)
 
 <a name="webFonts"></a>
 ##Typography and Web fonts
@@ -157,8 +167,8 @@ HTML
 
 * [Code School: Try jQuery](http://try.jquery.com/)
 * [Code School: jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
-* *JavaScript and jQuery*, Jon Duckett
 * [*jQuery Enlightenment*](http://jqueryenlightenment.com/)
+* *JavaScript and jQuery*, Jon Duckett
 
 <a name="SEO"></a>
 ##SEO
@@ -187,9 +197,6 @@ HTML
 ##Web Dev Tools
 
 * [Explore and Master Chrome DevTools](http://discover-devtools.codeschool.com/)
-
-<a name="frameworks"></a>
-##Bootstrap/Foundation/frameworks/scaffolds
 
 <a name="node"></a>
 ##node.js
@@ -254,3 +261,9 @@ HTML
 * [Lynda.com: Up and Running with Neo4j](http://www.lynda.com/Neo4j-tutorials/Up-Running-Neo4j/155604-2.html)
 * [Neo4j: Get Started](http://neo4j.com/developer/get-started/)
 * [Neo4j Tutorial](http://www.tutorialspoint.com/neo4j/)
+
+<a name="frameworks"></a>
+##Bootstrap/Foundation/frameworks/scaffolds
+
+[Treehouse: Framework Basics](https://teamtreehouse.com/library/framework-basics)
+[Bootstrap: Getting Started](http://getbootstrap.com/getting-started/)
