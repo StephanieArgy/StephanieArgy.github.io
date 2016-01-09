@@ -23,6 +23,7 @@ Here's what I'm focusing on at the moment:
 * [Responsive Design/Mobile First](#responsiveMobile)
 * [UI/Interaction Design](#interaction)
 * [Microinteractions](#microinteractions)
+* [Web Animation](#webAnimation)
 * [Web fonts](#webFonts)
 * [JavaScript](#javaScript)
 * [DOM](#DOM)
