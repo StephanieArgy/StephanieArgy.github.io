@@ -14,7 +14,7 @@ permalink: /pcsnotes_c1_w1/
 ####Class Tools
 
 * Slack: For class and team communcation. *(By end of first day, install Slack on computer and iPhone.)*
-* Chrome: Our browser of choice for the purposes of this class.
+* Chrome: Our browser of choice for the purposes of this class. (We'll use the stable, in-release version; Chrome Canary is the in-development version, with all the newest features.)
 * Codepen.io: A playpen for experiments wtih HTML, CSS and JavaScript.
 * Git and GitHub.com: Project versioning and online repositories.
 * Atom or Sublime: Text editors for writing code. *(Later, I switched to Brackets, which I like most of all)*

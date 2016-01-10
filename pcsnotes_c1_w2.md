@@ -12,7 +12,7 @@ permalink: /pcsnotes_c1_w2/
 
 * [Chrome Developer Tools](#chrome_dev_tools)
 * [CSS Positioning](#css_positioning)
-* [HTMl5 Boilerplate](#html5Boilerplate)
+* [HTML5 Boilerplate](#html5Boilerplate)
 
 <a name="agile"></a>
 ####Agile Project Management
@@ -172,6 +172,8 @@ Agile stand-ups: Try to do your stand-up in three sentences, one for each questi
 <a name="chrome_dev_tools"></a>
 ####Chrome Developer Tools
 
+When learning a new software, always go through all the menu bars, because those advertise all the functions.
+
 We'll do a big exercise with Chrome Developer Tools later, but for how, here are three ways to access them:
 
 * Command + Option + I
@@ -308,7 +310,7 @@ To make them appear side by side, you can use the **float** CSS rule, as in this
 
 * **position: absolute;** - Positions the element relative to its container.
 * **position: sticky;** - Not well supported, and probably won't be.
-* All the details on the position property: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+* [Details on the position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
 Beware of ["cargo cult"](https://en.wikipedia.org/wiki/Cargo_cult) coding: it's easy to borrow other people's code, and in doing so, to include code that you don't understand. You're not being honest with yourself, because you're not really coding. It can be part of the learning process, though: at first you may do things that you don't understand (cargo-cult style), then you'll follow (and understand) recipes -- and that will lead to mastery.
 

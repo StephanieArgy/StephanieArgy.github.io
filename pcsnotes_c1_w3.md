@@ -113,9 +113,6 @@ Be careful about images and other content taken from elsewhere. We need to be ab
 Commits: "String of pearls."  o-o-o-o-o-o-o-o-o
 
 Each repo has a master branch, but may also have other branches. **gh-pages**, for example, is the "sharing branch" which deploys the visible version.
-
-o-o-o-o-o-o-o-o-o - Master Branch<br>
-  \o-o-o-o-o-o-/ - Other branch
   
 You don't want to be afraid of changes. To move quickly, you have to make pages. 
 
@@ -135,7 +132,7 @@ For collaborations, there are other branches, in addition to the gh-pages branch
 
 GitHub: Need to switch to **public-key encryption** -- way to keep things secret.
 
-To create public and private keys: https://help.github.com/articles/generating-ssh-keys/
+To create public and private keys: [https://help.github.com/articles/generating-ssh-keys/](https://help.github.com/articles/generating-ssh-keys/)
 
 ***
 
