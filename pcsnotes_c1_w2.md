@@ -12,6 +12,7 @@ permalink: /pcsnotes_c1_w2/
 
 * [Chrome Developer Tools](#chrome_dev_tools)
 * [CSS Positioning](#css_positioning)
+* [HTMl5 Boilerplate](#html5Boilerplate)
 
 <a name="agile"></a>
 ####Agile Project Management
@@ -158,7 +159,7 @@ When in the Terminal, you can open the the current command-line directory in the
 
 * **git status** - Shows you what's been going on with git add and git commit.  Lets you inspect the working directory and the staging area.
 * **git log** - Displays committed snapshots. It lets you list the project history, filter it, and search for specific changes. Unlike git status, git log only operates on the *committed history*.
-* **git branch -va** - Shows the state of all brances and versions.
+* **git branch -va** - Shows the state of all brances and versions. (**a** shows all, **v** shows the latest)
 
 To make git ignore a file, create a **.gitignore** that lists everything that shouldn't be adding to the staging area or committed: **touch .gitignore**
 
@@ -305,7 +306,13 @@ To make them appear side by side, you can use the **float** CSS rule, as in this
 
 **When you float (as in this case), float all the elements to the left.**
 
+* **position: absolute;** - Positions the element relative to its container.
+* **position: sticky;** - Not well supported, and probably won't be.
+* All the details on the position property: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+
 Beware of ["cargo cult"](https://en.wikipedia.org/wiki/Cargo_cult) coding: it's easy to borrow other people's code, and in doing so, to include code that you don't understand. You're not being honest with yourself, because you're not really coding. It can be part of the learning process, though: at first you may do things that you don't understand (cargo-cult style), then you'll follow (and understand) recipes -- and that will lead to mastery.
 
+<a name="html5Boilerplate"></a>
+####HTML5 Boilerplate
 
-
+Front end Template: [HTML5 Boilerplate](https://html5boilerplate.com/)

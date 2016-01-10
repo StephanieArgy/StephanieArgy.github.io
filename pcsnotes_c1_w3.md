@@ -5,6 +5,7 @@ permalink: /pcsnotes_c1_w3/
 ---
 
 * [Collaborating Using Git](#git_collaboration)
+* [Public Keys](#publicKeys)
 
 Going to do teamwork tonight.  Tonight's assignments:
 
@@ -108,6 +109,33 @@ Then, share the code on the **master** branch.
 Project will be a site for a massage therapist. On Basecamp, will have a client brief, design, To-Do's, text documents, a calendar, discussion. Share the To-Do's -- these are self-managed teams, so everyone can choose their own assignments.  When we present the project, everyone will need to be able to explain every piece of code they worked on.
 
 Be careful about images and other content taken from elsewhere. We need to be able to supply a license for everything we use. (Lots of Creative Commons images out there.)
+
+Commits: "String of pearls."  o-o-o-o-o-o-o-o-o
+
+Each repo has a master branch, but may also have other branches. **gh-pages**, for example, is the "sharing branch" which deploys the visible version.
+
+o-o-o-o-o-o-o-o-o - Master Branch<br>
+  \o-o-o-o-o-o-/ - Other branch
+  
+You don't want to be afraid of changes. To move quickly, you have to make pages. 
+
+**gh-pages** - Name you will always use for the public branch on GitHub. (Other companies may use different version control systems.)
+
+For collaborations, there are other branches, in addition to the gh-pages branch -- for each user who's contributing to the project.
+
+#####To sort out a merge conflict:
+
+1. Fix file, clean up.
+2. Save.
+3. Git add
+4. Git commit.
+
+<a name="publicKeys"></a>
+####Public Keys
+
+GitHub: Need to switch to **public-key encryption** -- way to keep things secret.
+
+To create public and private keys: https://help.github.com/articles/generating-ssh-keys/
 
 ***
 

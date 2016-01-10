@@ -23,6 +23,8 @@ permalink: /pcsnotes_c1_w1/
 <a name="learning_to_learn"></a>
 ####Learning to Learn
 
+Try new things: New dish, new game, memorize Middle Eastern capitals, create/share new recipe.
+
 Throughout course, keep a growing list of vocabulary terms; define them, then post them online in a <a href="../pcsnotes_glossary/">glossary</a> we will make for ourselves.
 
 This is a code school, so we are of course concerned with technology, but we are also concerned with teamwork, including **pair programming**.
@@ -55,6 +57,10 @@ Going to use Git. Git sucks. We will interact with it on the command line.
 Having a question you need to answer gives you a goal. If there are questions, try Slack (teachers and classmates), as well as Stack Overflow.
 
 Past students have also found the books *HTML &amp; CSS* and *JavaScript &amp; jQuery* by Jon Duckett to be useful. *HTML &amp; CSS* was written in 2010, so it doesn't have the freshest of information, but everything in it is true. As professionals, we'll learn online, because that's where the most up-to-date information can be found, but these books are a good introduction.
+
+Learning process: Unconscious Incompetence > Conscious Incompetence > Conscious Comptentence > Unconscious Competence.
+
+What skill set do you need? Client Need <-------> User Goal.
 
 ***
 
