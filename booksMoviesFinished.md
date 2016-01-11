@@ -4,6 +4,7 @@ title: What I've Read and Watched Lately
 permalink: /booksMoviesFinished/
 ---
 
+* *The Lavender Hill Mob* (1/9/15)
 * *Ten Canoes* (12/30/15)
 * *Drowned City: Hurricane Katrina & New Orleans*, Written and Illustrated by Don Brown (12/28/2015)
 * *The Manchurian Candidate* (1962) (12/28/2015)

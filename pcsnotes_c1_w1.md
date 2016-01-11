@@ -272,12 +272,16 @@ It's important to always have "situational awareness" and to know where you are.
 **cd ..** - Takes one up one level, to the parent of the current directory.
 
 In an empty directory, there are always two files:
-**.** - The current directory
-**..** - The parent directory
+* **.** - The current directory
+* **..** - The parent directory
 
 **mkdir <em>name_of_directory</em>** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
 
-The basic command structure is always: **$ *command word* *optional subcommand* *options* *argument***
+The basic command structure is always:
+
+```
+$ *command_word optional_subcommand options argument
+```
 
 Can use flashcards as a memory aid:
 
