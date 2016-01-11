@@ -30,6 +30,8 @@ In an agile workflow, the whole t3eam gets together every morning and does a "st
 <a name="git_basics"></a>
 ####Git Basics
 
+We wil apply Git to our own pages, then use a magic carpet called **gh-pages** to make our sites instantly public.  "One-click deploy" - Automations. Going to code in public.s
+
 #####Resources:
 
 1. Cheatsheet for Git: [http://www.git-tower.com/blog/git-cheat-sheet/](http://www.git-tower.com/blog/git-cheat-sheet/)

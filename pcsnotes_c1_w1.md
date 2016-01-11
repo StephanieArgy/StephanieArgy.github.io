@@ -128,6 +128,14 @@ Linking to Codepen from GitHub is good, because it helps make you part of the bi
 
 #####HTML
 
+There are a couple of different ways to use HTML:
+
+* Structure - The skeleton of a webpage (like the parts of a school essay)
+* Content - In static sites
+* Representational language (as is CSS). (The others are procedural.)
+
+The key thing is **semantic markup**. This means that meaning is embedded in the symbols we use for our content.
+
 In learning all our programming languages, we'll look for patterns. The brain connects new things to other things it already knows. We will find similar things in all our languages, but they may look different in each.
 
 For example, **delimiters** are characters that show us the boundaries of things -- in other words, they create limits.. We'll encounter them in different forms, depending on the language that we're using. 
@@ -178,16 +186,25 @@ Like HTML, CSS has delimiters, but they look different: **{ }**
 A CSS rule looks like this:
 
 ```
+selector {
+  property: value;
+}
+```
+
+Here's an example with actual values:
+
+```
 h1 {
     color: blue;
     }
 ```
 
-* **h1** is the selector (the part of the HTML content that this rule will be applied to)
+* **h1** is the selector (the part of the HTML content that this rule will be applied to). (Selectors are a memorization issue.)
 * **color** is the property that the rule is affecting.
 * **blue** is the **value** to which the **color** property is being set, in this case.
 * **:** The colon is a "separator," always found between the property and the value.
 * **;** The semi-colon is a "line terminator," which must be at the end of every CSS rule.
+
 
 You can't memorize all of the CSS properties, but you'll become more familiar with them as you use them regularly. You can also find a reference list at <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">https://developer.mozilla.org/en-US/docs/Web/CSS/Reference</a> or <a href="http://www.w3schools.com/cssref/">www.w3schools.com/cssref/</a>.
 
@@ -206,7 +223,11 @@ CSS can quickly become overwhelming, so to help keep yours comprehensible:
 
 Good user interface (UI) gives you the opportunity to do something. In a fancier program with a good UI, the functions are discoverable and learnable. **Get over it.**
 
-In the command line, the UI is a flashing cursor. The command line is UI for consenting adults who know what they're doing. It's hard, but if you know how to use it, you can make the computer do anything. **The medium of the computer is text.**
+Developers say, "Don't teach GUI's!" The command-line was the successor to punchcards, and it's the most powerful user interface ever. We're going back to granddaddy DOS, as used by the most advanced programmers. You have to rely on memorization.
+
+In a GUI, there are extra items on screen to help you learn to use the computer: menus, icons, etc. These are **affordances**. In a more general definition, an affordance is a relationship between an organism and an object or environment, which allows the organism the opportunity to perform an action. (For example, a lightswitch that goes up and down, or a GUI and all its helpful features.)
+
+There's one UI that has no affordances: the command line In the command line, the UI is a flashing cursor. The command line is UI for consenting adults who know what they're doing. It's hard, but if you know how to use it, you can make the computer do anything. **The medium of the computer is text.**
 
 Our basic tools (from the dawn of the computer era) are:
 
@@ -218,6 +239,9 @@ Our basic tools (from the dawn of the computer era) are:
 The terminal uses a set of commands designed in 1965. The kernal of the terminal is Linux.
 
 Every UNIX command has an input (usually from the keyboard) and an output (usually on the screen).
+
+1. GUIs have features that make it hard to make mistakes. The command line is for people who know what they're doing.  **There's no safety net.**
+2. No feedback (other than the new prompt).
 
 Can make a temporary directory to play around in.
 
@@ -252,6 +276,21 @@ In an empty directory, there are always two files:
 **..** - The parent directory
 
 **mkdir <em>name_of_directory</em>** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
+
+The basic command structure is always: **$ *command word* *optional subcommand* *options* *argument***
+
+Can use flashcards as a memory aid:
+
+* ls
+* pwd
+* cd 
+* rm
+* git
+* man
+* help
+* open
+* -*character* (e.g. -alf)
+* -*word* (e.g. -global)
 
 <a name="page_in_text_editor"></a>
 ####Making a Webpage in a Text Editor
