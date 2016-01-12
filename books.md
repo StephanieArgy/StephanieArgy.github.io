@@ -22,6 +22,7 @@ Mysteries/Thrillers:
 * *Death in Ecstasy*, Ngaio Marsh
 
 The above two are part of my effort to make a dent in this list: the [twenty novels](http://martinhillortiz.blogspot.com/2015/04/cwa-mwa-and-mwj-mystery-novels-that.html) that appeared on three lists of all-time favorite mystery novels: 
+
   * The 100 Top Mystery Novels lists from the Crime Writers' Association (British, 1990)
   * The Mystery Writers of America (1995)
   * The two lists of "Western" (American and European) Novels from the Mystery Writers of Japan (1985, 2012).
@@ -38,4 +39,4 @@ Books on Greece:
 * *The Full Catastrophe: Travels Among the New Greek Ruins*, James Angelos.
 * *The House on Paradise Street*, Sofka Zinovieff.
 
-* I'm also intrigued by many of the titles on [this list from Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/retd.html), and someday when I'm feeling brave, I would like to attempt to read some of Knuth's own writing...
+I'm also intrigued by many of the titles on [this list from Donald Knuth](http://www-cs-faculty.stanford.edu/~uno/retd.html), and someday when I'm feeling brave, I would like to attempt to read some of Knuth's own writing...
