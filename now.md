@@ -3,13 +3,13 @@ layout: page
 title: Now
 permalink: /now/
 ---
-Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: January 8, 2016).
+Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: January 12, 2016).
 
 My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
 ##Story
 
-* [*A Person Known to Me*](http://www.apersonknowntome.com): A digital dime novel -- an ongoing, epic, multi-installment detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon..
+* [*A Person Known to Me*](http://www.apersonknowntome.com): A digital dime novel -- an ongoing, epic, multi-installment detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon.
 
 * A non-fiction account of the final eleven days of my mother's life. Alec has dubbed this project my "momoir."
 
@@ -22,6 +22,7 @@ My main work at the moment is in three areas: Story, Coding, Angel Investing.
 * Writing classes:
   * [Memoir Boot Camp](http://www.literary-arts.org/product/winter-2016-memoir-boot-camp/) with Jay Ponteri at Portland's Literary Arts.
   * Creative Writing (Fiction) with Blake Hausman at Portland Community College.
+  * [Writing a Novel in 8 Weeks](http://www.literary-arts.org/product/winter-2016-writing-a-novel-in-8-weeks/) with Emily Chenoweth at Literary Arts.
 
 And, as part of my story explorations, I'm also looking into:
 
