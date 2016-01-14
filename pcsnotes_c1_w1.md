@@ -134,7 +134,14 @@ There are a couple of different ways to use HTML:
 * Content - In static sites
 * Representational language (as is CSS). (The others are procedural.)
 
-The key thing is **semantic markup**. This means that meaning is embedded in the symbols we use for our content.
+The key thing is **semantic markup**. This means that meaning is embedded in the symbols we use for our content. When you write HTML, you inject meaning.
+
+HTML isn't not done  -- it's growing. The [standards body](https://www.w3.org/standards/webdesign/htmlcss) comes up with a consensus that reflects use in the real world. For example, after enough people kept giving divs a class of "article," the stnadards body added an "article" element in HTML5.  (They also added header, footer, etc.) HTML5 eschews the use of "div" if somethimg more specific exists.
+
+Two goals:
+
+1. Mark up HTML so that it has meaning, not just looks.
+2. Write HTML that's only about content. (The content has to make sense without the style sheet.)
 
 In learning all our programming languages, we'll look for patterns. The brain connects new things to other things it already knows. We will find similar things in all our languages, but they may look different in each.
 
@@ -151,6 +158,8 @@ Most of the time, there's an opening tag (to show where the element starts) and 
 ```
     
 The angle brackets at the beginning and end of the content are the tags; the "h1" inside them is the tag name. 
+
+Search engines make decisions based on markup. They'll think that an h1 tag indicates the main point of a page.
 
 When you're typing code, a good text editor will automatically close an element, but it's a good habit to always close the tag (that is, make sure the end tag is in place) before you add the content.
 
@@ -258,24 +267,24 @@ However, we'll now go over the most essential commands that we'll need to know:
 
 Finder is a program that runs on a computer to show files. **open .** makes a Finder window open and show the files inside the current directory.
 
-It's important to always have "situational awareness" and to know where you are.
+It's important to always have "situational awareness" and to know where you are. Get in the habit of always checking "where am I?" (**pwd**) and "what's in here?" (**ls**).
 
-**pwd** - Means "print working directory," and it shows the current directory.
-
-**ls** - Shows all files in the current directory.
-**ls -1** - Shows all files in the current directory, even hidden files.
-**ls -l** - Shows all the files in the current directory in their long form (with additional info such as date, size, who created it, permissions).
-**ls -al** - Shows the long form of all files in the current directory (even hidden ones).
-
-**cd <em>name_of_directory</em>** - Change directories (and directory names are always case sensitive).
-**cd** - With no directory name, takes one to the root directory.
-**cd ..** - Takes one up one level, to the parent of the current directory.
+* **pwd** - Means "print working directory," and it shows the current directory. (Shows path, exactly like a URL in a the computer.)
+* **ls** - List directory contents, shows all files in the current directory.
+* **ls -1** - Shows all files in the current directory, even hidden files.
+* **ls -l** - Shows all the files in the current directory in their long form (with additional info such as date, size, who created it, permissions).
+* **ls -al** - Shows the long form of all files in the current directory (even hidden ones).
+* **cd <em>name_of_directory</em>** - Change directories (and directory names are always case sensitive). ("cd" is the command, <em>name_of_director</em> is the argument.)
+* **cd** - With no directory name, takes one to the root directory.
+* **cd ..** - Takes one up one level, to the parent of the current directory.
 
 In an empty directory, there are always two files:
 * **.** - The current directory
 * **..** - The parent directory
 
-**mkdir <em>name_of_directory</em>** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
+* **mkdir <em>name_of_directory</em>** Makes a new directory within the current directory. (Have to use **cd <em>new_directory</em>** to go into the newly made directory)
+* **rm <em>name_of_file</em>** - Delete file.
+* **rm -r <em>name_of_directory</em>** - Delete directory.
 
 The basic command structure is always:
 
@@ -358,6 +367,5 @@ To keep code neater and more comprehensible, you can collapse sections that have
 "Attributes" provide additional information. They're a name/value pair, with a quoted string as a value. (Always use lower case and put in quotes.)
 
 Safari is not a good development browser; may still want to use it for browsing, but when coding, reset the default browser.  (In this class, we're using Google Chrome.)
-
 
 You can examine and learn from anyone's code. In Chrome: View>Developer>Developer Tools (or the shortcut Command + Option + T) makes the DOM visible.

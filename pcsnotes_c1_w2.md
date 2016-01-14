@@ -296,7 +296,9 @@ In CSS, you use **selectors** to choose which parts of the HTML you're going to 
 
 * Elements are just listed by name (h1, p, nav, etc.)
 * Classes are preceded by a **.**
-* ID's are preceded by a **#**
+* ID's are preceded by a **#** (Typically, people are getting away from the use of IDs.)
+
+(Those are the three kids of selectors we know so far; there are [many others](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors).)
 
 #####Floats
 
