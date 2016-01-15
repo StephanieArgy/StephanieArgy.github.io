@@ -52,9 +52,10 @@ We wil apply Git to our own pages, then use a magic carpet called **gh-pages** t
 
 It is possible to use Git witha UI, but most developers use the command line.
 
-It can help to create a mental picture of what's happening when you're using git. This is one possible visual metaphor: 
+It can help to create a mental picture of what's happening when you're using git. One PCS student/TA used the image of a schoolbus. You can devise your own. This is one possible visual metaphor: 
 
 <img alt="GitMentalImage" src="/images/GitMentalImage.jpg" width="300px">
+
 
 Think of folders and files as being stuck on clear piece of mylar. All active work is being done in the **working directory.**
 
@@ -64,16 +65,22 @@ Those changes can then be **committed**, or permanently recorded, into the repos
 
 Git uses arcane language. The most important commands are:
 
-* **git status** - Lets you see the current state of all the files in the project, and what has or hasn't been committed.
+* **git status** - Lets you see the current state of all the files in the project, and what has or hasn't been committed. This is the git command you'll use 10x more than any other; it's the git equivalent of **pwd** or **ls** and enables one to have situational awareness.
 * **git add** - Moves the latest changes into the staging area, from where they can be committed.
-* **git commit -m"<em>Why you're making this commit</em>"** - Commits the changes and puts them into the repository. (If you forget the -m, you'll find yourself in the VIM editor, which is the system telling you, "You WILL leave a message! Here's my ancient word processor to help you do it." To get out of VIM, type **:q**)
+* **git commit -m"<em>Why you're making this commit</em>"** - Commits the changes that were in the staging area, puts them into the repository and takes a snapshot of the repo at that moment. Always leave a message: it's for other designers and developers (including your future self). (If you forget the -m, you'll find yourself in the VIM editor, which is the system telling you, "You WILL leave a message! Here's my ancient word processor to help you do it." To get out of VIM, type **:q** or **Shift + ZZ** or even **Esc + Shift + ZZ)
 * **git help** - Shows the most common commands.
+* **git history** - Show history.
+* **git log** - Shows everything you've done.
+* **git mv** - Moves something from one place in a tree to another.
+* **git diff** Shows changes, but there are more useful ways to do this.
 
 To configure settings:
 
 * **git config --global user.email *email@whatever.com* **
 * **git config --global user.name *Your Name* **
 * **git config --global -l** - To show the configuration 
+
+All git commands are **git <em>something</em>**, because they're all subcommands of **git**.
 
 The developer's cycle is:
 
@@ -93,7 +100,7 @@ Once a file has been added to the staging area, it can still be removed, with th
 
 Here's a very handy command-line shortcut: **Control + C** will stop whatever task is currently running.  (In notes, I starred it and called it, "The Best Command-Line Shortcut Ever," but I don't remember what crisis it saved me from at the time.)
 
-When you enter git commands, read everything that git says in the Terminal. Look to make sure that you don't see the words "error" or "warning." Gradually, it will all start to make sense.
+When you enter git commands (especially **git status**), read everything that git says in the Terminal, even if it makes no sense. Look to make sure that you don't see the words "error" or "warning." Gradually, it will all start to become clear, but that breakthrough won't happen if you're not reading it along.
 
 <a name="github_basics"></a>
 ####GitHub Basics
@@ -205,11 +212,21 @@ More: [Great Hidden Features in the Chrome Developer Tools]([http://blog.teamtre
 
 #####The Cascade
 
+There are three ways to assign styles:
+
+1. Inline style attribute (inside the HTML tag) -- NOT GOOD! Means you have to laboriously change every instance of that attribute to change the style.
+2. Internal style sheet - In the head element of the HTML.
+3. **External style sheet, which the HTML refers to via the link element (also in the head element)**
+
 CSS stands for "cascading style sheet," and there are three factors that affect which CSS rules are used for a particular element:
 
-1. Proximity
-2. Specificity
-3. Inheritance
+1. Proximity -- The closer the style is, the more priority it has. (The order, from highest to lowest priority: inline, internal, external)
+2. Specificity (e.g. ID is more specific than a class, a class is more specific than an element)
+3. Inheritance - If you don't specify a style the child will inhereit from its parent container.
+
+In our class, no reason to use anything but proximity and specifity, plus external style sheets.
+
+Use Chrome Developer Tools to analyze where the styles are coming from. (In Dev Tools, you can turn on "Show Inherited)
 
 Can experiment in Codepen, to see the cascade in action and see which selectors take precedence over others:
 [Cascade Demo](http://codepen.io/StephanieArgy/pen/PPdmOd).
@@ -302,7 +319,9 @@ In CSS, you use **selectors** to choose which parts of the HTML you're going to 
 
 #####Floats
 
-By default, block elements are stacked on top of one another. The browser reads the HTML from top to bottom, and each block element takes up the full width of the page. Whatever is next, goes below it on the page.
+There are a couple of different positioning mechanisms. 
+
+When using a browser, you're looking at a window. As you define things in HTML, if you don't give specific instructions, it will start packing things in a certain way. By default, block elements are stacked on top of one another. The browser reads the HTML from top to bottom, and each block element takes up the full width of the page. Whatever is next, goes below it on the page. Each box bubbles up from bottom to the top.  
 
 To make them appear side by side, you can use the **float** CSS rule, as in this [Codepen Demo](http://codepen.io/StephanieArgy/pen/vEVJdm).
 
@@ -312,8 +331,11 @@ To make them appear side by side, you can use the **float** CSS rule, as in this
 
 **When you float (as in this case), float all the elements to the left.**
 
-* **position: absolute;** - Positions the element relative to its container.
-* **position: sticky;** - Not well supported, and probably won't be.
+* **position: static;** - Normal Behavior.
+* **position: relative;** - Positions element relative to where it would have been normally and **leaves a gap where it would have been**.
+* **position: absolute;** - Positions the element relative to its container. (Good for a nav bar)
+* **position: fixed;** - Position is constrained to a particular place on the viewport and won't respond to scrolling. (0, 0) for the (x, y) coordinates is at the TOP LEFT of the screen.
+* **position: sticky;** - Not well supported, and probably won't be. Keep checking, but don't use it yet.
 * [Details on the position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
 Beware of ["cargo cult"](https://en.wikipedia.org/wiki/Cargo_cult) coding: it's easy to borrow other people's code, and in doing so, to include code that you don't understand. You're not being honest with yourself, because you're not really coding. It can be part of the learning process, though: at first you may do things that you don't understand (cargo-cult style), then you'll follow (and understand) recipes -- and that will lead to mastery.

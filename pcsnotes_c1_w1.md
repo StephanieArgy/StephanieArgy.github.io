@@ -163,6 +163,8 @@ Search engines make decisions based on markup. They'll think that an h1 tag indi
 
 When you're typing code, a good text editor will automatically close an element, but it's a good habit to always close the tag (that is, make sure the end tag is in place) before you add the content.
 
+Want to keep code as simple and non-repetitive as possible. Every character in code is a possible point of failure (like the [O-Rings in the NASA space shuttle](http://www.spacesafetymagazine.com/space-disasters/challenger-disaster/)). ("DRY" programming means "Don't Repeat Yorself.")
+
 Another shortcut in text editors: typing "lorem" and then hitting the TAB key will automatically create a block of lorem ipsum (nonsense placeholder text). There are also more creative incarnations of lorem ipsum available online <a href=" http://designshack.net/articles/inspiration/30-useful-and-hilarious-lorem-ipsum-generators/">here</a>.
 
 As one builds an HTML page, a hierarchical tree structure starts to grow, with elements nested inside of other elements. The structure has meaning.  For example, the tag names of the headings on a page indicates their relative importance: 
@@ -277,6 +279,7 @@ It's important to always have "situational awareness" and to know where you are.
 * **cd <em>name_of_directory</em>** - Change directories (and directory names are always case sensitive). ("cd" is the command, <em>name_of_director</em> is the argument.)
 * **cd** - With no directory name, takes one to the root directory.
 * **cd ..** - Takes one up one level, to the parent of the current directory.
+* **touch** - Makes a new file.  (e.g. **touch css/main.css** makes a new main.css file in the css folder)
 
 In an empty directory, there are always two files:
 * **.** - The current directory
