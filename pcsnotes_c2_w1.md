@@ -10,6 +10,7 @@ permalink: /pcsnotes_c2_w1/
 
 ***
 
+* [Events](#events)
 * [JavaScript Functions and Objects](#javaScriptFunctionsObjects)
 
 This class: Set our own stakes. Decide how hard we want to push ourselves.
@@ -176,6 +177,29 @@ Start with the most primitive device, make sure it works, then build up from the
 If you connect your iPhone to your computer, you cna load up your website in progress on your phone.
 
 ****
+
+<a name="events"></a>
+##Events
+
+Browsers look through a liminted plastic tube at the customer. Events are what we have to work with, to learn about them and what they're doing.
+
+What is an event? Whare the different kinds?
+
+* click
+* keydown
+* keyup
+* mouse (click, hover, movement)
+* scroll
+* resize
+* open
+* close
+
+An event can trigger a function. 
+
+What is in a web app?  DOM > HTML > Body> input, p, etc.
+
+**To keep a a function from doing its default behavior and opening a nerw window: preventDefault();
+
 
 <a name="javaScriptFunctionsObjects"></a>
 ##JavaScript Functions and Objects
