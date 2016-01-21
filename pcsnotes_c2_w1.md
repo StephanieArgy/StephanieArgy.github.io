@@ -198,7 +198,7 @@ An event can trigger a function.
 
 What is in a web app?  DOM > HTML > Body> input, p, etc.
 
-**To keep a a function from doing its default behavior and opening a nerw window: preventDefault();
+**To keep a a function from doing its default behavior: event.preventDefault();
 
 
 <a name="javaScriptFunctionsObjects"></a>

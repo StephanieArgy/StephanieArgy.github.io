@@ -19,7 +19,6 @@ Books on writing:
 Mysteries/Thrillers:
 
 * *A Coffin for Dimitrios*, Eric Ambler
-* *Death in Ecstasy*, Ngaio Marsh
 
 The above two are part of my effort to make a dent in this list: the [twenty novels](http://martinhillortiz.blogspot.com/2015/04/cwa-mwa-and-mwj-mystery-novels-that.html) that appeared on three lists of all-time favorite mystery novels: 
 

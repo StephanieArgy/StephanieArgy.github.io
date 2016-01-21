@@ -143,7 +143,34 @@ Cultivate a dual state: working AND observing the process.
 <a name="jQuery"></a>
 ##jQuery
 
-jQuery is a library written in JavaScript. It is used to select elements and then do things with those.
+jQuery is a library written in JavaScript. It is used to select parts of the web page by element, class, IDs, and then do things with what you've selected. A library is just a bunch of code that someone else wrote.
+
+JavaScript is a language, which has its own standard library (document, window, math, etc.). jQuery can't do anything that isn't in the standard library. But even though jQuery can't do anything that you can't do with JavaScript, everyone wants/expects you to know jQuery.  (New version of JavaScript (ECMAScript 6) just out. Turning into a nice programming language.)
+
+Difference between JavaScript and jQuery. First, the JavaScript code to change the color of a paragraph:
+
+```
+<head>
+  <script>
+  function changeColor(newColor) {
+    var elem = document.getElementById("para1");
+    elem.style.color = newColor;
+  }
+  </script>
+</head>
+<body>
+  <p id="para1">Some text here</p>
+  <button onclick="changeColor('red');">red</button>
+</body>
+```
+
+Then, the jQuery:
+
+```
+$("button").click(function(){
+    $("p").css("color", "red");
+}); 
+```
 
 From w3schools tutorial:
 
@@ -153,7 +180,11 @@ From w3schools tutorial:
 >* A (selector) to "query (or find)" HTML elements
 >* A jQuery action() to be performed on the element(s)
 
-**$** - Shorthand for "jQuery," opens the library.
+**$** - Shorthand for "jQuery," opens the library. May want to use single quotes for selectors.
+
+What can be used for selectors? [jQuery Selectors](http://www.w3schools.com/jquery/jquery_ref_selectors.asp)
+
+**Get good at reading the jQuery API Documentation.**
 
 jQuery can be used to get info:
 
@@ -177,6 +208,10 @@ Prepend(append) inserts content at the beginning (end) of the selected element (
 Before (after) insert content before (after) the matched element (and outside of it).
 Demo [here](http://jsfiddle.net/xtb51wed/)
 
+You see a lot of anonymous functions as the argument of a method call.  **Method call has to have a semi-colon.**
+
+**console.log** is pointless, but it lets us see what's going on.
+
 ###Events
 
 Goodle "MDN events." There are LOTS!
@@ -184,6 +219,10 @@ Goodle "MDN events." There are LOTS!
 This kind of programming is called "event-driven programming." We set up functions that run when events happen.  (e.g. when user clicks on something, something happens.)
 
 ###Traversing the DOM
+
+Can traverse: Wake up function on one element, perform change on another:
+
+**input -- p -- div**: Can wake up the vent with the input, then target the function on the div.
 
 Can use .next() or .prev()
 
@@ -198,6 +237,10 @@ Other methods:
 [.not()](https://api.jquery.com/not/)
 
 When you're debugging jQuery, it acts like an element, but it's not. It's a jQuery obj3ect that's a representation of an element.  You're actually manipulating a very complex model. There are a lot of similarities between jQuery objects and the DOM.
+
+JavaScript/jQuery: The whole point is to manuipulate the content of a div with the ID (output_area).
+
+When does the script run? Afer the document is fully loaded:
 
 ```
 $(document).ready(function () {
