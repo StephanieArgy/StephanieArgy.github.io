@@ -13,7 +13,7 @@ Books by my instructors:
 
 Books on writing:
 
-* *On Writing Well*, William Zinsser
+* *Write Away*, Elizabeth George
 * *Geek Sublime*, Vikram Chandra
 
 Mysteries/Thrillers:
