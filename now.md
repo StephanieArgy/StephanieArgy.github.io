@@ -46,11 +46,11 @@ Having started my web development education with Al Zimmerman at the late Portla
 * As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.  My first two investments are:
 
 <a href="http://atik.us/#accesstocredit">
-   <img alt="AtikusLogo" src="/images/Atikus.png">
+   <img alt="AtikusLogo" src="/images/Atikus.png" width="200px">
 </a>
 
 <a href="http://beta.isow.com/">
-   <img alt="SowLogo" src="/images/uc.png">
+   <img alt="SowLogo" src="/images/uc.png"  width="200px">
 </a>
 
 I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
