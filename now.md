@@ -41,15 +41,19 @@ Having started my web development education with Al Zimmerman at the late Portla
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
 
-* And I'm using what I learn to build some small sites, which I'll link to soon:
-
-1. Good-for-the-world investing...
-2. Cycling (for everyone, not just for speedy guys in Spandex).
-
-
 ##Angel Investing
     
-* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.  I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
+* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.  My first two investments are:
+
+<a href="http://atik.us/#accesstocredit">
+   <img alt="AtikusLogo" src="/images/Atikus.png">
+</a>
+
+<a href="http://beta.isow.com/">
+   <img alt="SowLogo" src="/images/uc.png">
+</a>
+
+I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
 
 ##Other Things
