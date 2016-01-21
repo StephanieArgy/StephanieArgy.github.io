@@ -43,7 +43,7 @@ Having started my web development education with Al Zimmerman at the late Portla
 
 ##Angel Investing
     
-* As a [Pipeline Angel](http://pipelineangels.com/), I'm evaluating and investing in for-profit social ventures founded and run by women.  My first two investments are:
+* I'm evaluating and investing in for-profit social ventures founded and run by women.  My first two investments, done through the bootcamp program run by [Pipeline Angels](http://pipelineangels.com/), are:
 
 <a href="http://atik.us/#accesstocredit">
    <img alt="AtikusLogo" src="/images/Atikus.png">
