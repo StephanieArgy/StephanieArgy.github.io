@@ -4,6 +4,7 @@ title: What I've Read and Watched Lately
 permalink: /booksMoviesFinished/
 ---
 
+* *Twilight Samurai* (1/24/16)
 * *Death in Ecstasy*, Ngaio Marsh (1/20/16)
 * *The Lavender Hill Mob* (1/9/15)
 * *Ten Canoes* (12/30/15)
@@ -13,4 +14,4 @@ permalink: /booksMoviesFinished/
 * *Die Hard* (For Xmas Eve) (12/24/2015)
 * *One for the Money*, Janet Evanovich (12/24/2015)
 
-*(List was started on December 24, 2015, and most recently updated on January 20, 2015)*
+*(List was started on December 24, 2015, and most recently updated on January 26, 2015)*
