@@ -37,7 +37,7 @@ And, as part of my story explorations, I'm also looking into:
     
 Having started my web development education with Al Zimmerman at the late Portland Code School, I'm now continuing on my own, following <a href="../codingCurriculum/">this (constantly evolving) self-designed curriculum</a>.
 
-* I'm supplementing that with coursework from [Treehouse](https://teamtreehouse.com/). (Right now, Front End Web Development: HTML Video and Audio.)
+* I'm supplementing that with coursework from [Treehouse](https://teamtreehouse.com/). (Right now, Front End Web Development: CSS Layout Basics.)
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
 
