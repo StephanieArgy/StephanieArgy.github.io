@@ -34,6 +34,8 @@ Wolfson
   10. Psuedo-classes -- **a:hover**
   11. Pseudo-elements -- **.container:before**
   
+  (Prefer to use single quotes for selectors.)
+  
   Once an object has been returned, it can then be operated on by a method:
   
   ```
@@ -45,6 +47,18 @@ Wolfson
   ```
   $( ).parent.( ).click( )
   ```
+  
+  .addClass() method takes parapeter of selector element, adds a class that changes the appearance of the element:
+  
+  ```
+  $('p').addClass("myClass);
+  ```
+  
+**.selected** - Class can be semantic.
+
+When you change the DOM, the browser wakes up and bubbles through HTML and changes just the affected elements.
+
+**Hoisting** - Whenever JavaScript runs into a function declaration, it lifts it to the top of the current script of function.
   
 Methods return an object, which is passed along -- **Traversal**
 

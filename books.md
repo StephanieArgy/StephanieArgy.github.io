@@ -20,7 +20,7 @@ Mysteries/Thrillers:
 
 * *A Coffin for Dimitrios*, Eric Ambler
 
-The above two are part of my effort to make a dent in this list: the [twenty novels](http://martinhillortiz.blogspot.com/2015/04/cwa-mwa-and-mwj-mystery-novels-that.html) that appeared on three lists of all-time favorite mystery novels: 
+That last one is part of my effort to make a dent in this list: the [twenty novels](http://martinhillortiz.blogspot.com/2015/04/cwa-mwa-and-mwj-mystery-novels-that.html) that appeared on three lists of all-time favorite mystery novels: 
 
   * The 100 Top Mystery Novels lists from the Crime Writers' Association (British, 1990)
   * The Mystery Writers of America (1995)

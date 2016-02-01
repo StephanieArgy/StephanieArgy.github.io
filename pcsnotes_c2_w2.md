@@ -203,6 +203,17 @@ var count = 0;
 while (count++ < limit){}
 ```
 
+++ Increment operator
+-- Decrement operator
+
+These are all the same thing, and all increase the count by 1:
+
+```
+count = count + 1;
+count += 1;
+count++;
+```
+
 NOTE: "Off by one" errors are really common.
 
 Developer Tools:
@@ -220,13 +231,22 @@ In a program, things happen in sequence.
 
 **Breakpoint** - Point where execution stops. Can set breakpoint. In window, can resume. To save a breakpoint, just uncheck it in Breakpoints.
 
+Click on line of code to set a breakpoint. Reload.
+
+Can set breakpoints on all sorts of things: DOM manipulations, etc.
+
+```
+var count = 0; (If breakpoint is here, count is 0.)
+count = count + 1; (If breakpoint is here, count is +1.)
+```
+
 **Single-stepping** - Can go through a program step by step.
 
 **Scope Variables** - Variables declared/in use in that section. Visible under "Scope Variables."  (Under "Global," can see built-in functions.)
 
 **Watch Expressions** -- Can put in a particular expression, see how it evaluates.
 
-Not the most reliable system; only use it when yo umust.  Can't edit in Dev Tools for JavaScript.
+Not the most reliable system; only use it when you umust.  Can't edit in Dev Tools for JavaScript.
 
 Can also look:
 Right-click > "Break on..." > Subtree modifications.
@@ -235,6 +255,15 @@ Dev Tools are a great way to debug, and also to examine unfamiliar scripts.
 
 Can also stop on events: **Event Listener Breakpoints** 
 (Shows all events a browser can tell the code.  In this calass, we will be concerned only with mouse events and window events.)
+
+Dubugging:
+
+1. Run Lint.
+2. Open page, look at Console for effor messages.  (Always ask yourself, "What does it say in the Console?")
+3. Look in Console for console.log messages.
+
+Sources shows everything the page has been asked to get
+
 
 ***
 

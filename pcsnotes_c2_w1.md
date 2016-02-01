@@ -244,6 +244,8 @@ return width * height;
 }
 ```
 
+Code between brackets **{}** is a "block of code." Variables declared within it exist only in that block.
+
 Function takes an input, processes it, returns an output.
 
 INPUT ---> PROCESS ---> OUTPUT
@@ -402,7 +404,7 @@ $(document).ready(function(){}
 * "document" is the selector.
 * "ready" is the method.
 
-The whole thing means: When the document is ready, run this function.
+The whole thing means: When the document is ready, run this function. (When does this script run? After the document is fully loaded.)
 
 Look for patterns.
 The jQuery pattern:
@@ -413,6 +415,6 @@ $(selector).event (function () {
 })
 ```
 
-To look up jQuery: jquery.com >API Documentation
+To look up jQuery: jquery.com >API Documentation. (Important to get good at reading the jQuery API documentation.)
 
 Start with quiz. It's a study guide, and answering the questions will explain how to do the assignment.Point of this class: A method of learning, more than an exercise in JavaScript. **Learn how to research things.**
