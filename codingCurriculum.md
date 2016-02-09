@@ -58,7 +58,7 @@ Here's what I'm focusing on at the moment:
 ***
 
 <a name="internet"></a>
-## Internet/Web fundamentals
+##Internet/Web fundamentals
 
 * [Khan Academy: How the Internet Works](https://www.khanacademy.org/partner-content/code-org/internet-works)
 * [How Does the Internet Work?](http://www.w3.org/wiki/How_does_the_Internet_work)
