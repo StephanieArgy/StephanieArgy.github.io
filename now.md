@@ -7,7 +7,7 @@ Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Grego
 
 My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
-##Story
+## Story
 
 * [*A Person Known to Me*](http://www.apersonknowntome.com): A digital dime novel -- an ongoing, epic, multi-installment detective adventure that includes prose, movies, historical context, and illustrations by the wonderful Kati Simon.
 
@@ -33,7 +33,7 @@ And, as part of my story explorations, I'm also looking into:
 * Color
 * Typography
     
-##Coding
+## Coding
     
 Having started my web development education with Al Zimmerman at the late Portland Code School, I'm now continuing on my own, following <a href="../codingCurriculum/">this (constantly evolving) self-designed curriculum</a>.
 
@@ -41,7 +41,7 @@ Having started my web development education with Al Zimmerman at the late Portla
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
 
-##Angel Investing
+## Angel Investing
     
 * I'm evaluating and investing in for-profit social ventures founded and run by women.  My first two investments, done through the bootcamp program run by [Pipeline Angels](http://pipelineangels.com/), are:
 
@@ -56,7 +56,7 @@ Having started my web development education with Al Zimmerman at the late Portla
 I've also collected some of the angel investing resources and tools I've found [here](http://stephanieargy.github.io/AngelInvesting/).
 
 
-##Other Things
+## Other Things
 
 * Learning to speak Greek, learning about Greece. (Finding it very useful to work with the [Anki spaced repetition system](http://ankisrs.net/).)
 
