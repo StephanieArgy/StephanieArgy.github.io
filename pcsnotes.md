@@ -12,34 +12,34 @@ As someone trained as a journalist, I'm good at taking notes. When I was a stude
 
 Here's the basic framework: 
 
-##Primer Basic
+## Primer Basic
 
-####<a href="../pcsnotes_c1_w1/">Week One</a> - Learning to Learn, Short Overview of How a Website Works, Making Our First Website, Language Basics, Command Line Basics, Making a Webpage in a Text Editor
+#### <a href="../pcsnotes_c1_w1/">Week One</a> - Learning to Learn, Short Overview of How a Website Works, Making Our First Website, Language Basics, Command Line Basics, Making a Webpage in a Text Editor
 
-####<a href="../pcsnotes_c1_w2/">Week Two</a> - Agile Project Management, Git and GitHub Basics, Chrome Developer Tools, CSS Positioning
+#### <a href="../pcsnotes_c1_w2/">Week Two</a> - Agile Project Management, Git and GitHub Basics, Chrome Developer Tools, CSS Positioning
 
-####<a href="../pcsnotes_c1_w3/">Week Three</a> - Collaborating with Git and GitHub
+#### <a href="../pcsnotes_c1_w3/">Week Three</a> - Collaborating with Git and GitHub
 
-####<a href="../pcsnotes_c1_w4/">Week Four</a> - Forms, final presentations
+#### <a href="../pcsnotes_c1_w4/">Week Four</a> - Forms, final presentations
 
-##Primer Pro
+## Primer Pro
 
-####<a href="../pcsnotes_c2_w1/">Week One</a> - JavaScript and responsive design, traversal
+#### <a href="../pcsnotes_c2_w1/">Week One</a> - JavaScript and responsive design, traversal
 
-####<a href="../pcsnotes_c2_w2/">Week Two</a> - Responsive design, reponsive images, developer tools for JavaScript, responsive design assignment, preview of JavaScript Immersion course
+#### <a href="../pcsnotes_c2_w2/">Week Two</a> - Responsive design, reponsive images, developer tools for JavaScript, responsive design assignment, preview of JavaScript Immersion course
 
-####<a href="../pcsnotes_c2_w3/">Week Three</a> - Introduction to Bootstrap
+#### <a href="../pcsnotes_c2_w3/">Week Three</a> - Introduction to Bootstrap
 
-####<a href="../pcsnotes_c2_w4/">Week Four</a> - More Bootstrap
+#### <a href="../pcsnotes_c2_w4/">Week Four</a> - More Bootstrap
 
-##Advanced Front End Dev Tools
+## Advanced Front End Dev Tools
 
-####<a href="../pcsnotes_c3_w1/">Week One</a> - Class agenda, jQuery, Chrome Dev Tools, glossary assignment 
+#### <a href="../pcsnotes_c3_w1/">Week One</a> - Class agenda, jQuery, Chrome Dev Tools, glossary assignment 
 
-####<a href="../pcsnotes_c3_w2">Week Two</a> - JSON, glossary assignment, command line tools & package managers, Sass
+#### <a href="../pcsnotes_c3_w2">Week Two</a> - JSON, glossary assignment, command line tools & package managers, Sass
 
-####<a href="../pcsnotes_c3_w3">Week Three</a> - Yeoman, testing, user stories, Selenium, Ajax, jQuery
+#### <a href="../pcsnotes_c3_w3">Week Three</a> - Yeoman, testing, user stories, Selenium, Ajax, jQuery
 
-####<a href="../pcsnotes_c3_w4">Week Four</a> - Command line, Backend as a Service, style guides
+#### <a href="../pcsnotes_c3_w4">Week Four</a> - Command line, Backend as a Service, style guides
 
 In addition, I made myself a page of assorted links and resources that helped me with the curriculum. That page can be found [here](http://stephanieargy.github.io/journal/).

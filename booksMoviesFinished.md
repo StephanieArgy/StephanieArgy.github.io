@@ -4,7 +4,7 @@ title: What I've Read and Watched Lately
 permalink: /booksMoviesFinished/
 ---
 
-* *Hail Caesar* (2/5/16)
+* *Hail Caesar* (2/5/16 and again on 2/7/16)
 * *The Usual Suspects* (1/31/16)
 * *Merchants of Doubt* (1/27/16)
 * *Twilight Samurai* (1/24/16)
@@ -17,4 +17,4 @@ permalink: /booksMoviesFinished/
 * *Die Hard* (For Xmas Eve) (12/24/2015)
 * *One for the Money*, Janet Evanovich (12/24/2015)
 
-*(List was started on December 24, 2015, and most recently updated on February 5, 2015)*
+*(List was started on December 24, 2015, and most recently updated on February 8, 2015)*
