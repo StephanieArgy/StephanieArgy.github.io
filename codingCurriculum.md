@@ -45,7 +45,7 @@ Here's what I'm focusing on at the moment:
 
 ***
 
-## General Resources
+<h2>General Resources</h2>
 
 * [MDN](https://developer.mozilla.org/en-US/docs/Web)
 * [w3schools](http://www.w3schools.com/)
@@ -66,26 +66,26 @@ Here's what I'm focusing on at the moment:
 * [Web Hosting Beginner Guide](http://www.webhostingsecretrevealed.net/web-hosting-beginner-guide/)
 
 <a name="commandLine"></a>
-## Command Line
+<h2>Command Line</h2>
 
 * [The Command Line Crash Course](http://cli.learncodethehardway.org/book/)
 * [Learn Enough Command Line to Be Dangerous](http://www.learnenough.com/command-line-tutorial)
 
 <a name="git"></a>
-## Git
+<h2>Git</h2>
 
 * [Try Git](http://www.codeschool.com/courses/try-git)
 * [Git Immersion](http://gitimmersion.com/)
 
 <a name="webApps"></a>
-## Web Apps
+<h2>Web Apps</h2>
 
 * [A Field Guide to Web Apps](http://www.html5rocks.com/webappfieldguide/toc/index/)
 * [A Field Guide To Static Apps](https://staticapps.org/)
 * [Terrific](http://terrifically.org/)
 
 <a name="HTML"></a>
-## HTML
+<h2>HTML</h2>
 
 * *HTML5: The Missing Manual*, Matthew MacDonald
 * *Mobile HTML5*, Estelle Weyl
@@ -95,7 +95,7 @@ Here's what I'm focusing on at the moment:
 * [HTML Attribute Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
 
 <a name="CSS"></a>
-## CSS
+<h2>CSS</h2>
 
 * [CSS Cross Country](https://www.codeschool.com/courses/css-cross-country)
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
@@ -103,7 +103,7 @@ Here's what I'm focusing on at the moment:
 * [Guide to Flexbox (video)](https://mijingo.com/lessons/guide-to-flexbox/)
 
 <a name="responsiveMobile"></a>
-## Responsive Design/Mobile First
+<h2>Responsive Design/Mobile First</h2>
 
 * [Ethan Marcotte's Call for Responsive Design(2010)](http://alistapart.com/article/responsive-web-design)
 * [A Dao of Web Design](http://alistapart.com/article/dao)
@@ -115,24 +115,24 @@ Here's what I'm focusing on at the moment:
 * [Treehouse: Responsive Layouts](https://teamtreehouse.com/library/responsive-layouts)
 
 <a name="interaction"></a>
-## UI/Interaction Design
+<h2>UI/Interaction Design</h2>
 
 * [7 Rules for Creating Gorgeous UI (Part 1)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-1-559d4e805cda#.iqqhs0buc)
 * [7 Rules for Creating Gorgeous UI (Part 2)](https://medium.com/@erikdkennedy/7-rules-for-creating-gorgeous-ui-part-2-430de537ba96#.d5grmgfbk)
 
 <a name="microinteractions"></a>
-## Microinteractions
+<h2>Microinteractions</h2>
 
 * *Microinteractions*, Dan Saffer
 
 <a name="webAnimation"></a>
-## Web Animation
+<h2>Web Animation</h2>
 
 * [Web Animation at Work](http://alistapart.com/article/web-animation-at-work)
 * [Understanding Web Animation](http://motionographer.com/2015/08/17/what-is-web-animation-rachel-nabors-explains-it-all/)
 
 <a name="webFonts"></a>
-## Typography and Web fonts
+<h2>Typography and Web fonts</h2>
 
 * [Designingwithtype.com](http://designingwithtype.com/5/home.php)
 * [The Elements of Typographic Style Applied to the Web](http://webtypography.net/toc/)
@@ -146,7 +146,7 @@ Here's what I'm focusing on at the moment:
 * *Thinking With Type: A Critical Guide for Designers, Writers, Editors, & Students*
 
 <a name="javaScript"></a>
-## JavaScript
+<h2>JavaScript</h2>
 
 * *Eloquent JavaScript*, Marijn Haverbeke
 * *Professional JavaScript for Web Developers*, Nicholas C. Zakas
@@ -156,14 +156,14 @@ Here's what I'm focusing on at the moment:
 * [Khan Academy Computer Programning](https://www.khanacademy.org/computing/computer-programming)
 
 <a name="DOM"></a>
-## DOM
+<h2>DOM</h2>
 
 * [The Document Object Model (from *Eloquent JavaScript*)](http://eloquentjavascript.net/13_dom.html)
 * [Douglas Crockford: An Inconvenient API - The Theory of the DOM ](https://www.youtube.com/watch?v=Y2Y0U-2qJMs&list=PL5586336C26BDB324&index=2)
 * [*DOM Enlightenment*](http://domenlightenment.com/)
 
 <a name="jQuery"></a>
-## jQuery
+<h2>jQuery</h2>
 
 * [Code School: Try jQuery](http://try.jquery.com/)
 * [Code School: jQuery: The Return Flight](https://www.codeschool.com/courses/jquery-the-return-flight)
@@ -171,7 +171,7 @@ Here's what I'm focusing on at the moment:
 * *JavaScript and jQuery*, Jon Duckett
 
 <a name="SEO"></a>
-## SEO
+<h2>SEO</h2>
 
 * [Google Search Engine Optimization Starter Guide](http://static.googleusercontent.com/media/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 * [Google Webmaster Guidelines](https://support.google.com/webmasters/answer/35769?hl=en)
@@ -179,7 +179,7 @@ Here's what I'm focusing on at the moment:
 * [Treehouse SEO Basics](https://teamtreehouse.com/library/seo-basics)
 
 <a name="accessibility"></a>
-## Accessibility
+<h2>Accessibility</h2>
 
 * [Introduction to Web Accessibility](https://webaccessibility.withgoogle.com/course)
 * [Treehouse Accessibility](https://teamtreehouse.com/library/accessibility)
@@ -187,19 +187,19 @@ Here's what I'm focusing on at the moment:
 * [W3C: Introduction to Web Accessibility](https://webaccessibility.withgoogle.com/course)
 
 <a name="styleGuides"></a>
-## Style guides
+<h2>Style guides</h2>
 
 * [Creating Style Guides](http://alistapart.com/article/creating-style-guides)
 * [Front-end Style Guides](https://24ways.org/2011/front-end-style-guides/)
 * [Real life pattern libraries, code standards documents and content style guides](http://styleguides.io/examples.html)
 
 <a name="webDevTools"></a>
-## Web Dev Tools
+<h2>Web Dev Tools</h2>
 
 * [Explore and Master Chrome DevTools](http://discover-devtools.codeschool.com/)
 
 <a name="node"></a>
-## node.js
+<h2>node.js</h2>
 
 * [The Node Beginner Book](http://www.nodebeginner.org/)
 * [NodeSchool](http://nodeschool.io/)
@@ -207,23 +207,23 @@ Here's what I'm focusing on at the moment:
 * [Treehouse npm Basics](https://teamtreehouse.com/library/npm-basics)
 
 <a name="JSON"></a>
-## JSON
+<h2>JSON</h2>
 * ["What is JSON?" video](https://mijingo.com/lessons/what-is-json/)
 
 <a name="Ajax"></a>
-## Ajax
+<h2>Ajax</h2>
 
 * [Ajax Basics](https://teamtreehouse.com/library/ajax-basics)
 
 <a name="Express"></a>
-## Express.js
+<h2>Express.js</h2>
 
 * [Treehouse Express Basics](https://teamtreehouse.com/library/express-basics)
 * [Real-time Web with Node.js](https://www.codeschool.com/courses/real-time-web-with-node-js)
 * [Express.js Documentation](http://expressjs.com/)
 
 <a name="Mongo"></a>
-## Mongo DB
+<h2>Mongo DB</h2>
 
 * [Treehouse Mongo Basics](https://teamtreehouse.com/library/mongo-basics)
 * [Code School: The Magical Marvels of MongoDB](https://www.codeschool.com/courses/the-magical-marvels-of-mongodb)
@@ -231,7 +231,7 @@ Here's what I'm focusing on at the moment:
 * [Mongo Tutorials](https://docs.mongodb.org/manual/tutorial/) - Part of the Mongo manual.
 
 <a name="Angular"></a>
-## Angular.js
+<h2>Angular.js</h2>
 
 * [Treehouse Angular Basics](https://teamtreehouse.com/library/angular-basics)
 * [AngularJS Fundamentals In 60-ish Minutes](https://www.youtube.com/watch?v=i9MHigUZKEM)
@@ -240,13 +240,13 @@ Here's what I'm focusing on at the moment:
 * [Egghead Tutorials](https://egghead.io/technologies) - Videos on other subjects, too, but more on [Angular](https://egghead.io/technologies/angularjs) than anything else.
 
 <a name="Mean"></a>
-## Mean.io
+<h2>Mean.io</h2>
 
 [The MEAN Stack: MongoDB, ExpressJS, AngularJS and Node.js](http://blog.mongodb.org/post/49262866911/the-mean-stack-mongodb-expressjs-angularjs-and)
 [Mean.io](http://www.mean.io/)
 
 <a name="SQL"></a>
-## SQL
+<h2>SQL</h2>
 
 * [Treehouse Database Basics](https://teamtreehouse.com/library/database-foundations)
 * [Treehouse SQL Basics](https://teamtreehouse.com/library/sql-basics)
@@ -256,14 +256,14 @@ Here's what I'm focusing on at the moment:
 
 
 <a name="Graph"></a>
-## GraphDB and/or Neo4j
+<h2>GraphDB and/or Neo4j</h2>
 
 * [Lynda.com: Up and Running with Neo4j](http://www.lynda.com/Neo4j-tutorials/Up-Running-Neo4j/155604-2.html)
 * [Neo4j: Get Started](http://neo4j.com/developer/get-started/)
 * [Neo4j Tutorial](http://www.tutorialspoint.com/neo4j/)
 
 <a name="frameworks"></a>
-## Bootstrap/Foundation/frameworks/scaffolds
+<h2>Bootstrap/Foundation/frameworks/scaffolds</h2>
 
 [Treehouse: Framework Basics](https://teamtreehouse.com/library/framework-basics)
 [Bootstrap: Getting Started](http://getbootstrap.com/getting-started/)
