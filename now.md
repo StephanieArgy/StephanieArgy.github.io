@@ -3,7 +3,7 @@ layout: page
 title: Now
 permalink: /now/
 ---
-Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: January 12, 2016).
+Inspired by the Now pages of [Derek Sivers](https://sivers.org/nowff) and [Gregory Brown](http://practicingdeveloper.com/now/) and many others, I've created this list of the things I'm working on now -- to be updated regularly as I finish old things and add new ones.  (Most recent update: February 10, 2016).
 
 My main work at the moment is in three areas: Story, Coding, Angel Investing.
 
@@ -37,7 +37,7 @@ And, as part of my story explorations, I'm also looking into:
     
 Having started my web development education with Al Zimmerman at the late Portland Code School, I'm now continuing on my own, following <a href="../codingCurriculum/">this (constantly evolving) self-designed curriculum</a>.
 
-* I'm supplementing that with coursework from [Treehouse](https://teamtreehouse.com/). (Right now, Front End Web Development: CSS Layout Basics.)
+* I'm supplementing that with coursework from [Treehouse](https://teamtreehouse.com/). (Right now, Front End Web Development: CSS Selectors.)
     
 * I'm transcribing all my notes from the classes I took at Portland Code School and posting them <a href="../pcsnotes/">here</a>.
 
