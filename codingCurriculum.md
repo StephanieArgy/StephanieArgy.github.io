@@ -16,7 +16,7 @@ Here's what I'm focusing on at the moment:
 
 * [Internet/Web fundamentals](#internet)
 * [Command Line](#commandLine)
-* [Git](#git)
+* [Git and GitHub](#git)
 * [Web Apps](#webApps)
 * [HTML](#HTML)
 * [CSS](#CSS)
@@ -76,6 +76,7 @@ Here's what I'm focusing on at the moment:
 
 * [Try Git](http://www.codeschool.com/courses/try-git)
 * [Git Immersion](http://gitimmersion.com/)
+* [GitHub Guides](https://guides.github.com/)
 
 <a name="webApps"></a>
 <h2>Web Apps</h2>
