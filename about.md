@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Stephanie Argy. I live and work with Alec Boehm in Portland, Oregon. If you want to know more about what I do, you can visit the website of our company, <a href="http://www.mentalslapstick.com" alt="Mental Slapstick" target="_blank">Mental Slapstick, or you can go to my personal website here: <a href="http://www.stephanieargy.com" alt="Stephanie Argy" target="_blank">http://www.stephanieargy.com</a>.
+My name is Stephanie Argy. I live and work with Alec Boehm in Portland, Oregon. If you want to know more about what I do, you can visit the website of our company, <a href="http://www.mentalslapstick.com" alt="Mental Slapstick" target="_blank">Mental Slapstick</a>, or you can go to my personal website here: <a href="http://www.stephanieargy.com" alt="Stephanie Argy" target="_blank">http://www.stephanieargy.com</a>.
 
 Alec and I used to live in Los Angeles, where we had a wonderful studio with concrete floors, a drain in the floor and a massive work sink. I fell in love with that studio at first sight, because I thought, "Here's a place where we don't have to be afraid to make a mess!"
 
